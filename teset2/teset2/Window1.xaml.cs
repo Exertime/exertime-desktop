@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.Threading;
 namespace teset2
 {
     /// <summary>
@@ -22,11 +22,27 @@ namespace teset2
         public Window1()
         {
             InitializeComponent();
+          
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            System.Windows.Application.Current.Shutdown();
+            //System.Windows.Application.Current.Shutdown();
+            this.Close();
+           /* Thread t = new Thread(new ThreadStart(() =>
+            {
+                Thread.Sleep(5000);
+                Window1 w1 = new Window1();
+                w1.Top = 573;
+                w1.Left = 980;
+                w1.Show();
+                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
+            */
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

@@ -8,6 +8,8 @@
         Title="MainWindow" Height="450" Width="800" WindowStyle="None">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="278,67,0,0" VerticalAlignment="Top" Width="269" Click="Button_Click" Height="157"/>
+        <Label Name="time_lbl" Content="Time&#xD;&#xA;" HorizontalAlignment="Left" Margin="278,240,0,0" VerticalAlignment="Top" Width="202"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="-207,398,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
