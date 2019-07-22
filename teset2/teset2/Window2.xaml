@@ -1,0 +1,59 @@
+﻿<Window x:Class="teset2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:teset2"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" Height="597.09" Width="900" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+        <Grid x:Name="GridMenu" Width="220" HorizontalAlignment="Left">
+            <StackPanel Background="#FF009AE4">
+                <Image Height="140" Source="logo.png"/>
+                <ListView Foreground="#FF313131" FontFamily="Champagne &amp; Limousines" Height="324" Background="#FF009AE4" BorderBrush="#FF009AE4">
+                    <ListViewItem Height="45" Padding="0" Margin="3">
+                        <StackPanel Orientation="Horizontal" Margin="10 0">
+                            <materialDesign:PackIcon Kind="Star" Foreground="#FFE5F70C" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
+                            <TextBlock Text="Favorite" Height="19" Width="64" FontSize="16" Margin="10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="45" Padding="0" Margin="3">
+                        <StackPanel Orientation="Horizontal" Margin="10 0">
+                            <materialDesign:PackIcon Kind="HelpBox" Foreground="#FF737171" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
+                            <TextBlock Text="Random"  Height="19" Width="100" FontSize="16" Margin="10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+
+                    <ListViewItem Height="45" Padding="0" Margin="3">
+                        <StackPanel Orientation="Horizontal" Margin="10 0">
+                            <materialDesign:PackIcon Kind="Origin" Foreground="#FFEE1616" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
+                            <TextBlock Text="All" Height="19" Width="64" FontSize="16" Margin="10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="45" Padding="0" Margin="3">
+                        <StackPanel Orientation="Horizontal" Margin="10 0">
+                            <materialDesign:PackIcon Kind="Accessibility" Foreground="#FF74ED3E" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
+                            <TextBlock Text="Easy"  Height="19" Width="64" FontSize="16" Margin="10" Foreground="White" />
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="45" Padding="0" Margin="3">
+                        <StackPanel Orientation="Horizontal" Margin="10 0">
+                            <materialDesign:PackIcon Kind="DirectionsWalk" Foreground="#FFEBB560" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
+                            <TextBlock Text="Moderate"  Height="19" Width="100" FontSize="16" Margin="10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="45" Padding="0" Margin="3">
+                        <StackPanel Orientation="Horizontal" Margin="10 0">
+                            <materialDesign:PackIcon Kind="DirectionsRun" Foreground="#FFF97676" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
+                            <TextBlock Text="Challenging"  Height="19" Width="100" FontSize="16" Margin="10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+
+                </ListView>
+
+            </StackPanel>
+            <Button Content="Exit" HorizontalAlignment="Left" Margin="0,565,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click"/>
+     </Grid>
+        
+    </Grid>
+</Window>
