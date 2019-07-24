@@ -23,13 +23,11 @@ namespace teset2
         public Window1()
         {
             InitializeComponent();
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //System.Windows.Application.Current.Shutdown();
+            
             this.Close();
 
             if (cmb.SelectedIndex == 0)
