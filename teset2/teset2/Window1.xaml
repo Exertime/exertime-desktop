@@ -19,7 +19,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="23,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="491" Height="80" FontSize="14"><Run Text="You must exercise within the next 59 minutes."/><LineBreak/><Run/><LineBreak/><Run Text="If you 're busy you can delay the launch of Exertime by specifying a delay below and then clicking the Posphone button."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
         <StackPanel HorizontalAlignment="Left" Height="91" Margin="0,74,0,0" VerticalAlignment="Top" Width="575"/>
         <Label Content="Remind me to exercise in:" HorizontalAlignment="Left" Margin="267,165,0,0" VerticalAlignment="Top" Width="148"/>
-        <ComboBox HorizontalAlignment="Left" Margin="426,163,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox HorizontalAlignment="Left" Margin="426,163,0,0" VerticalAlignment="Top" Width="120" Name="cmb">
             <ComboBoxItem>5 mins</ComboBoxItem>
             <ComboBoxItem IsSelected="True">10 mins</ComboBoxItem>
             <ComboBoxItem>30 mins</ComboBoxItem>

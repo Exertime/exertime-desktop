@@ -19,10 +19,11 @@ namespace teset2
     /// </summary>
     public partial class Window1 : Window
     {
+        int Choice;
         public Window1()
         {
             InitializeComponent();
-          
+
 
         }
 
@@ -30,31 +31,52 @@ namespace teset2
         {
             //System.Windows.Application.Current.Shutdown();
             this.Close();
-           /* Thread t = new Thread(new ThreadStart(() =>
+
+            if (cmb.SelectedIndex == 0)
             {
-                Thread.Sleep(5000);
-                Window1 w1 = new Window1();
-                w1.Top = 573;
-                w1.Left = 980;
-                w1.Show();
-                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
-            }));
+                Choice = 5000;
+            }
+            else if (cmb.SelectedIndex == 1)
+            {
+                Choice = 10000;
+            }
+            else if (cmb.SelectedIndex == 2)
+            {
+                Choice = 15000;
+            }
+            else if (cmb.SelectedIndex == 3)
+            {
+                Choice = 20000;
+            }
+            Thread t = new Thread(new ThreadStart(() =>
+        {
+            Thread.Sleep(Choice);
+            Window1 w1 = new Window1();
+            w1.Top = 573;
+            w1.Left = 980;
+            w1.Show();
+            System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+        }));
             t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
             t.IsBackground = true;
             t.Start();
-            */
+
         }
+
+
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Window2 w2 = new Window2();
             w2.Show();
-            
-           
+
+
             this.Close();
 
 
         }
-        
     }
 }
+        
+    
+
