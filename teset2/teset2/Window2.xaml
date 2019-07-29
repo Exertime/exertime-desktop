@@ -7,10 +7,13 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d" Height="597.09" Width="900" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
     <Grid>
+        <Grid Margin="235,20,15,18">
+            <Grid x:Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
         <Grid x:Name="GridMenu" Width="220" HorizontalAlignment="Left">
             <StackPanel Background="#FF009AE4">
                 <Image Height="140" Source="logo.png"/>
-                <ListView Foreground="#FF313131" FontFamily="Champagne &amp; Limousines" Height="324" Background="#FF009AE4" BorderBrush="#FF009AE4">
+                <ListView x:Name="Menu" Foreground="#FF313131" FontFamily="Champagne &amp; Limousines" Height="324" Background="#FF009AE4" BorderBrush="#FF009AE4" SelectionChanged="Menu_SelectionChanged" >
                     <ListViewItem Height="45" Padding="0" Margin="3">
                         <StackPanel Orientation="Horizontal" Margin="10 0">
                             <materialDesign:PackIcon Kind="Star" Foreground="#FFE5F70C" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
@@ -52,7 +55,7 @@
                 </ListView>
 
             </StackPanel>
-            <Button Content="Exit" HorizontalAlignment="Left" Margin="0,565,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click"/>
+            <Button Content="Exit" HorizontalAlignment="Left" Margin="42,557,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click"/>
      </Grid>
         
     </Grid>

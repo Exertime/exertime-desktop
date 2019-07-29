@@ -145,3 +145,53 @@ P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.GenerateReso
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
+P:\newone\teset2\teset2\bin\Debug\teset2.exe.config
+P:\newone\teset2\teset2\bin\Debug\teset2.exe
+P:\newone\teset2\teset2\bin\Debug\teset2.pdb
+P:\newone\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+P:\newone\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+P:\newone\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+P:\newone\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+P:\newone\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
+P:\newone\teset2\teset2\obj\Debug\MainWindow.g.cs
+P:\newone\teset2\teset2\obj\Debug\Window1.g.cs
+P:\newone\teset2\teset2\obj\Debug\Window2.g.cs
+P:\newone\teset2\teset2\obj\Debug\App.g.cs
+P:\newone\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+P:\newone\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+P:\newone\teset2\teset2\obj\Debug\App.baml
+P:\newone\teset2\teset2\obj\Debug\MainWindow.baml
+P:\newone\teset2\teset2\obj\Debug\Window1.baml
+P:\newone\teset2\teset2\obj\Debug\Window2.baml
+P:\newone\teset2\teset2\obj\Debug\teset2.g.resources
+P:\newone\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+P:\newone\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.Cache
+P:\newone\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+P:\newone\teset2\teset2\obj\Debug\teset2.exe
+P:\newone\teset2\teset2\obj\Debug\teset2.pdb
+P:\newone\teset2\teset2\obj\Debug\All.g.cs
+P:\newone\teset2\teset2\obj\Debug\UserChallenge.g.cs
+P:\newone\teset2\teset2\obj\Debug\UserEasy.g.cs
+P:\newone\teset2\teset2\obj\Debug\UserFavorite.g.cs
+P:\newone\teset2\teset2\obj\Debug\UserModerate.g.cs
+P:\newone\teset2\teset2\obj\Debug\UserRandom.g.cs
+P:\newone\teset2\teset2\obj\Debug\All.baml
+P:\newone\teset2\teset2\obj\Debug\UserChallenge.baml
+P:\newone\teset2\teset2\obj\Debug\UserEasy.baml
+P:\newone\teset2\teset2\obj\Debug\UserFavorite.baml
+P:\newone\teset2\teset2\obj\Debug\UserModerate.baml
+P:\newone\teset2\teset2\obj\Debug\UserRandom.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\All.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
+P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml

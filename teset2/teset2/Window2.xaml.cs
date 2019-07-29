@@ -84,5 +84,45 @@ namespace teset2
         {
             this.Topmost = true;
         }
+
+        private void Menu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int index = Menu.SelectedIndex;
+
+            switch(index)
+
+            {
+                case 0:
+                    contents.Children.Clear();
+                    contents.Children.Add(new UserFavorite());
+                    break;
+                case 1:
+                    contents.Children.Clear();
+                    contents.Children.Add(new UserRandom());
+                    break;
+                case 2:
+                    contents.Children.Clear();
+                    contents.Children.Add(new UserAll());
+                    break;
+                case 3:
+                    contents.Children.Clear();
+                    contents.Children.Add(new UserEasy());
+                    break;
+                case 4:
+                    contents.Children.Clear();
+                    contents.Children.Add(new UserModerate());
+                    break;
+                case 5:
+                    contents.Children.Clear();
+                    contents.Children.Add(new UserChallenge());
+                    break;
+
+                default:
+                    break;
+
+            }
+
+
+        }
     }
 }

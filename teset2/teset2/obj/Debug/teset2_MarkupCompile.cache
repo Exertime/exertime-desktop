@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 P:\Project B\exertime-desktop\teset2\teset2\App.xaml
-3-85327526
+101229520841
 
-8-1321615050
+15475020549
 181461162692
-MainWindow.xaml;Window1.xaml;Window2.xaml;
+All.xaml;MainWindow.xaml;UserAll.xaml;UserChallenge.xaml;UserEasy.xaml;UserFavorite.xaml;UserModerate.xaml;UserRandom.xaml;Window1.xaml;Window2.xaml;
 
 False
 

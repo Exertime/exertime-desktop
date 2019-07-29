@@ -65,13 +65,10 @@ namespace teset2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Window2 w2 = new Window2();
-            w2.Show();
-
 
             this.Close();
-
-
+            Window2 w2 = new Window2();
+            w2.Show();
         }
     }
 }
