@@ -195,3 +195,7 @@ P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
+P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
+P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
+P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
+P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml

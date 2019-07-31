@@ -12,5 +12,17 @@
 
             </TextBlock>
         </StackPanel>
+        <Image Margin="10,21,230,221" Source="logo.png">
+            <Image.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="2" Margin="71,171,0,0" VerticalAlignment="Top" Width="52"/>
+        <Image Margin="84,21,156,221" Source="logo.png"/>
+        <Image Margin="157,21,83,221" Source="logo.png"/>
+        <Image Margin="230,21,10,221" Source="logo.png"/>
     </Grid>
 </UserControl>
