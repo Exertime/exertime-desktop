@@ -23,9 +23,9 @@ namespace teset2
     /// </summary>
     public partial class UserAll : UserControl
     {
-        private const string db = "nhaig";
-        private const string user = "nhaig";
-        private const string pass = "390023";
+        private const string db = "kit206";
+        private const string user = "kit206";
+        private const string pass = "kit206";
         private const string server = "alacritas.cis.utas.edu.au";
         
 
@@ -39,7 +39,7 @@ namespace teset2
 
             MySqlConnection conn = new MySqlConnection(connectionString);
 
-            MySqlCommand cmd = new MySqlCommand("select * from EXERCISES", conn);
+            MySqlCommand cmd = new MySqlCommand("select * from class", conn);
             conn.Open();
             DataTable dt = new DataTable();
             dt.Load(cmd.ExecuteReader());
