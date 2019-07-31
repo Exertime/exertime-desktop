@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data.Types;
+using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace teset2
 {
@@ -20,9 +23,36 @@ namespace teset2
     /// </summary>
     public partial class UserAll : UserControl
     {
+        private const string db = "nhaig";
+        private const string user = "nhaig";
+        private const string pass = "390023";
+        private const string server = "alacritas.cis.utas.edu.au";
+        
+
+        
         public UserAll()
         {
             InitializeComponent();
+            
+                //Note: This approach is not thread-safe
+            string connectionString = String.Format("Database={0};Data Source={1};User Id={2};Password={3}", db, server, user, pass);
+
+            MySqlConnection conn = new MySqlConnection(connectionString);
+
+            MySqlCommand cmd = new MySqlCommand("select * from EXERCISES", conn);
+            conn.Open();
+            DataTable dt = new DataTable();
+            dt.Load(cmd.ExecuteReader());
+            conn.Close();
+            dtGrid.DataContext = dt;
+            
+            
+
+
         }
+
+
+
     }
 }
+

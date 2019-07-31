@@ -70,6 +70,7 @@
     <Compile Include="All.xaml.cs">
       <DependentUpon>All.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExerciseList.cs" />
     <Compile Include="HookKeyBoard.cs" />
     <Compile Include="UserAll.xaml.cs">
       <DependentUpon>UserAll.xaml</DependentUpon>

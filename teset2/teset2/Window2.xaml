@@ -8,7 +8,7 @@
         mc:Ignorable="d" Height="597.09" Width="900" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
     <Grid>
         <Grid Margin="235,20,15,18">
-            <Grid x:Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Grid x:Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" />
         </Grid>
         <Grid x:Name="GridMenu" Width="220" HorizontalAlignment="Left">
             <StackPanel Background="#FF009AE4">
