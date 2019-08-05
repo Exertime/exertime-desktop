@@ -31,49 +31,49 @@ namespace teset2
         public Window2()
         {
             InitializeComponent();
-            Loaded += new RoutedEventHandler(Window2_Loaded);
+            //Loaded += new RoutedEventHandler(Window2_Loaded);
         }
         
         
 
-        private void Window2_Loaded(object sender, RoutedEventArgs e)
-        {
-            this.Topmost = true;
-            DisabledMouseKey();
-        }
+        //private void Window2_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    this.Topmost = true;
+        //    DisabledMouseKey();
+        //}
 
 
 
-        private void DisabledMouseKey()
-        {
-            hkb = new HookKeyBoard();
-            hkb.keyeventhandler += new KeyEventHandler(keyhandler);
-            hkb.InstallHook(this);
-            HookKeyBoard.tagMSG Msgs;
-            while (HookKeyBoard.GetMessage(out Msgs, IntPtr.Zero, 0, 0) > 0)
-            {
-                HookKeyBoard.TranslateMessage(ref Msgs);
-                HookKeyBoard.DispatchMessage(ref Msgs);
-            }
-        }
+        //private void DisabledMouseKey()
+        //{
+        //    hkb = new HookKeyBoard();
+        //    hkb.keyeventhandler += new KeyEventHandler(keyhandler);
+        //    hkb.InstallHook(this);
+        //    HookKeyBoard.tagMSG Msgs;
+        //    while (HookKeyBoard.GetMessage(out Msgs, IntPtr.Zero, 0, 0) > 0)
+        //    {
+        //        HookKeyBoard.TranslateMessage(ref Msgs);
+        //        HookKeyBoard.DispatchMessage(ref Msgs);
+        //    }
+        //}
 
-        private void EnableMouseKey()
-        {
-            hkb.Hook_Clear();
-        }
+        //private void EnableMouseKey()
+        //{
+        //    hkb.Hook_Clear();
+        //}
 
         /// <summary>
         /// an exit
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void keyhandler(object sender, System.Windows.Forms.KeyEventArgs e)
-        {
-            if (e.KeyData.ToString() == "a" || e.KeyData.ToString() == "A")
-            {
-                hkb.Hook_Clear();
-            }
-        }
+        //private void keyhandler(object sender, System.Windows.Forms.KeyEventArgs e)
+        //{
+        //    if (e.KeyData.ToString() == "a" || e.KeyData.ToString() == "A")
+        //    {
+        //        hkb.Hook_Clear();
+        //    }
+        //}
     
 
   

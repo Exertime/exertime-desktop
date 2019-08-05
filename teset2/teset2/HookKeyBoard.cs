@@ -85,7 +85,7 @@ namespace teset2
         }
 
 
-        public void InstallHook(Window2 window)
+        public void InstallHook(Window3 window)
         {
             if (KeyHook.Equals(0))
             {

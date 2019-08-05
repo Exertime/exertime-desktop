@@ -46,7 +46,9 @@ namespace teset2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-         
+            Window2 w2 = new Window2();
+            
+            w2.Show();
 
         }
 

@@ -199,3 +199,23 @@ P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.baml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.baml
