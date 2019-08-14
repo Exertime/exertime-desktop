@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:teset2"
         mc:Ignorable="d"
-        Title="Window1" Height="254.664" Width="560.429" WindowStyle="None" ResizeMode="NoResize">
-    <Grid>
+        Title="Window1" Height="254.664" Width="560.429" WindowStyle="None" ResizeMode="NoResize" >
+    <Grid >
         <Grid.ColumnDefinitions>
 
         </Grid.ColumnDefinitions>

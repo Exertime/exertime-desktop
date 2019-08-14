@@ -28,10 +28,12 @@ namespace teset2
             InitializeComponent();
             Thread t = new Thread(new ThreadStart(() =>
             {
+               
                 Thread.Sleep(5000);
                 Window1 w1 = new Window1();
-                w1.Top = 573;
-                w1.Left = 980;
+                w1.WindowStartupLocation = WindowStartupLocation.Manual;
+           
+
                 w1.Show();
                 System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
             }));

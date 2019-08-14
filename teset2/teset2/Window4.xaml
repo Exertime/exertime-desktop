@@ -1,0 +1,17 @@
+﻿<Window x:Class="teset2.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:teset2"
+        mc:Ignorable="d"
+        Title="Window4" Height="50" Width="600" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="794" Background="#FF009AE4" Margin="-1,1,0,0">
+            <Image Height="65" Margin="39,0,531.6,0" Source="logo.png" Stretch="Fill"/>
+        </StackPanel>
+        <ProgressBar Name="progressBar1" HorizontalAlignment="Center" Height="27" Margin="10,13,-10,0" VerticalAlignment="Top" Width="560"></ProgressBar>
+        <TextBlock  HorizontalAlignment="Left" Foreground="White"  Height="27" Margin="313,18,0,0" TextWrapping="Wrap" Text="Time Left" VerticalAlignment="Top" Width="85"/>
+
+    </Grid>
+</Window>
