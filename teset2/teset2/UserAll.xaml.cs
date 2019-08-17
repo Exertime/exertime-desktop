@@ -28,7 +28,7 @@ namespace teset2
         private const string pass = "kit206";
         private const string server = "alacritas.cis.utas.edu.au";
         
-
+        
         
         public UserAll()
         {
@@ -39,13 +39,15 @@ namespace teset2
 
             MySqlConnection conn = new MySqlConnection(connectionString);
 
-            MySqlCommand cmd = new MySqlCommand("select * from class", conn);
+            MySqlCommand cmd = new MySqlCommand("select * from staff", conn);
             conn.Open();
             DataTable dt = new DataTable();
+            
             dt.Load(cmd.ExecuteReader());
             conn.Close();
-            dtGrid.DataContext = dt;
             
+            dtGrid.DataContext = dt;
+
             
 
 

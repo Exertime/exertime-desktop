@@ -181,13 +181,11 @@ P:\newone\teset2\teset2\obj\Debug\UserEasy.baml
 P:\newone\teset2\teset2\obj\Debug\UserFavorite.baml
 P:\newone\teset2\teset2\obj\Debug\UserModerate.baml
 P:\newone\teset2\teset2\obj\Debug\UserRandom.baml
-P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.g.cs
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
-P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\All.baml
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.baml
 P:\Project B\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml

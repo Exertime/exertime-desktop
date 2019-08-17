@@ -5,17 +5,52 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:teset2"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-        <StackPanel>
-            <TextBlock Text="All" FontFamily="Cooper Black">
+             d:DesignHeight="800" d:DesignWidth="500">
+    <UserControl.Resources>
+        <Image Source="sources/empty.png"  x:Key="empty" Height="24" Width="43"/>
+        <Image Source="sources/filled.png" x:Key="star"  Height="24" Width="43"/>
+        <Style TargetType="{x:Type ToggleButton}" x:Key="MyToggleButtonStyle">
+            <Setter Property="Content" Value="{DynamicResource empty}" />
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Content" Value="{DynamicResource star}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="745*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="0,0,0,39.5">
+            <TextBlock Text="All" FontFamily="Cooper Black">
             </TextBlock>
         </StackPanel>
-        <StackPanel Margin="0,10,0,0">
-            <DataGrid Height="179" Name="dtGrid" ItemsSource="{Binding}" />
+        <StackPanel Margin="0,22,28,10">
+            <ToggleButton x:Name="favorite">
+                <ToggleButton.Style>
+                    <Style TargetType="{x:Type ToggleButton}">
+                        <Setter Property="Content" Value="Want?"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter Property="Content" Value="Favorite"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ToggleButton.Style>
+            </ToggleButton>
         </StackPanel>
-
+        <StackPanel Margin="57,239,413,476" Grid.Row="1">
+            <ToggleButton Style="{StaticResource MyToggleButtonStyle}" HorizontalAlignment="Left" Width="30" />
+        </StackPanel>
+        <StackPanel Margin="57,72,293,510" Grid.Row="1">
+            <Image Source="sources/ex.png" Height="161" HorizontalAlignment="Left" Width="150"/>
+        </StackPanel>
+        <StackPanel Margin="0,408.5,0,174" Grid.Row="1">
+            <DataGrid Height="265" x:Name="dtGrid" ItemsSource="{Binding}" />
+        </StackPanel>
 
 
     </Grid>

@@ -67,9 +67,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="All.xaml.cs">
-      <DependentUpon>All.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ExerciseList.cs" />
     <Compile Include="HookKeyBoard.cs" />
     <Compile Include="UserAll.xaml.cs">
@@ -96,10 +93,6 @@
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
-    <Page Include="All.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -173,7 +166,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="logo.png" />
+    <Resource Include="sources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sources\filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sources\empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sources\ex.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

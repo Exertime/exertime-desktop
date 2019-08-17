@@ -11,7 +11,7 @@
 
         </Grid.ColumnDefinitions>
         <StackPanel HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="794" Background="#FF009AE4" Margin="-1,1,0,0">
-            <Image Height="65" Margin="39,0,531.6,0" Source="logo.png" Stretch="Fill"/>
+            <Image Height="65" Margin="39,0,531.6,0" Source="sources/logo.png" Stretch="Fill"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="47" Margin="-1,206,0,0" VerticalAlignment="Top" Width="565" Background="#FFC8C3C3"/>
         <Button Content="Exertime Now" HorizontalAlignment="Left" Margin="267,213,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click_1"/>
