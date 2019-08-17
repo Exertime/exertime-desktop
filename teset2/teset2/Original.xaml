@@ -7,6 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid x:Name="contents"  >
+
         <Button Name="All" Click="All_Click" Content="All Videos" HorizontalAlignment="Center" Margin="155,65,-37,0" VerticalAlignment="Top" FontSize="20" Width="500" Height="70" Background="White" Foreground="Black"/>
         <Button Name="Favourites" Click="Favourite_Click" Content="Favourites" HorizontalAlignment="Center" Margin="192,170,0,0" VerticalAlignment="Top"  FontSize="20" Width="500" Height="70"  Background="White" Foreground="Black" RenderTransformOrigin="0.519,1.825"/>
         <Button Name="Random" Click="Random_Click" Content="Random" HorizontalAlignment="Center" Margin="155,272,-37,0" VerticalAlignment="Top" FontSize="20" Width="500" Height="70"  Background="White" Foreground="Black" RenderTransformOrigin="0.519,1.825"/>

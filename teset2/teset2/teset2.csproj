@@ -70,10 +70,17 @@
     <Compile Include="All.xaml.cs">
       <DependentUpon>All.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Exercise.xaml.cs">
+      <DependentUpon>Exercise.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExerciseList.cs" />
     <Compile Include="HookKeyBoard.cs" />
     <Compile Include="Original.xaml.cs">
       <DependentUpon>Original.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessCount.cs" />
+    <Compile Include="TimerSet.xaml.cs">
+      <DependentUpon>TimerSet.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserAll.xaml.cs">
       <DependentUpon>UserAll.xaml</DependentUpon>
@@ -109,6 +116,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Exercise.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -122,6 +133,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Original.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TimerSet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

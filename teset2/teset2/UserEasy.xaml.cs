@@ -24,5 +24,25 @@ namespace teset2
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Children.Clear();
+            teset2.TimerSet TimerSet = new TimerSet();
+            TimerSet.Vedio.Content = "Repetition exercise";
+            TimerSet.category = 4;
+            contents.Children.Add(TimerSet);
+          
+
+        }
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Children.Clear();
+            teset2.TimerSet TimerSet = new TimerSet();
+            TimerSet.Vedio.Content = "Timed exercise";
+            TimerSet.category = 4;
+            contents.Children.Add(TimerSet);
+          
+        }
     }
 }

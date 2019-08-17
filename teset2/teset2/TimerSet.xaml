@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="teset2.TimerSet"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:teset2"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Name="contents">
+        <Button  Name="Vedio" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="143,10,91,188" Width="566" Height="252"/>
+        <TextBlock Text="Time(s)" HorizontalAlignment="Center" FontSize="25" VerticalAlignment="Center" Margin="219,305,494,113" Width="87"/>
+        <TextBox  InputMethod.IsInputMethodEnabled="False" PreviewTextInput="limitnumber" Name="Time" Opacity="1" VerticalAlignment="Center" BorderThickness="1,1,1,1"  FontSize="23" HorizontalAlignment="Center" Height="40" Margin="320,297,255,113" TextWrapping="Wrap"  Width="225"/>
+        <TextBlock Text="maximum value 3600" Name="Explain" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="579,322,91,112" Width="130"/>
+        <Button Name="start" Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center" Background="LawnGreen" Click="Start" Margin="234,367,503,51"/>
+        <Button Name="back" Content="Back" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Red" Click="Back" Margin="482,367,255,51"/>
+
+
+    </Grid>
+</UserControl>
