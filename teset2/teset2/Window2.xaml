@@ -5,58 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:teset2"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d" Height="597.09" Width="900" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
-    <Grid>
-        <Grid Margin="235,20,15,18">
-            <Grid x:Name="contents"  />
+        mc:Ignorable="d" Height="800" Width="1024" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Normal" WindowStyle="None">
+
+    <Grid x:Name="Display">
+        <Grid x:Name="Time" Visibility="Hidden" >
+            <Button Height="Auto" Margin="267,633,591,104" Content="Start" Background="#FF44BD21" BorderBrush="#FF000A11" Foreground="#FF000A11" FontSize="22"/>
+            <Button Height="Auto" Margin="639,633,219,104" Content="Back" Background="#FFF33232" BorderBrush="#FF000A11" Foreground="#FF000A11" FontSize="22" Click="Button_Click_2"/>
+            <Label Content="Time" Margin="353,564,600,191" FontWeight="Bold" FontSize="22" />
+            <TextBox HorizontalAlignment="Left" Margin="465,565,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="44" Foreground="#FF020202" SelectionBrush="#FFF02612" BorderBrush="#89F02424" CaretBrush="#FF68DA47"/>
         </Grid>
-        <Grid x:Name="GridMenu" Width="220" HorizontalAlignment="Left">
-            <StackPanel Background="#FF009AE4">
-                <Image Height="140" Source="sources/logo.png"/>
-                <ListView x:Name="Menu" Foreground="#FF313131" FontFamily="Champagne &amp; Limousines" Height="324" Background="#FF009AE4" BorderBrush="#FF009AE4" SelectionChanged="Menu_SelectionChanged" >
-                    <ListViewItem Height="45" Padding="0" Margin="3">
-                        <StackPanel Orientation="Horizontal" Margin="10 0">
-                            <materialDesign:PackIcon Kind="Star" Foreground="#FFE5F70C" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
-                            <TextBlock Text="Favorite" Height="19" Width="64" FontSize="16" Margin="10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
-                    <ListViewItem Height="45" Padding="0" Margin="3">
-                        <StackPanel Orientation="Horizontal" Margin="10 0">
-                            <materialDesign:PackIcon Kind="HelpBox" Foreground="#FF737171" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
-                            <TextBlock Text="Random"  Height="19" Width="100" FontSize="16" Margin="10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
+        <Grid x:Name="Level" Margin="0,68,0,689" Visibility="Hidden">
+            <Button Height="Auto" Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="386,5,501,5"/>
+            <Button Height="Auto" Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="539,5,348,5"/>
+            <Button Height="Auto" Content="Challenging" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="693,5,194,5"/>
+        </Grid>
+        <Grid Margin="29,111,25,42">
+            <Grid x:Name="contents">
+            </Grid>
+        </Grid>
 
-                    <ListViewItem Height="45" Padding="0" Margin="3">
-                        <StackPanel Orientation="Horizontal" Margin="10 0">
-                            <materialDesign:PackIcon Kind="Origin" Foreground="#FFEE1616" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
-                            <TextBlock Text="All" Height="19" Width="64" FontSize="16" Margin="10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
-                    <ListViewItem Height="45" Padding="0" Margin="3">
-                        <StackPanel Orientation="Horizontal" Margin="10 0">
-                            <materialDesign:PackIcon Kind="Accessibility" Foreground="#FF74ED3E" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
-                            <TextBlock Text="Easy"  Height="19" Width="64" FontSize="16" Margin="10" Foreground="White" />
-                        </StackPanel>
-                    </ListViewItem>
-                    <ListViewItem Height="45" Padding="0" Margin="3">
-                        <StackPanel Orientation="Horizontal" Margin="10 0">
-                            <materialDesign:PackIcon Kind="DirectionsWalk" Foreground="#FFEBB560" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
-                            <TextBlock Text="Moderate"  Height="19" Width="100" FontSize="16" Margin="10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
-                    <ListViewItem Height="45" Padding="0" Margin="3">
-                        <StackPanel Orientation="Horizontal" Margin="10 0">
-                            <materialDesign:PackIcon Kind="DirectionsRun" Foreground="#FFF97676" Margin="5" VerticalAlignment="Center" Height="24" Width="36"/>
-                            <TextBlock Text="Challenging"  Height="19" Width="100" FontSize="16" Margin="10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
+        <Grid x:Name="FirstScreen"  VerticalAlignment="Top">
+            <Button Name="All" Content="All Videos" HorizontalAlignment="Center" Margin="141,163,148,402" Width="611" FontSize="18" Click="All_Click" Background="#FF009AE4"/>
+            <Button Name="Favourites" Content="Favourites" HorizontalAlignment="Center" Margin="141,215,147,350" Width="612" FontSize="18" Click="Favourites_Click" Background="#FF009AE4"/>
+            <Button x:Name="Random" Content=" Random  " HorizontalAlignment="Center" Margin="141,263,147,302" Width="612" FontSize="18" Click="Random_Click" Background="#FF009AE4"/>
+            <Label Content="Recently Completed Activities" HorizontalAlignment="Left" Margin="33,361,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        </Grid>
 
-                </ListView>
+        <Grid x:Name="GridMenu" VerticalAlignment="Top" Height="55" >
+            <StackPanel Background="#FF009AE4" Margin="0,0,0,-12">
+                <Image Height="66" Source="sources/logo.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="148"/>
 
             </StackPanel>
-            <Button Content="Exit" HorizontalAlignment="Left" Margin="42,557,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click"/>
-     </Grid>
-        
+        </Grid>
+        <Button Content="Exercise play display" Height="Auto" Margin="414,758,401,10" Click="Button_Click_3"/>
+        <Button Content="Exit" Margin="206,0,687,10" VerticalAlignment="Bottom" Width="131" Click="Button_Click"/>
+        <Button Content="Back" Height="Auto" Margin="666,758,199,10" Click="Button_Click_1" />
+        <Grid x:Name="Categories" Margin="167,0,0,732" Visibility="Hidden">
+            <Button x:Name="CFavorite" Content="Favourites" Margin="19,19,691,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Height="Auto" Background="#FF009AE4" Click="CFavorite_Click" />
+            <Button x:Name="CAll" Content="All Videos" Margin="183,19,527,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Height="Auto" Background="#FF009AE4" Click="CAll_Click" />
+            <Button x:Name="CStatics" Content="Statistics" Margin="344,19,366,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Height="Auto" Background="#FF009AE4" Click="CStatics_Click" />
+            <Button x:Name="CSettings" Content="Settings" Margin="506,19,204,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Height="Auto" Background="#FF009AE4" Click="CSettings_Click" />
+
+        </Grid>
     </Grid>
 </Window>

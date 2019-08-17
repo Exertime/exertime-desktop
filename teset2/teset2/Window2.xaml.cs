@@ -26,7 +26,7 @@ namespace teset2
     public partial class Window2 : Window
     {
         private HookKeyBoard hkb = null;
-
+      
 
         public Window2()
         {
@@ -86,44 +86,89 @@ namespace teset2
             this.Topmost = true;
         }
 
-        private void Menu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+      
+     
+        private void All_Click(object sender, RoutedEventArgs e)
         {
-            int index = Menu.SelectedIndex;
+            FirstScreen.Visibility = Visibility.Hidden;
+            Categories.Visibility = Visibility.Visible;
+            contents.Children.Clear();
+            contents.Children.Add(new UserFavorite());
+        }
 
-            switch(index)
+        private void Favourites_Click(object sender, RoutedEventArgs e)
+        {
+            FirstScreen.Visibility = Visibility.Hidden;
+            Categories.Visibility = Visibility.Visible;
+            contents.Children.Clear();
+            contents.Children.Add(new UserAll());
+        }
 
-            {
-                case 0:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserFavorite());
-                    break;
-                case 1:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserRandom());
-                    break;
-                case 2:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserAll());
-                    break;
-                case 3:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserEasy());
-                    break;
-                case 4:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserModerate());
-                    break;
-                case 5:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserChallenge());
-                    break;
+        private void Random_Click(object sender, RoutedEventArgs e)
+        {
+            FirstScreen.Visibility = Visibility.Hidden;
+            Categories.Visibility = Visibility.Visible;
+            contents.Children.Clear();
+            contents.Children.Add(new UserRandom());
+        }
 
-                default:
-                    break;
+        private void CAll_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Children.Clear();
+            Level.Visibility = Visibility.Visible; 
 
-            }
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Categories.Visibility = Visibility.Hidden;
+            FirstScreen.Visibility = Visibility.Visible;
+            Level.Visibility = Visibility.Hidden;
+            contents.Children.Clear();
 
+        }
+
+        private void CFavorite_Click(object sender, RoutedEventArgs e)
+        {
+            Level.Visibility = Visibility.Hidden;
+            contents.Children.Clear();
+        }
+
+        private void CStatics_Click(object sender, RoutedEventArgs e)
+        {
+            Level.Visibility = Visibility.Hidden;
+            contents.Children.Clear();
+        }
+
+        private void CSettings_Click(object sender, RoutedEventArgs e)
+        {
+            Level.Visibility = Visibility.Hidden;
+            contents.Children.Clear();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            //Back button
+
+            FirstScreen.Visibility = Visibility.Visible;
+            GridMenu.Visibility = Visibility.Visible;
+
+            Level.Visibility = Visibility.Hidden;
+            Time.Visibility = Visibility.Hidden;
+            Categories.Visibility = Visibility.Hidden;
+            contents.Children.Clear();
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            //Play exercise
+
+            FirstScreen.Visibility = Visibility.Hidden;
+            Level.Visibility = Visibility.Hidden;
+            GridMenu.Visibility = Visibility.Hidden;
+            Time.Visibility = Visibility.Visible;
+            contents.Children.Clear();
         }
     }
 }
