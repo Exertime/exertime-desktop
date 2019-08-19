@@ -1,1 +1,0 @@
-# exertime-desktop
