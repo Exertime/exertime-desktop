@@ -24,12 +24,13 @@ namespace teset2
     {
 
     
-        public int s;
+        public int s = 60;
 
         private DispatcherTimer timer;
 
         private ProcessCount processCount;
 
+        public int CD = 0;
 
         public Exercise()
         {
@@ -45,7 +46,7 @@ namespace teset2
         {
            
             timer = new DispatcherTimer();
-            timer.Interval = new TimeSpan(10000000);   //时间间隔为一秒
+            timer.Interval = new TimeSpan(10000000);  
             timer.Tick += new EventHandler(timer_Tick);
 
             
@@ -53,7 +54,7 @@ namespace teset2
             
             processCount = new ProcessCount(s);
             CountDown += new CountDownHandler(processCount.ProcessCountDown);
-
+            
           
             timer.Start();
         }
@@ -63,6 +64,8 @@ namespace teset2
             timer.Stop();
             stop.Visibility = Visibility.Hidden;
             cont.Visibility = Visibility.Visible;
+            finish.Visibility = Visibility.Visible;
+           // finish.Content = CD;
         }
 
         public void Continue(object sender, EventArgs e)
@@ -70,6 +73,7 @@ namespace teset2
             timer.Start();
             cont.Visibility = Visibility.Hidden;
             stop.Visibility = Visibility.Visible;
+          
         }
 
         /// <param name="sender"></param>
@@ -78,14 +82,14 @@ namespace teset2
         {
             if (OnCountDown())
             {
-
+                CD++;
                 MinuteArea.Text = processCount.GetMinute();
                 SecondArea.Text = processCount.GetSecond();
             }
             else
             {
                 timer.Stop();
-                Remind.Visibility = Visibility.Visible;
+               
                 finish.Visibility = Visibility.Visible;
             }
         }

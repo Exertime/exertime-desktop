@@ -31,10 +31,11 @@ namespace teset2
         public Window2()
         {
             InitializeComponent();
+            contents.Children.Add(new UserAll());
             //Loaded += new RoutedEventHandler(Window2_Loaded);
         }
-        
-        
+
+
 
         //private void Window2_Loaded(object sender, RoutedEventArgs e)
         //{
@@ -74,9 +75,9 @@ namespace teset2
         //        hkb.Hook_Clear();
         //    }
         //}
-    
 
-  
+
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
@@ -86,44 +87,70 @@ namespace teset2
             this.Topmost = true;
         }
 
-        private void Menu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //private void Menu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    char index = Button.NameProperty()
+
+        //    switch (index)
+
+        //    {
+        //        case 0:
+        //            contents.Children.Clear();
+        //            contents.Children.Add(new UserFavorite());
+        //            break;
+        //        case 1:
+        //            contents.Children.Clear();
+        //            contents.Children.Add(new UserRandom());
+        //            break;
+        //        case 2:
+        //            contents.Children.Clear();
+        //            contents.Children.Add(new UserAll());
+        //            break;
+        //        case 3:
+        //            contents.Children.Clear();
+        //            contents.Children.Add(new UserEasy());
+        //            break;
+        //        case 4:
+        //            contents.Children.Clear();
+        //            contents.Children.Add(new UserModerate());
+        //            break;
+        //        case 5:
+        //            contents.Children.Clear();
+        //            contents.Children.Add(new UserChallenge());
+        //            break;
+
+        //        default:
+        //            break;
+
+        //    }
+
+
+        //}
+        private void CFavorite_Click(object sender, RoutedEventArgs e)
         {
-            int index = Menu.SelectedIndex;
+           
+            contents.Children.Clear();
+            contents.Children.Add(new UserFavorite());
+        }
 
-            switch(index)
+        private void CStatics_Click(object sender, RoutedEventArgs e)
+        {
+           
+            contents.Children.Clear();
+            Level.Visibility = Visibility.Hidden;
+        }
 
-            {
-                case 0:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserFavorite());
-                    break;
-                case 1:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserRandom());
-                    break;
-                case 2:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserAll());
-                    break;
-                case 3:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserEasy());
-                    break;
-                case 4:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserModerate());
-                    break;
-                case 5:
-                    contents.Children.Clear();
-                    contents.Children.Add(new UserChallenge());
-                    break;
+        private void CSettings_Click(object sender, RoutedEventArgs e)
+        {
+           
+            contents.Children.Clear();
+            Level.Visibility = Visibility.Hidden;
+        }
 
-                default:
-                    break;
-
-            }
-
-
+        private void CAll_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Children.Clear();
+            contents.Children.Add(new UserAll());
         }
     }
 }

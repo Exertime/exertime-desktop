@@ -19,11 +19,12 @@
                 <ColumnDefinition Width="40"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-        <TextBlock Name="Remind" Visibility="Hidden" Text="Exercise is completed" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Grid.ColumnSpan="7" Margin="-39,-68,-61.667,245.667" />
+       
         <TextBlock Text="Timed" VerticalAlignment="Center" FontSize="40" Grid.Column="0"/>
-            <TextBlock  Name="MinuteArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="2" />
+        <TextBlock Name="tital" Visibility="Hidden" Text="(Repetitions)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="13" Grid.Column="0" Margin="0,146,0,66"/>
+        <TextBlock Text="00" Name="MinuteArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="2" />
             <TextBlock Text=":" Name="MinuteSplitSecond" VerticalAlignment="Center" FontSize="180"  Grid.Column="3"/>
-            <TextBlock   Name="SecondArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="4"/>
+        <TextBlock   Text="60" Name="SecondArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="4"/>
             <Button Name="stop" Content="Stop" Background="Red" VerticalAlignment="Center" Click="Stop" Grid.Column="6"/>
         <Button Name="cont" Content="Continue" Background="LawnGreen" Visibility="Hidden" VerticalAlignment="Center" Click="Continue" Grid.Column="6"/>
         <Button Name="finish" Content="Go to finish page" Background="CadetBlue" Visibility="Hidden" VerticalAlignment="Center" Click="Finish" Grid.ColumnSpan="2" Grid.Column="5" Margin="13,239,0.333,-42.333" />
