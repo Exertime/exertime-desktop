@@ -137,6 +137,7 @@ namespace teset2
         {
            
             contents.Children.Clear();
+            contents.Children.Add(new UserStatistics());
             Level.Visibility = Visibility.Hidden;
         }
 
@@ -145,6 +146,7 @@ namespace teset2
            
             contents.Children.Clear();
             Level.Visibility = Visibility.Hidden;
+            contents.Children.Add(new UserSetting());
         }
 
         private void CAll_Click(object sender, RoutedEventArgs e)

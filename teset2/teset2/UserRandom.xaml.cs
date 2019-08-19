@@ -20,9 +20,49 @@ namespace teset2
     /// </summary>
     public partial class UserRandom : UserControl
     {
+        public delegate void ExitDelegate();
+        public event ExitDelegate exitEvent;
+        public int value = 0;
         public UserRandom()
         {
             InitializeComponent();
+        }
+
+         private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Children.Clear();
+            //teset2.TimerSet TimerSet = new TimerSet();
+            //TimerSet.Vedio.Content = "Repetition exercise";
+            //TimerSet.category = 1;
+            //contents.Children.Add(TimerSet);
+            teset2.Exercise exercise = new Exercise();
+            exercise.exitEvent += new Exercise.ExitDelegate(AppearButton);
+            exercise.tital.Visibility = Visibility.Visible;
+            exercise.value = value;
+            exercise.type = 1;
+            contents.Children.Add(exercise);
+            //Window3 w3 = new Window3();
+            //w3.EnableMouseKey();
+
+
+        }
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Children.Clear();
+            //teset2.TimerSet TimerSet = new TimerSet();
+            //TimerSet.Vedio.Content = "Timed exercise";
+            //TimerSet.category = 1;
+            //contents.Children.Add(TimerSet);
+            teset2.Exercise exercise = new Exercise();
+            exercise.exitEvent += new Exercise.ExitDelegate(AppearButton);
+            exercise.value = value;
+            contents.Children.Add(exercise);
+
+        }
+
+        private void AppearButton()
+        {
+            exitEvent();
         }
     }
 }

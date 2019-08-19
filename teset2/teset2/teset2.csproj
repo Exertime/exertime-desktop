@@ -79,6 +79,9 @@
       <DependentUpon>Original.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProcessCount.cs" />
+    <Compile Include="submit.xaml.cs">
+      <DependentUpon>submit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TimerSet.xaml.cs">
       <DependentUpon>TimerSet.xaml</DependentUpon>
     </Compile>
@@ -99,6 +102,12 @@
     </Compile>
     <Compile Include="UserRandom.xaml.cs">
       <DependentUpon>UserRandom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserSetting.xaml.cs">
+      <DependentUpon>UserSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserStatistics.xaml.cs">
+      <DependentUpon>UserStatistics.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
@@ -136,6 +145,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="submit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TimerSet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -161,6 +174,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserRandom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserStatistics.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

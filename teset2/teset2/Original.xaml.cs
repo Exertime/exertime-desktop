@@ -20,25 +20,39 @@ namespace teset2
     /// </summary>
     public partial class Original : UserControl
     {
+       
+
+        public int vis;
+
         public Original()
         {
             InitializeComponent();
         }
+        public delegate void AppearButtonDelegate();
+        public event AppearButtonDelegate appearButtonEvent;
+
+     
 
         private void All_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             contents.Children.Add(new UserAll());
+            appearButtonEvent();
+
+
         }
         private void Favourite_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             contents.Children.Add(new UserFavorite());
+            appearButtonEvent();
         }
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             contents.Children.Add(new UserRandom());
+           
+
         }
 
     }

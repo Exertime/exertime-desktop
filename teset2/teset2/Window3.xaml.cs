@@ -19,6 +19,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 
+
 namespace teset2
 {
     /// <summary>
@@ -27,6 +28,8 @@ namespace teset2
 
     public partial class Window3 : Window
     {
+        
+
         private HookKeyBoard hkb = null;
         Grid CON;
         public Window3()
@@ -34,6 +37,8 @@ namespace teset2
             InitializeComponent();
             Loaded += new RoutedEventHandler(Window3_Loaded);
             Grid CON = this.contents;
+
+            
         }
         private void Window3_Loaded(object sender, RoutedEventArgs e)
         {
@@ -74,7 +79,7 @@ namespace teset2
             }
         }
 
-
+  
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -88,23 +93,49 @@ namespace teset2
         private void All_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserAll());
+            teset2.UserAll all = new UserAll();
+            contents.Children.Add(all);
+            Level.Visibility = Visibility.Visible;
         }
         private void Favourite_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserFavorite());
+            teset2.UserFavorite favorite = new UserFavorite();
+            favorite.exitEvent += new UserFavorite.ExitDelegate(AppearButton1);
+            favorite.value = 1;
+            contents.Children.Add(favorite);
+            Level.Visibility = Visibility.Visible;
         }
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserRandom());
+            teset2.UserRandom Ran = new UserRandom();
+            Ran.exitEvent += new UserRandom.ExitDelegate(AppearButton1);
+            Ran.value = 1;
+            contents.Children.Add(Ran);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new Original());
+            teset2.Original original = new Original();
+            original.appearButtonEvent += new Original.AppearButtonDelegate(AppearButton);
+            contents.Children.Add(original);
+            Level.Visibility = Visibility.Hidden;
         }
+
+        private void AppearButton()
+        {
+            Level.Visibility = Visibility.Visible;
+        }
+
+        private void AppearButton1()
+        {
+            exit.Visibility = Visibility.Visible;
+        }
+
+
+
+
     }
 }

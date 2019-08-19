@@ -23,12 +23,17 @@ namespace teset2
 
     {
 
-    
+        public delegate void ExitDelegate();
+        public event ExitDelegate exitEvent;
+        public int value = 0;
+        public int type = 0;
+
         public int s = 60;
 
         private DispatcherTimer timer;
 
         private ProcessCount processCount;
+        private ProcessCount processCount1;
 
         public int CD = 0;
 
@@ -65,7 +70,7 @@ namespace teset2
             stop.Visibility = Visibility.Hidden;
             cont.Visibility = Visibility.Visible;
             finish.Visibility = Visibility.Visible;
-           // finish.Content = CD;
+          
         }
 
         public void Continue(object sender, EventArgs e)
@@ -73,7 +78,9 @@ namespace teset2
             timer.Start();
             cont.Visibility = Visibility.Hidden;
             stop.Visibility = Visibility.Visible;
-          
+            finish.Visibility = Visibility.Hidden;
+
+
         }
 
         /// <param name="sender"></param>
@@ -96,12 +103,31 @@ namespace teset2
 
         public void Finish(object sender, EventArgs e)
         {
-
+            contents.Children.Clear();
+            teset2.submit sub = new submit();
+            processCount1 = new ProcessCount(CD);
+            sub.Tital.Text = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
+            sub.exitEvent += new submit.ExitDelegate(AppearButton);
+            sub.value = value;
+            sub.type = this.type;
+            if(type == 1)
+            {
+                sub.repetition.Visibility = Visibility.Visible;
+                sub.Rep.Visibility = Visibility.Visible;
+            }
+            contents.Children.Add(sub);
         }
 
+        
+
+     private void AppearButton()
+        {
+        exitEvent();
+         }
 
 
-        public event CountDownHandler CountDown;
+
+    public event CountDownHandler CountDown;
         public bool OnCountDown()
         {
             if (CountDown != null)
