@@ -30,6 +30,7 @@ namespace teset2
            
 
             InitializeComponent();
+           
          
         }
         public delegate void ExitDelegate();
@@ -48,21 +49,26 @@ namespace teset2
         public void statistics(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserStatistics());
-            if (value == 1)
-            {
-                exitEvent();
-
-            }
+            teset2.UserStatistics statistics = new UserStatistics();
+            statistics.exitEvent += new UserStatistics.ExitDelegate(exit);
+            contents.Children.Add(statistics);
+          
         }
 
-        public void exit(object sender, RoutedEventArgs e)
+        private void Exit(object sender, RoutedEventArgs e)
         {
-            if (value == 1)
-            {
+           
                 exitEvent();
 
-            }
+            
+        }
+
+        private void exit()
+        {
+
+            exitEvent();
+
+
         }
     }
 }

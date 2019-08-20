@@ -22,37 +22,61 @@ namespace teset2
     {
        
 
-        public int vis;
+        public int type;
 
         public Original()
         {
             InitializeComponent();
         }
         public delegate void AppearButtonDelegate();
-        public event AppearButtonDelegate appearButtonEvent;
+        public event AppearButtonDelegate exitEvent,back;
 
-     
+
 
         private void All_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserAll());
-            appearButtonEvent();
+            teset2.UserAll all = new UserAll();
+            contents.Children.Add(all);
+            AppearButton1();
 
 
         }
         private void Favourite_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserFavorite());
-            appearButtonEvent();
+            teset2.UserFavorite favorite = new UserFavorite();
+            favorite.exitEvent += new UserFavorite.ExitDelegate(AppearButton);
+            if (type == 1)
+            {
+                favorite.value = 1;
+            }
+            contents.Children.Add(favorite);
+            AppearButton1();
+
+
         }
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
-            contents.Children.Add(new UserRandom());
-           
+            teset2.UserRandom Ran = new UserRandom();
+            Ran.exitEvent += new UserRandom.ExitDelegate(AppearButton);
+            if (type == 1)
+            {
+                Ran.value = 1;
+            }
+            contents.Children.Add(Ran);
+            AppearButton1();
+        }
 
+        private void AppearButton1()
+        {
+            back();
+        }
+
+        private void AppearButton()
+        {
+            exitEvent();
         }
 
     }

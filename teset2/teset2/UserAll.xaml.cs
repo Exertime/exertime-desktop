@@ -51,6 +51,13 @@ namespace teset2
 
 
         }
+        public delegate void ExitDelegate();
+        public event ExitDelegate exitEvent;
+
+        private void AppearButton()
+        {
+            exitEvent();
+        }
 
 
 

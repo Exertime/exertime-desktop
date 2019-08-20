@@ -96,6 +96,7 @@ namespace teset2
             teset2.UserAll all = new UserAll();
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
         }
         private void Favourite_Click(object sender, RoutedEventArgs e)
         {
@@ -105,6 +106,7 @@ namespace teset2
             favorite.value = 1;
             contents.Children.Add(favorite);
             Level.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
         }
         private void Random_Click(object sender, RoutedEventArgs e)
         {
@@ -113,15 +115,20 @@ namespace teset2
             Ran.exitEvent += new UserRandom.ExitDelegate(AppearButton1);
             Ran.value = 1;
             contents.Children.Add(Ran);
+            Back.Visibility = Visibility.Visible;
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.Original original = new Original();
-            original.appearButtonEvent += new Original.AppearButtonDelegate(AppearButton);
+            original.exitEvent += new Original.AppearButtonDelegate(AppearButton1);
+            original.type = 1;
+            original.back += new Original.AppearButtonDelegate(AppearButton2);
             contents.Children.Add(original);
             Level.Visibility = Visibility.Hidden;
+            exit.Visibility = Visibility.Hidden;
+            Back.Visibility = Visibility.Hidden;
         }
 
         private void AppearButton()
@@ -132,6 +139,11 @@ namespace teset2
         private void AppearButton1()
         {
             exit.Visibility = Visibility.Visible;
+        }
+
+        private void AppearButton2()
+        {
+            Back.Visibility = Visibility.Visible;
         }
 
 

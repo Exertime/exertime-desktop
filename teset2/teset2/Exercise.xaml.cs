@@ -108,7 +108,10 @@ namespace teset2
             processCount1 = new ProcessCount(CD);
             sub.Tital.Text = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
             sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            sub.value = value;
+            if(value == 1)
+            {
+                sub.EX.Visibility = Visibility.Visible;
+            }
             sub.type = this.type;
             if(type == 1)
             {

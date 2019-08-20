@@ -28,7 +28,7 @@
             </Grid>
 
 
-            <Button Content="Back" Name="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Back_Click"/>
+            <Button Visibility="Hidden" Content="Back" Name="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Back_Click"/>
             <Button Name="exit" Content="Exit" HorizontalAlignment="Right" Margin="42,557,0,0" Visibility="Hidden" VerticalAlignment="Bottom" Width="131" Click="Button_Click"/>
 
         </Grid>

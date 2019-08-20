@@ -20,9 +20,20 @@ namespace teset2
     /// </summary>
     public partial class UserStatistics : UserControl
     {
+
+        public delegate void ExitDelegate();
+        public event ExitDelegate exitEvent;
+
+        private void AppearButton()
+        {
+            exitEvent();
+        }
+
         public UserStatistics()
         {
             InitializeComponent();
         }
+
+       
     }
 }
