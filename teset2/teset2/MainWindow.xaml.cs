@@ -26,26 +26,26 @@ namespace teset2
         public MainWindow()
         {
             InitializeComponent();
-            Window1 w1 = new Window1();
-            w1.WindowStartupLocation = WindowStartupLocation.Manual;
+            //Window1 w1 = new Window1();
+            //w1.WindowStartupLocation = WindowStartupLocation.Manual;
 
 
-            w1.Show();
+            //w1.Show();
 
-            //Thread t = new Thread(new ThreadStart(() =>
-            //{
-               
-            //    Thread.Sleep(5000);
-            //    Window1 w1 = new Window1();
-            //    w1.WindowStartupLocation = WindowStartupLocation.Manual;
-           
+            Thread t = new Thread(new ThreadStart(() =>
+            {
 
-            //    w1.Show();
-            //    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
-            //}));
-            //t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
-            //t.IsBackground = true;
-            //t.Start();
+                Thread.Sleep(5000);
+                Window1 w1 = new Window1();
+                w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+                w1.Show();
+                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
 
         }
 

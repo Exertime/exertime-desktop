@@ -51,6 +51,10 @@ namespace teset2
             contents.Children.Clear();
             teset2.UserStatistics statistics = new UserStatistics();
             statistics.exitEvent += new UserStatistics.ExitDelegate(exit);
+            if(value == 1)
+            {
+                statistics.EX.Visibility = Visibility.Visible;
+            }
             contents.Children.Add(statistics);
           
         }

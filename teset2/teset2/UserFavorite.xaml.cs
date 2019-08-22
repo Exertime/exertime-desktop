@@ -21,7 +21,7 @@ namespace teset2
     public partial class UserFavorite : UserControl
     {
         public delegate void ExitDelegate();
-        public event ExitDelegate exitEvent;
+        public event ExitDelegate exitEvent,level;
         public int value = 0;
 
         public UserFavorite()
@@ -44,6 +44,7 @@ namespace teset2
             contents.Children.Add(exercise);
             //Window3 w3 = new Window3();
             //w3.EnableMouseKey();
+            level();
 
 
         }
@@ -58,6 +59,7 @@ namespace teset2
             exercise.exitEvent += new Exercise.ExitDelegate(AppearButton);
             exercise.value = value;
             contents.Children.Add(exercise);
+            level();
 
         }
 

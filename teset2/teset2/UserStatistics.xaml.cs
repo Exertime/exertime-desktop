@@ -34,6 +34,21 @@ namespace teset2
             InitializeComponent();
         }
 
-       
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+
+            exitEvent();
+
+
+        }
+
+        private void exit()
+        {
+
+            exitEvent();
+
+
+        }
+
     }
 }

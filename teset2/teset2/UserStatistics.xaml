@@ -13,5 +13,7 @@
             </TextBlock>
         </StackPanel>
 
+        <Button Name="EX" Visibility="Hidden" Content="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Exit" Margin="355,256,355,162" Width="90" />
+
     </Grid>
 </UserControl>

@@ -111,6 +111,7 @@ namespace teset2
             if(value == 1)
             {
                 sub.EX.Visibility = Visibility.Visible;
+                sub.value = 1;
             }
             sub.type = this.type;
             if(type == 1)

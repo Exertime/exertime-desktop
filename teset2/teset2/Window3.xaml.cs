@@ -17,6 +17,7 @@ using teset2;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Threading;
 
 
 
@@ -96,26 +97,28 @@ namespace teset2
             teset2.UserAll all = new UserAll();
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
-            Back.Visibility = Visibility.Visible;
+           // Back.Visibility = Visibility.Visible;
         }
         private void Favourite_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.UserFavorite favorite = new UserFavorite();
             favorite.exitEvent += new UserFavorite.ExitDelegate(AppearButton1);
+            favorite.level += new UserFavorite.ExitDelegate(levelHid);
             favorite.value = 1;
             contents.Children.Add(favorite);
             Level.Visibility = Visibility.Visible;
-            Back.Visibility = Visibility.Visible;
+          //  Back.Visibility = Visibility.Visible;
         }
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.UserRandom Ran = new UserRandom();
             Ran.exitEvent += new UserRandom.ExitDelegate(AppearButton1);
+            Ran.level += new UserRandom.ExitDelegate(levelHid);
             Ran.value = 1;
             contents.Children.Add(Ran);
-            Back.Visibility = Visibility.Visible;
+           // Back.Visibility = Visibility.Visible;
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -124,7 +127,7 @@ namespace teset2
             teset2.Original original = new Original();
             original.exitEvent += new Original.AppearButtonDelegate(AppearButton1);
             original.type = 1;
-            original.back += new Original.AppearButtonDelegate(AppearButton2);
+            //original.back += new Original.AppearButtonDelegate(AppearButton2);
             contents.Children.Add(original);
             Level.Visibility = Visibility.Hidden;
             exit.Visibility = Visibility.Hidden;
@@ -135,16 +138,34 @@ namespace teset2
         {
             Level.Visibility = Visibility.Visible;
         }
+        private void levelHid()
+        {
+            Level.Visibility = Visibility.Hidden;
+        }
 
         private void AppearButton1()
         {
-            exit.Visibility = Visibility.Visible;
+            this.Close();
+            Thread t = new Thread(new ThreadStart(() =>
+            {
+
+                Thread.Sleep(5000);
+                Window1 w1 = new Window1();
+                w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+                w1.Show();
+                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
         }
 
-        private void AppearButton2()
-        {
-            Back.Visibility = Visibility.Visible;
-        }
+        //private void AppearButton2()
+        //{
+        //    Back.Visibility = Visibility.Visible;
+        //}
 
 
 
