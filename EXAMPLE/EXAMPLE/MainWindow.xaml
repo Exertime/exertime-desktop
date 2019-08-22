@@ -15,8 +15,10 @@
             </ListView.View>
         </ListView>
         <Button Content="Button" HorizontalAlignment="Left" Margin="601,353,-0.4,0" VerticalAlignment="Top" Width="193" Height="57" Click="Button_Click"/>
-        <ComboBox HorizontalAlignment="Left" Margin="26,388,0,0" VerticalAlignment="Top" Width="282"/>
-        <ListBox x:Name="LB" HorizontalAlignment="Left" Height="162" Margin="10,102,0,0" VerticalAlignment="Top" Width="763"/>
+        <ListBox x:Name="LB" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="47" Margin="253,353,0,0" VerticalAlignment="Top" Width="329"/>
+        <ListBox x:Name="LB2"  HorizontalAlignment="Left" Height="246" Margin="616,102,-0.4,0" VerticalAlignment="Top" Width="178"/>
+        <WrapPanel x:Name="wp_img" ItemHeight="100" HorizontalAlignment="Left" Height="215" Margin="10,102,0,0" VerticalAlignment="Top" Width="277"/>
+        <Image x:Name="picture" Source ="{Binding img}" HorizontalAlignment="Left" Height="153" Margin="292,102,0,0" VerticalAlignment="Top" Width="212"/>
 
     </Grid>
 </Window>
