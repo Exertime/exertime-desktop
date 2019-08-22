@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Data.SQLite;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,7 +27,11 @@ namespace EXAMPLE
     public partial class MainWindow : Window
     {
         private List<exerciesList> eeee;
- 
+
+        private List<exerciesList> IMG;
+
+        List<string> filename = new List<string>();
+
         // private ObservableCollection<exerciesList> viewableStaff;
         //  private ObservableCollection<exerciesList> VisibleStaff { get { return viewableStaff; } set { } }
         public MainWindow()
@@ -35,26 +40,39 @@ namespace EXAMPLE
 
             ///////Option 1. Call data - It will be the main code for our application(Check exerciesList.cs and DataAccess.cs)
             eeee = DataAccess.fill_listbox();
+            var imgstream = new MemoryStream();
+
             foreach (exerciesList e in eeee)
             {
                 LV.Items.Add(e);
-                
+
             }
-    
+
+            
             ///////////////////displaying picture////////////////////
-            Image newImage = new Image();
-            BitmapImage src = new BitmapImage();
-            src.BeginInit();
-            src.UriSource = new Uri(@"C:\\Users\\jmkin\\source\repos\\EXAMPLE\\EXAMPLE\resources\\download.jpg", UriKind.Absolute);
-            src.EndInit();
-            newImage.Source = src;
-            newImage.Stretch = Stretch.Uniform;
-            newImage.Height = 100;
-            newImage.Source = src;
-            newImage.Stretch = Stretch.Uniform;
-            newImage.Height = 100;
-            wp_img.Children.Add(newImage);
+          
             /////////////////////////////////////////////////////
+
+            IMG = DataAccess.picture();
+            foreach (exerciesList e in IMG)
+            {
+                LB.Items.Add(e);
+                Image newImage = new Image();
+                BitmapImage src = new BitmapImage();
+                src.BeginInit();
+                var filename = e;
+                src.UriSource = new Uri(@"C:\\Users\\jmkin\\Documents\\GitHub\\exertime-desktop\\EXAMPLE\\EXAMPLE\resources\" + filename, UriKind.Absolute);
+                src.EndInit();
+                newImage.Source = src;
+                newImage.Stretch = Stretch.Uniform;
+                newImage.Height = 100;
+                newImage.Source = src;
+                newImage.Stretch = Stretch.Uniform;
+                newImage.Height = 100;
+                wp_img.Children.Add(newImage);
+            }
+            
+            
 
 
 
@@ -144,6 +162,11 @@ namespace EXAMPLE
         List<exerciesList> people = new List<exerciesList>();
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

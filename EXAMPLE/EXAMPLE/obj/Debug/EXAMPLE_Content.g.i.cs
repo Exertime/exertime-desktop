@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/vid.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("test.db")]
 
 

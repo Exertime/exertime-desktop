@@ -112,6 +112,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Resource Include="resources\1.jpg" />
+    <Resource Include="resources\2.jpg" />
+    <Resource Include="resources\3.jpg" />
+    <Resource Include="resources\4.jpg" />
+    <Content Include="resources\vid.mp4" />
     <Content Include="Test.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
