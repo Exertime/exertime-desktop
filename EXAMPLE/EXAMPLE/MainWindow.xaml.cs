@@ -26,146 +26,99 @@ namespace EXAMPLE
     /// </summary>
     public partial class MainWindow : Window
     {
-        private List<exerciesList> eeee;
 
+        private List<exerciesList> eeee;
         private List<exerciesList> IMG;
 
-        List<string> filename = new List<string>();
-
-        // private ObservableCollection<exerciesList> viewableStaff;
-        //  private ObservableCollection<exerciesList> VisibleStaff { get { return viewableStaff; } set { } }
         public MainWindow()
         {
             InitializeComponent();
 
             ///////Option 1. Call data - It will be the main code for our application(Check exerciesList.cs and DataAccess.cs)
-            eeee = DataAccess.fill_listbox();
-            var imgstream = new MemoryStream();
 
+            eeee = DataAccess.fill_listbox();
             foreach (exerciesList e in eeee)
             {
                 LV.Items.Add(e);
 
-            }
-
+            }   
             
-            ///////////////////displaying picture////////////////////
-          
-            /////////////////////////////////////////////////////
 
+            ///////////////////displaying picture////////////////////
             IMG = DataAccess.picture();
+            int n = 0;
             foreach (exerciesList e in IMG)
             {
                 LB.Items.Add(e);
+
                 Image newImage = new Image();
                 BitmapImage src = new BitmapImage();
                 src.BeginInit();
                 var filename = e;
-                src.UriSource = new Uri(@"C:\\Users\\jmkin\\Documents\\GitHub\\exertime-desktop\\EXAMPLE\\EXAMPLE\resources\" + filename, UriKind.Absolute);
-                src.EndInit();
+                src.UriSource = new Uri(@"..\resources\"  + filename, UriKind.Relative);
+                src.EndInit();            
                 newImage.Source = src;
+                newImage.Height = 50;
+                newImage.Width = 100;
                 newImage.Stretch = Stretch.Uniform;
-                newImage.Height = 100;
-                newImage.Source = src;
-                newImage.Stretch = Stretch.Uniform;
-                newImage.Height = 100;
-                wp_img.Children.Add(newImage);
-            }
-            
-            
-
-
-
-            ////////// Option 2. Call data
-            List<exerciesList> exe = new List<exerciesList>();
-            string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            string sql1 = "select Id, Caption, Kj, Img, Video from tt";
-            SQLiteConnection conn = new SQLiteConnection(datasource1);
-
-            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
-            SQLiteDataReader rdr;
-
-            try
-            {
-                conn.Open();
-                rdr = cmd.ExecuteReader();
-           
-                while (rdr.Read())
-                {
-                    exe.Add(new exerciesList { id = rdr.GetInt32(0), caption = rdr.GetString(1), kj = rdr.GetFloat(2) });
-                   
-                }
-                foreach (exerciesList temp in exe)
-                {
-                  
-                  LB2.Items.Add(temp);
-
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-        }
-
+                
+                newImage.HorizontalAlignment = HorizontalAlignment.Left;
+                newImage.VerticalAlignment = VerticalAlignment.Top;              
     
-        ///////// Optione 3. Call data
-        public List<string> exerciseList = new List<string>();
-        public void populatedList()
-        {
-          //  DataSet ds = new DataSet();
-            DataTable dt = new DataTable();
-            string datasource = "Data Source=.\\Test.db;Version=3;";
-            string sql = "select Id, Caption, Kj, Img, Video from tt";
-            // string datasource = "Data Source= (LocalDB)\\MSSQLLocalDB; AttachDbFilename = |DataDirection|Exertime.mdf; Integrated Security = True;";
-            using (SQLiteConnection conn = new SQLiteConnection(datasource))
-            {
-             
-                SQLiteDataAdapter da = new SQLiteDataAdapter(sql, conn);             
-                da.Fill(dt);
-                LB.DataContext = da;
-                conn.Close();
+                StackPanel stackPnl = new StackPanel();
+                stackPnl.Orientation = Orientation.Horizontal;
+                stackPnl.Children.Add(newImage);  //put newImage into stack panel
+                Button btn = new Button();        // Create button
+                /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
+                 * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
+                btn.Name = "click_" + n.ToString();  //Put name on each button
+                n += 1;    // as many as the number of data in database
+
+
+
+
+                btn.Content = stackPnl;   //Put image into button
+
+                btn.Click += new RoutedEventHandler(doCall);  //for button event
+
+                btn.Background = new SolidColorBrush(Color.FromArgb(255, 0, 80, 80));
+                btn.HorizontalAlignment = HorizontalAlignment.Left;
+                btn.VerticalAlignment = VerticalAlignment.Top;
+                btn.Margin = new Thickness(10);
+                wp_img.Children.Add(btn);  //Put buttons into Wrap panel
+                
+         
                 
             }
-            //  LB.DataContext = dt;
-            
-            foreach (DataRow row in dt.Rows)
-            {
-                  exerciseList.Add(row["Caption"].ToString());
-       
-            }
+          
 
-            foreach (string str in exerciseList)
+        }
+
+        //Related to button event
+        private void doCall(object sender, RoutedEventArgs e)
+        {
+            Button btn = (sender as Button);
+           /*
+            if (btn != null)
             {
- 
-                LV.Items.Add(str);
               
             }
-            foreach (string str in exerciseList)
-            {
-
-               LB.Items.Add(str);
-            }
+            */
         }
-        
+
+        public void VideoPage()
+        {
+            MessageBox.Show("Go to Video page");
+        }
+
                      
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            populatedList();
-            
-
+      
 
         }
 
-        //Here New code
-        List<exerciesList> people = new List<exerciesList>();
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
+      
         private void LB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 

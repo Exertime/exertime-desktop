@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListView x:Name="LV" HorizontalAlignment="Left" Height="87" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
+        <ListView x:Name="LV" HorizontalAlignment="Left" Height="87" VerticalAlignment="Top" Width="774">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
@@ -17,7 +17,15 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="708,389,-0.4,0" VerticalAlignment="Top" Width="86" Height="21" Click="Button_Click"/>
         <ListBox x:Name="LB"  HorizontalAlignment="Left" Height="179" Margin="630,152,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="LB_SelectionChanged"/>
         <ListBox x:Name="LB2"  HorizontalAlignment="Left" Height="45" Margin="630,102,-0.4,0" VerticalAlignment="Top" Width="164"/>
-        <WrapPanel x:Name="wp_img" ItemHeight="100" HorizontalAlignment="Left" Height="289" Margin="10,102,0,0" VerticalAlignment="Top" Width="589"/>
+        <Grid x:Name="grid1" Height="308" Margin="10,97,168.6,15">
+            <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" Height="308" VerticalAlignment="Top" Width="605">
+                
+                
+            </WrapPanel>
+         
+
+
+        </Grid>
 
     </Grid>
 </Window>

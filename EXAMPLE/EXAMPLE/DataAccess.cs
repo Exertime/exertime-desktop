@@ -50,7 +50,7 @@ namespace EXAMPLE
         {
             List<exerciesList> exe = new List<exerciesList>();
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            string sql1 = "select Img, Video from tt";
+            string sql1 = "select Img, Video, Id, Caption from tt";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             SQLiteDataReader rdr;
@@ -63,7 +63,7 @@ namespace EXAMPLE
                 {
                     exe.Add(new exerciesList
                     {
-                        img = rdr.GetString(0)
+                        img = rdr.GetString(0), video=rdr.GetString(1), id=rdr.GetInt32(2), caption = rdr.GetString(3)
                     
                     });
                     
