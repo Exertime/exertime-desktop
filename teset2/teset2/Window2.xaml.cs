@@ -131,7 +131,9 @@ namespace teset2
            
             contents.Children.Clear();
             contents.Children.Add(new UserFavorite());
-        }
+            Level.Visibility = Visibility.Visible;
+        
+    }
 
         private void CStatics_Click(object sender, RoutedEventArgs e)
         {
@@ -153,6 +155,7 @@ namespace teset2
         {
             contents.Children.Clear();
             contents.Children.Add(new UserAll());
+            Level.Visibility = Visibility.Visible;
         }
     }
 }

@@ -95,6 +95,7 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
+            all.value = 1;
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
            // Back.Visibility = Visibility.Visible;

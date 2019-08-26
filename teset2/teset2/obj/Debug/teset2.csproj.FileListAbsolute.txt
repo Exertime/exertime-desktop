@@ -236,7 +236,6 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Materia
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
@@ -283,3 +282,13 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Use
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_Content.g.cs

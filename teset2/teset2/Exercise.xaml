@@ -4,12 +4,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:teset2"
-             mc:Ignorable="d" 
-             d:DesignHeight="400" d:DesignWidth="600">
-   
+             mc:Ignorable="d" d:DesignWidth="600" Height="900">
 
-        <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+    <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
         <Grid>
+            <MediaElement Source="../resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275"/>
+        </Grid>
+        <Grid Margin="0,48,0,-47">
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition Width="40"/>
@@ -19,16 +22,16 @@
                 <ColumnDefinition Width="40"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-       
-        <TextBlock Text="Timed" VerticalAlignment="Center" FontSize="40" Grid.Column="0"/>
-        <TextBlock Name="tital" Visibility="Hidden" Text="(Repetitions)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="13" Grid.Column="0" Margin="0,146,0,66"/>
-        <TextBlock Text="00" Name="MinuteArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="2" />
+            <MediaElement Source="../resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275"/>
+            <TextBlock Text="Timed" VerticalAlignment="Center" FontSize="40" Grid.Column="0"/>
+            <TextBlock Name="tital" Visibility="Hidden" Text="(Repetitions)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="13" Grid.Column="0" Margin="0,146,0,66"/>
+            <TextBlock Text="00" Name="MinuteArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="2" />
             <TextBlock Text=":" Name="MinuteSplitSecond" VerticalAlignment="Center" FontSize="180"  Grid.Column="3"/>
-        <TextBlock   Text="60" Name="SecondArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="4"/>
+            <TextBlock   Text="60" Name="SecondArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="4"/>
             <Button Name="stop" Content="Stop" Background="Red" VerticalAlignment="Center" Click="Stop" Grid.Column="6"/>
-        <Button Name="cont" Content="Continue" Background="LawnGreen" Visibility="Hidden" VerticalAlignment="Center" Click="Continue" Grid.Column="6"/>
-        <Button Name="finish" Content="Go to finish page" Background="CadetBlue" Visibility="Hidden" VerticalAlignment="Center" Click="Finish" Grid.ColumnSpan="2" Grid.Column="5" Margin="13,239,0.333,-42.333" />
-    </Grid>
+            <Button Name="cont" Content="Continue" Background="LawnGreen" Visibility="Hidden" VerticalAlignment="Center" Click="Continue" Grid.Column="6"/>
+            <Button Name="finish" Content="Go to finish page" Background="CadetBlue" Visibility="Hidden" VerticalAlignment="Center" Click="Finish" Grid.ColumnSpan="2" Grid.Column="5" Margin="13,239,0.333,-42.333" />
+        </Grid>
     </Grid>
 
 </UserControl>
