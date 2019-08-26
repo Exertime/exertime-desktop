@@ -59,9 +59,9 @@ namespace teset2
             
             processCount = new ProcessCount(s);
             CountDown += new CountDownHandler(processCount.ProcessCountDown);
-            
-          
-            timer.Start();
+
+
+            stop.Visibility = Visibility.Hidden;
         }
 
         public void Stop(object sender, EventArgs e)
@@ -71,6 +71,14 @@ namespace teset2
             cont.Visibility = Visibility.Visible;
             finish.Visibility = Visibility.Visible;
           
+        }
+
+        public void Start(object sender, EventArgs e)
+        {
+            timer.Start();
+            stop.Visibility = Visibility.Visible;
+            start.Visibility = Visibility.Hidden;
+           
         }
 
         public void Continue(object sender, EventArgs e)
