@@ -30,6 +30,9 @@ namespace teset2
         //private const string server = "alacritas.cis.utas.edu.au";
         public int value = 0;
 
+        public delegate void Delegate();
+        public event Delegate exercise;
+
         private List<exerciesList> IMG;
 
         public UserAll()
@@ -116,10 +119,12 @@ namespace teset2
             
              if (btn != null)
              {
-                contents.Children.Clear();
-                Exercise ex = new Exercise();
-                ex.value = value;
-                contents.Children.Add(ex);
+
+                exercise();
+                //contents.Children.Clear();
+                //Exercise ex = new Exercise();
+                //ex.value = value;
+                //contents.Children.Add(ex);
              }
             
         }

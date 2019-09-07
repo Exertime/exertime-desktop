@@ -21,34 +21,36 @@ namespace teset2
     public partial class UserStatistics : UserControl
     {
 
-        public delegate void ExitDelegate();
-        public event ExitDelegate exitEvent;
+        //public delegate void ExitDelegate();
+        //public event ExitDelegate exitEvent;
 
-        private void AppearButton()
-        {
-            exitEvent();
-        }
+
+        //private void AppearButton()
+        //{
+        //    exitEvent();
+        //}
 
         public UserStatistics()
         {
             InitializeComponent();
-        }
-
-        private void Exit(object sender, RoutedEventArgs e)
-        {
-
-            exitEvent();
-
 
         }
 
-        private void exit()
-        {
+        //private void Exit(object sender, RoutedEventArgs e)
+        //{
 
-            exitEvent();
+        //    exitEvent();
 
 
-        }
+        //}
+
+        //private void exit()
+        //{
+
+        //    exitEvent();
+
+
+        //}
 
     }
 }

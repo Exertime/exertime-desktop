@@ -9,10 +9,10 @@
 
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
         <Grid>
-            <MediaElement Source="../resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275"/>
+            <MediaElement Source="./resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275" ScrollViewer.HorizontalScrollBarVisibility="Visible" UnloadedBehavior="Manual" Focusable="True"/>
         </Grid>
         <Grid Margin="0,48,0,-47">
-            
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition Width="40"/>
@@ -22,7 +22,9 @@
                 <ColumnDefinition Width="40"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <MediaElement Source="../resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275"/>
+
+           
+
             <TextBlock Text="Timed" VerticalAlignment="Center" FontSize="40" Grid.Column="0"/>
             <TextBlock Name="tital" Visibility="Hidden" Text="(Repetitions)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="13" Grid.Column="0" Margin="0,146,0,66"/>
             <TextBlock Text="00" Name="MinuteArea" VerticalAlignment="Center" FontSize="180"  Grid.Column="2" />
@@ -33,6 +35,7 @@
             <Button Name="cont" Content="Continue" Background="LawnGreen" Visibility="Hidden" VerticalAlignment="Center" Click="Continue" Grid.Column="6"/>
             <Button Name="finish" Content="Go to finish page" Background="CadetBlue" Visibility="Hidden" VerticalAlignment="Center" Click="Finish" Grid.ColumnSpan="2" Grid.Column="5" Margin="13,239,0.333,-42.333" />
         </Grid>
+
     </Grid>
 
 </UserControl>

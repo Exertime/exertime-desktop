@@ -32,12 +32,12 @@ namespace teset2
         
 
         private HookKeyBoard hkb = null;
-        Grid CON;
+        private Grid CON;
         public Window3()
         {
             InitializeComponent();
             Loaded += new RoutedEventHandler(Window3_Loaded);
-            Grid CON = this.contents;
+            CON = this.contents;
 
             
         }
@@ -80,7 +80,7 @@ namespace teset2
             }
         }
 
-  
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -93,83 +93,184 @@ namespace teset2
 
         private void All_Click(object sender, RoutedEventArgs e)
         {
+
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
-            all.value = 1;
+            all.exercise += new UserAll.Delegate(exercisePage1);
+            //all.value = 1;
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
-           // Back.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
         }
+
+        private void OAll()
+        {
+            contents.Children.Clear();
+            teset2.UserAll all = new UserAll();
+            all.exercise += new UserAll.Delegate(exercisePage1);
+            //all.value = 1;
+            contents.Children.Add(all);
+            Level.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
+        }
+
         private void Favourite_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.UserFavorite favorite = new UserFavorite();
-            favorite.exitEvent += new UserFavorite.ExitDelegate(AppearButton1);
-            favorite.level += new UserFavorite.ExitDelegate(levelHid);
-            favorite.value = 1;
+            favorite.exercise1 += new UserFavorite.Delegate(exercisePage1);
+            favorite.exercise2 += new UserFavorite.Delegate(exercisePage2);
+           //favorite.value = 1;
             contents.Children.Add(favorite);
             Level.Visibility = Visibility.Visible;
-          //  Back.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
         }
+
+        private void OFAV()
+        {
+            contents.Children.Clear();
+            teset2.UserFavorite favorite = new UserFavorite();
+            favorite.exercise1 += new UserFavorite.Delegate(exercisePage1);
+            favorite.exercise2 += new UserFavorite.Delegate(exercisePage2);
+            //favorite.value = 1;
+            contents.Children.Add(favorite);
+            Level.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
+        }
+    
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.UserRandom Ran = new UserRandom();
-            Ran.exitEvent += new UserRandom.ExitDelegate(AppearButton1);
-            Ran.level += new UserRandom.ExitDelegate(levelHid);
-            Ran.value = 1;
+            Ran.exercise1 += new UserRandom.Delegate(exercisePage1);
+            Ran.exercise2 += new UserRandom.Delegate(exercisePage2);
+            //Ran.value = 1;
             contents.Children.Add(Ran);
-           // Back.Visibility = Visibility.Visible;
+            Back.Visibility = Visibility.Visible;
         }
+
+        private void ORAN()
+        {
+            contents.Children.Clear();
+            teset2.UserRandom Ran = new UserRandom();
+            Ran.exercise1 += new UserRandom.Delegate(exercisePage1);
+            Ran.exercise2 += new UserRandom.Delegate(exercisePage2);
+            //Ran.value = 1;
+            contents.Children.Add(Ran);
+            Back.Visibility = Visibility.Visible;
+        }
+
+
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.Original original = new Original();
-            original.exitEvent += new Original.AppearButtonDelegate(AppearButton1);
-            original.type = 1;
-            //original.back += new Original.AppearButtonDelegate(AppearButton2);
+            original.all += new Original.Delegate(OAll);
+            original.fav += new Original.Delegate(OFAV);
+            original.ran += new Original.Delegate(ORAN);
             contents.Children.Add(original);
             Level.Visibility = Visibility.Hidden;
             exit.Visibility = Visibility.Hidden;
             Back.Visibility = Visibility.Hidden;
         }
 
-        private void AppearButton()
-        {
-            Level.Visibility = Visibility.Visible;
-        }
-        private void levelHid()
-        {
-            Level.Visibility = Visibility.Hidden;
-        }
+        //private void AppearButton()
+        //{
+        //    Level.Visibility = Visibility.Visible;
+        //}
+        //private void levelHid()
+        //{
+        //    Level.Visibility = Visibility.Hidden;
+        //}
+        public delegate void Delegate();
+        public event Delegate window;
 
         private void AppearButton1()
         {
+            window();
             this.Close();
-            Thread t = new Thread(new ThreadStart(() =>
-            {
-
-                Thread.Sleep(5000);
-                Window1 w1 = new Window1();
-                w1.WindowStartupLocation = WindowStartupLocation.Manual;
-
-
-                w1.Show();
-                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
-            }));
-            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
-            t.IsBackground = true;
-            t.Start();
         }
 
         //private void AppearButton2()
         //{
         //    Back.Visibility = Visibility.Visible;
         //}
+        private string time;
+        private Exercise Ex;
+
+        private void exercisePage1()
+        {
+            contents.Children.Clear();
+            Exercise ex = new Exercise();
+            ex.submit += new Exercise.Delegate(submitPage1);
+            Ex = ex;
+            contents.Children.Add(ex);
+            Level.Visibility = Visibility.Hidden;
+        }
+
+        private void exercisePage2()
+        {
+            contents.Children.Clear();
+            Exercise ex = new Exercise();
+            ex.submit += new Exercise.Delegate(submitPage2);
+            Ex = ex;
+            ex.tital.Visibility = Visibility.Visible;
+            contents.Children.Add(ex);
+            Level.Visibility = Visibility.Hidden;
+        }
+
+        private void submitPage1()
+        {
+            contents.Children.Clear();
+            teset2.submit sub = new submit();
+
+            sub.Tital.Text = Ex.time;
+            sub.EX.Visibility = Visibility.Visible;
+            sub.exitEvent += new submit.ExitDelegate(AppearButton1);
+            //if (value == 1)
+            //{
+            //    sub.EX.Visibility = Visibility.Visible;
+            //    sub.value = 1;
+            //}
+            //sub.type = this.type;
+            //if (type == 1)
+            //{
+            //    sub.repetition.Visibility = Visibility.Visible;
+            //    sub.Rep.Visibility = Visibility.Visible;
+            //}
+            contents.Children.Add(sub);
+        }
+
+        private void submitPage2()
+        {
+            contents.Children.Clear();
+            teset2.submit sub = new submit();
+
+            sub.Tital.Text = Ex.time;
+            sub.repetition.Visibility = Visibility.Visible;
+            sub.Rep.Visibility = Visibility.Visible;
+            sub.EX.Visibility = Visibility.Visible;
+            sub.exitEvent += new submit.ExitDelegate(AppearButton1);
+            //if (value == 1)
+            //{
+            //    sub.EX.Visibility = Visibility.Visible;
+            //    sub.value = 1;
+            //}
+            //sub.type = this.type;
+            //if (type == 1)
+            //{
+            //    sub.repetition.Visibility = Visibility.Visible;
+            //    sub.Rep.Visibility = Visibility.Visible;
+            //}
+            contents.Children.Add(sub);
+        }
 
 
-
+        private void AppearButton()
+        {
+            exit.Visibility = Visibility.Visible;
+        }
 
     }
 }

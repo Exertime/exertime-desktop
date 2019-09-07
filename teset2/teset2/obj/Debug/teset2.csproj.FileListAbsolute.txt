@@ -292,3 +292,7 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_Content.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_Content.g.cs

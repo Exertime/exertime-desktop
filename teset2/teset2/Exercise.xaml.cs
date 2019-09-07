@@ -23,12 +23,14 @@ namespace teset2
 
     {
 
-        public delegate void ExitDelegate();
-        public event ExitDelegate exitEvent;
+        public delegate void Delegate();
+        public event Delegate submit;
         public int value = 0;
         public int type = 0;
 
         public int s = 60;
+
+       public string time;
 
         private DispatcherTimer timer;
 
@@ -111,31 +113,35 @@ namespace teset2
 
         public void Finish(object sender, EventArgs e)
         {
-            contents.Children.Clear();
-            teset2.submit sub = new submit();
+
             processCount1 = new ProcessCount(CD);
-            sub.Tital.Text = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
-            sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            if(value == 1)
-            {
-                sub.EX.Visibility = Visibility.Visible;
-                sub.value = 1;
-            }
-            sub.type = this.type;
-            if(type == 1)
-            {
-                sub.repetition.Visibility = Visibility.Visible;
-                sub.Rep.Visibility = Visibility.Visible;
-            }
-            contents.Children.Add(sub);
+            this.time = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
+            submit();
+            //contents.Children.Clear();
+            //teset2.submit sub = new submit();
+            //processCount1 = new ProcessCount(CD);
+            //sub.Tital.Text = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
+            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
+            //if(value == 1)
+            //{
+            //    sub.EX.Visibility = Visibility.Visible;
+            //    sub.value = 1;
+            //}
+            //sub.type = this.type;
+            //if(type == 1)
+            //{
+            //    sub.repetition.Visibility = Visibility.Visible;
+            //    sub.Rep.Visibility = Visibility.Visible;
+            //}
+            //contents.Children.Add(sub);
         }
 
         
 
-     private void AppearButton()
-        {
-        exitEvent();
-         }
+     //private void AppearButton()
+     //   {
+     //   exitEvent();
+     //    }
 
 
 

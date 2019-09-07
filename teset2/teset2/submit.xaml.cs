@@ -48,31 +48,31 @@ namespace teset2
 
         public void statistics(object sender, RoutedEventArgs e)
         {
-            contents.Children.Clear();
-            teset2.UserStatistics statistics = new UserStatistics();
-            statistics.exitEvent += new UserStatistics.ExitDelegate(exit);
-            if(value == 1)
-            {
-                statistics.EX.Visibility = Visibility.Visible;
-            }
-            contents.Children.Add(statistics);
+            //contents.Children.Clear();
+            //teset2.UserStatistics statistics = new UserStatistics();
+            //statistics.exitEvent += new UserStatistics.ExitDelegate(exit);
+            //if(value == 1)
+            //{
+            //    statistics.EX.Visibility = Visibility.Visible;
+            //}
+            //contents.Children.Add(statistics);
           
         }
 
         private void Exit(object sender, RoutedEventArgs e)
-        {
-           
-                exitEvent();
-
-            
-        }
-
-        private void exit()
         {
 
             exitEvent();
 
 
         }
+
+        //private void exit()
+        //{
+
+        //    exitEvent();
+
+
+        //}
     }
 }
