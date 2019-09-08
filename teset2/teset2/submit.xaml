@@ -8,8 +8,9 @@
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBlock Visibility="Hidden" Name="repetition" HorizontalAlignment="Center"  Height="32" Margin="269,103,414,0" TextWrapping="Wrap" Text="Repetitions" VerticalAlignment="Top" FontSize="20" Width="117"/>
         <TextBlock Name="Tital" HorizontalAlignment="Center"  Height="41" Margin="269,135,241,0" TextWrapping="Wrap" Text="Total Exercise Time 00:00" VerticalAlignment="Top" FontSize="20" Width="290"/>
-        <Button Content="Statistics" HorizontalAlignment="Center" VerticalAlignment="Center" Click="statistics" />
-        <Button Name="EX" Visibility="Hidden" Content="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Exit" Margin="355,256,355,162" Width="90" />
+        <Button Name="Statistics" Content="Submit-Statistics" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Click="statistics" />
+        <Button Name="Sub" Content="Submit" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Submit_Click" />
+        <Button Name="EX" Visibility="Hidden" Content="Submit-Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Exit" Margin="337,256,343,162" Width="120" />
         <TextBox Visibility="Hidden" InputMethod.IsInputMethodEnabled="False" PreviewTextInput="limitnumber" Name="Rep" Opacity="1" VerticalAlignment="Center" BorderThickness="1,1,1,1"  FontSize="23" HorizontalAlignment="Center" Height="40" Margin="386,95,201,315" TextWrapping="Wrap"  Width="213"/>
     </Grid>
 </UserControl>

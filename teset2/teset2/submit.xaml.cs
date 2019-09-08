@@ -34,7 +34,7 @@ namespace teset2
          
         }
         public delegate void ExitDelegate();
-        public event ExitDelegate exitEvent;
+        public event ExitDelegate exitEvent,STAT;
 
         public void limitnumber(object sender, TextCompositionEventArgs e)
 
@@ -56,7 +56,7 @@ namespace teset2
             //    statistics.EX.Visibility = Visibility.Visible;
             //}
             //contents.Children.Add(statistics);
-          
+            STAT();
         }
 
         private void Exit(object sender, RoutedEventArgs e)
@@ -74,5 +74,10 @@ namespace teset2
 
 
         //}
+
+        private void Submit_Click(object sender,RoutedEventArgs e)
+        {
+
+        }
     }
 }

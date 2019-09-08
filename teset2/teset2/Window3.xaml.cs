@@ -224,10 +224,12 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.submit sub = new submit();
+            sub.Statistics.Visibility = Visibility.Visible;
 
             sub.Tital.Text = Ex.time;
             sub.EX.Visibility = Visibility.Visible;
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
+            sub.STAT += new submit.ExitDelegate(statisticsPage);
             //if (value == 1)
             //{
             //    sub.EX.Visibility = Visibility.Visible;
@@ -270,6 +272,18 @@ namespace teset2
         private void AppearButton()
         {
             exit.Visibility = Visibility.Visible;
+        }
+
+        private void statisticsPage()
+        {
+            contents.Children.Clear();
+            teset2.UserStatistics statistics = new UserStatistics();
+            statistics.exitEvent += new UserStatistics.ExitDelegate(AppearButton1);
+          
+                statistics.EX.Visibility = Visibility.Visible;
+            
+            contents.Children.Add(statistics);
+
         }
 
     }

@@ -128,6 +128,7 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.submit sub = new submit();
+            sub.Sub.Visibility = Visibility;
 
             sub.Tital.Text = Ex.time;
             //sub.exitEvent += new submit.ExitDelegate(AppearButton);
@@ -149,6 +150,7 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.submit sub = new submit();
+            sub.Sub.Visibility = Visibility;
 
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;

@@ -42,6 +42,7 @@ namespace teset2
         public Exercise()
         {
             InitializeComponent();
+            
 
             this.Loaded += new RoutedEventHandler(MainWin_Loaded);
         }
@@ -56,9 +57,9 @@ namespace teset2
             timer.Interval = new TimeSpan(10000000);  
             timer.Tick += new EventHandler(timer_Tick);
 
-            
+            this.Player1.LoadedBehavior = MediaState.Manual;
 
-            
+
             processCount = new ProcessCount(s);
             CountDown += new CountDownHandler(processCount.ProcessCountDown);
 

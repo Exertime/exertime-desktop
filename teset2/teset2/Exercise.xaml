@@ -9,7 +9,7 @@
 
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
         <Grid>
-            <MediaElement Source="./resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275" ScrollViewer.HorizontalScrollBarVisibility="Visible" UnloadedBehavior="Manual" Focusable="True"/>
+            <MediaElement Name="Player1" Source="./resources/vid.mp4" LoadedBehavior="Play" Margin="0,0,0,275"  UnloadedBehavior="Manual"/>
         </Grid>
         <Grid Margin="0,48,0,-47">
 
