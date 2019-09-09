@@ -20,19 +20,21 @@
             </ListView.View>
         </ListView>
         <Button Content="Button" HorizontalAlignment="Left" Margin="708,389,-0.4,0" VerticalAlignment="Top" Width="86" Height="21" Click="Button_Click"/>
-        <ListBox x:Name="LB"  ItemsSource="{Binding caption}" HorizontalAlignment="Left" Height="179" Margin="630,152,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="LB_SelectionChanged"/>
-        <ListBox x:Name="LB2"   HorizontalAlignment="Left" Height="45" Margin="630,102,-0.4,0" VerticalAlignment="Top" Width="164"/>
+        <ListBox x:Name="LB"  ItemsSource="{Binding caption}" HorizontalAlignment="Left" Height="89" Margin="630,279,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="LB_SelectionChanged"/>
         <Grid x:Name="grid1" Height="308" Margin="10,97,168.6,15">
-            <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" VerticalAlignment="Top" Height="308"  Width="605">
-                <MediaElement Name="mediavid" Height="41" Width="92" Source="{Binding video}" LoadedBehavior="Manual"  />
+            <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" VerticalAlignment="Top" Height="140"  Width="605"/>
 
-
-            </WrapPanel>
+            <StackPanel x:Name="MD">
+                <MediaElement x:Name="mediavid" LoadedBehavior="Manual" Margin="0,145,0.2,0" Height="162" />    
+            </StackPanel>
+            
 
 
 
         </Grid>
-        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="633,336,0,0" VerticalAlignment="Top" Width="151" Height="37"/>
+        <Button Content="Easy" HorizontalAlignment="Left" Margin="663,92,0,0" VerticalAlignment="Top" Width="112" Height="29" Click="Button_Click_1"/>
+        <Button Content="Challenge" HorizontalAlignment="Left" Margin="663,133,0,0" VerticalAlignment="Top" Width="112" Height="30" Click="Button_Click_2"/>
+        <Button Content="Moderate" HorizontalAlignment="Left" Margin="663,180,0,0" VerticalAlignment="Top" Width="112" Height="27" Click="Button_Click_3"/>
 
     </Grid>
 </Window>

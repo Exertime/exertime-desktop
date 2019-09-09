@@ -51,25 +51,31 @@ namespace EXAMPLE
 
             ///////////////////displaying picture////////////////////
             IMG = DataAccess.picture();
+           // int n = 0;
+            this.MediaCall();
+ 
+        }
+        public void MediaCall()
+        {
             int n = 0;
             foreach (exerciesList e in IMG)
             {
-             
+
                 //LB.Items.Add(e);
                 Image newImage = new Image();
                 BitmapImage src = new BitmapImage();
                 src.BeginInit();
                 var filename = e;
-                src.UriSource = new Uri(@"..\resources\"  + filename, UriKind.Relative);
-                src.EndInit();            
+                src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
+                src.EndInit();
                 newImage.Source = src;
                 newImage.Height = 50;
                 newImage.Width = 100;
                 newImage.Stretch = Stretch.Uniform;
-                
+
                 newImage.HorizontalAlignment = HorizontalAlignment.Left;
-                newImage.VerticalAlignment = VerticalAlignment.Top;              
-    
+                newImage.VerticalAlignment = VerticalAlignment.Top;
+
                 StackPanel stackPnl = new StackPanel();
                 stackPnl.Orientation = Orientation.Horizontal;
                 stackPnl.Children.Add(newImage);  //put newImage into stack panel
@@ -87,13 +93,15 @@ namespace EXAMPLE
                 btn.VerticalAlignment = VerticalAlignment.Top;
                 btn.Margin = new Thickness(10);
 
+                Label ExerciseName = new Label();
+                ExerciseName.Content = e.caption;
+                ExerciseName.Margin = new Thickness(10);
 
                 wp_img.Children.Add(btn);  //Put buttons into Wrap panel
-
+                wp_img.Children.Add(ExerciseName);
             }
- 
-        }
 
+        }
         //Related to button event
         private void doCall(object sender, RoutedEventArgs e)
         {
@@ -103,28 +111,26 @@ namespace EXAMPLE
             if (btn != null)
             {
                 strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
-
+              //  strId = btn.Name;
                 IMG = DataAccess.Load(Int32.Parse(strId));
-
-                // 동영상 재생
+               
+                // Play Videos
                 foreach (exerciesList exList in IMG)
                 {
-                    MessageBox.Show(exList.video);
-                    
+                   // MessageBox.Show(exList.video);
+                    var filename1 = exList.video;
+                    mediavid.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
+                    mediavid.Close();
+                    mediavid.Play();
                 }
             
             }
         }
-        public void vidcall()
-        {
-            mediavid.Close();
-            mediavid.Play();         
-        }
+   
 
         public void VideoPage()
         {
             MessageBox.Show("Go to Video page");
-
         }
 
                      
@@ -133,8 +139,6 @@ namespace EXAMPLE
       
 
         }
-
-      
         private void LB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
@@ -142,13 +146,33 @@ namespace EXAMPLE
 
         private void LV_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (e.AddedItems.Count > 0)
-            {
-               
-                MessageBox.Show("The selected item is: " + e.AddedItems[0]);
-                LB.DataContext = e.AddedItems[0];
-               
-            }
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+            wp_img.Children.Clear();
+            IMG = DataAccess.FilterMode("Easy");
+            MediaCall();
+            MD.Children.Clear();
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            wp_img.Children.Clear();
+            IMG = DataAccess.FilterMode("Challenge");
+            MediaCall();
+            MD.Children.Clear();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            wp_img.Children.Clear();
+            IMG = DataAccess.FilterMode("Moderate");
+            MediaCall();
+            MD.Children.Clear();
         }
     }
 }

@@ -13,8 +13,8 @@ namespace EXAMPLE
 {
     class DataAccess
     {
+    
 
-  
 
         public static List<exerciesList> fill_listbox()
         {
@@ -111,6 +111,42 @@ namespace EXAMPLE
             return ex;
         }
 
-   
+        public static List<exerciesList> FilterMode(string type)
+        {
+            List<exerciesList> ex = new List<exerciesList>();
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            string sql1 = "select Img, Video, Caption, Type from tt where Type = ?";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            cmd.Parameters.AddWithValue("Type", type);
+            SQLiteDataReader rdr;
+
+            try
+            {
+                conn.Open();
+                rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    ex.Add(new exerciesList
+                    {
+                        img = rdr.GetString(0),
+                        video = rdr.GetString(1),
+                        caption = rdr.GetString(2),
+                        type = rdr.GetString(3)
+
+                    });
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            return ex;
+            
+        }
+
+
     }
 }
