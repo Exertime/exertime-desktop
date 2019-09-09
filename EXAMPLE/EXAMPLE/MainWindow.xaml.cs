@@ -29,28 +29,33 @@ namespace EXAMPLE
 
         private List<exerciesList> eeee;
         private List<exerciesList> IMG;
-
+      //  private List<exerciesList> vid;
+        
+        //  private string VideoPath;
         public MainWindow()
         {
             InitializeComponent();
+       
 
             ///////Option 1. Call data - It will be the main code for our application(Check exerciesList.cs and DataAccess.cs)
 
             eeee = DataAccess.fill_listbox();
             foreach (exerciesList e in eeee)
             {
-                LV.Items.Add(e);
+                LV.ItemsSource = eeee;  
+                // LV.Items.Add(e);
+                  // e.dd = DataAccess.Load(e.id);     
+            }
 
-            }   
-            
+       
 
             ///////////////////displaying picture////////////////////
             IMG = DataAccess.picture();
             int n = 0;
             foreach (exerciesList e in IMG)
             {
-                LB.Items.Add(e);
-
+             
+                //LB.Items.Add(e);
                 Image newImage = new Image();
                 BitmapImage src = new BitmapImage();
                 src.BeginInit();
@@ -71,44 +76,55 @@ namespace EXAMPLE
                 Button btn = new Button();        // Create button
                 /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
                  * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
-                btn.Name = "click_" + n.ToString();  //Put name on each button
+                btn.Name = "btn_" + e.id.ToString();  //Put name on each button
                 n += 1;    // as many as the number of data in database
 
-
-
-
                 btn.Content = stackPnl;   //Put image into button
-
                 btn.Click += new RoutedEventHandler(doCall);  //for button event
-
                 btn.Background = new SolidColorBrush(Color.FromArgb(255, 0, 80, 80));
+
                 btn.HorizontalAlignment = HorizontalAlignment.Left;
                 btn.VerticalAlignment = VerticalAlignment.Top;
                 btn.Margin = new Thickness(10);
-                wp_img.Children.Add(btn);  //Put buttons into Wrap panel
-                
-         
-                
-            }
-          
 
+
+                wp_img.Children.Add(btn);  //Put buttons into Wrap panel
+
+            }
+ 
         }
 
         //Related to button event
         private void doCall(object sender, RoutedEventArgs e)
         {
             Button btn = (sender as Button);
-           /*
+            string strId = null;
+
             if (btn != null)
             {
-              
+                strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
+
+                IMG = DataAccess.Load(Int32.Parse(strId));
+
+                // 동영상 재생
+                foreach (exerciesList exList in IMG)
+                {
+                    MessageBox.Show(exList.video);
+                    
+                }
+            
             }
-            */
+        }
+        public void vidcall()
+        {
+            mediavid.Close();
+            mediavid.Play();         
         }
 
         public void VideoPage()
         {
             MessageBox.Show("Go to Video page");
+
         }
 
                      
@@ -122,6 +138,17 @@ namespace EXAMPLE
         private void LB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void LV_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.AddedItems.Count > 0)
+            {
+               
+                MessageBox.Show("The selected item is: " + e.AddedItems[0]);
+                LB.DataContext = e.AddedItems[0];
+               
+            }
         }
     }
 }

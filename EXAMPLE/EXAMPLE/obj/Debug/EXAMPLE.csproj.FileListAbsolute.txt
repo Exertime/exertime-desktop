@@ -52,3 +52,6 @@ C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\obj\Debug\EXAMP
 C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\obj\Debug\EXAMPLE.csproj.CopyComplete
 C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\obj\Debug\EXAMPLE.exe
 C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\obj\Debug\EXAMPLE.pdb
+C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\bin\Debug\resources\vid.mp4
+C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\obj\Debug\new1.g.cs
+C:\Users\jmkin\Documents\GitHub\exertime-desktop\EXAMPLE\EXAMPLE\obj\Debug\new1.baml

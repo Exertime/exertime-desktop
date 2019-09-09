@@ -7,25 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListView x:Name="LV" HorizontalAlignment="Left" Height="87" VerticalAlignment="Top" Width="774">
+        <ListView x:Name="LV" HorizontalAlignment="Left" Height="87" VerticalAlignment="Top" Width="774" SelectionChanged="LV_SelectionChanged">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding id}"/>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding type}"/>
+                    <GridViewColumn Header="Caption" DisplayMemberBinding="{Binding caption}"/>
+                    <GridViewColumn Header="Kj" DisplayMemberBinding="{Binding kj}"/>
+                    <GridViewColumn Header="Image" DisplayMemberBinding="{Binding img}"/>
+                    <GridViewColumn Header="Image" DisplayMemberBinding="{Binding video}"/>
                 </GridView>
             </ListView.View>
         </ListView>
         <Button Content="Button" HorizontalAlignment="Left" Margin="708,389,-0.4,0" VerticalAlignment="Top" Width="86" Height="21" Click="Button_Click"/>
-        <ListBox x:Name="LB"  HorizontalAlignment="Left" Height="179" Margin="630,152,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="LB_SelectionChanged"/>
-        <ListBox x:Name="LB2"  HorizontalAlignment="Left" Height="45" Margin="630,102,-0.4,0" VerticalAlignment="Top" Width="164"/>
+        <ListBox x:Name="LB"  ItemsSource="{Binding caption}" HorizontalAlignment="Left" Height="179" Margin="630,152,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="LB_SelectionChanged"/>
+        <ListBox x:Name="LB2"   HorizontalAlignment="Left" Height="45" Margin="630,102,-0.4,0" VerticalAlignment="Top" Width="164"/>
         <Grid x:Name="grid1" Height="308" Margin="10,97,168.6,15">
-            <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" Height="308" VerticalAlignment="Top" Width="605">
-                
-                
+            <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" VerticalAlignment="Top" Height="308"  Width="605">
+                <MediaElement Name="mediavid" Height="41" Width="92" Source="{Binding video}" LoadedBehavior="Manual"  />
+
+
             </WrapPanel>
-         
+
 
 
         </Grid>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="633,336,0,0" VerticalAlignment="Top" Width="151" Height="37"/>
 
     </Grid>
 </Window>

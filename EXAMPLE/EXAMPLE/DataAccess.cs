@@ -22,7 +22,7 @@ namespace EXAMPLE
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
             string sql1 = "select Id, Type, Caption, Status, Kj, Calculation, Img, Video from tt";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
-
+            
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             SQLiteDataReader rdr;
       
@@ -37,7 +37,7 @@ namespace EXAMPLE
                                               kj = rdr.GetFloat(4), calculation = rdr.GetString(5), img = rdr.GetString(6), video = rdr.GetString(7)});
                     
                 }
-              
+                
             }
             catch (Exception ex)
             {
@@ -76,7 +76,41 @@ namespace EXAMPLE
             }
             return exe;
         }
-      
 
+        public static List<exerciesList> Load(int id)
+        {
+            List<exerciesList> ex = new List<exerciesList>();
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            string sql1 = "select Img, Video, Caption from tt where Id = ?";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            cmd.Parameters.AddWithValue("Id", id);
+            SQLiteDataReader rdr;
+
+            try
+            {
+                conn.Open();
+                rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    ex.Add(new exerciesList
+                    {
+                        img = rdr.GetString(0),
+                        video = rdr.GetString(1),
+                        caption = rdr.GetString(2)                        
+                    });
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            
+            return ex;
+        }
+
+   
     }
 }
