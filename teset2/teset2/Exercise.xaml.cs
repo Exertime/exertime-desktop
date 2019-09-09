@@ -47,7 +47,11 @@ namespace teset2
             this.Loaded += new RoutedEventHandler(MainWin_Loaded);
         }
 
-       
+        private void vedio(object sender, RoutedEventArgs e)
+        {
+            Player1.Play();
+            btn1.Visibility = Visibility.Hidden;
+        }
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void MainWin_Loaded(object sender, RoutedEventArgs e)

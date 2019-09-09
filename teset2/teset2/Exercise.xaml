@@ -8,8 +8,13 @@
 
 
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
+
         <Grid>
-            <MediaElement Name="Player1" Source="./resources/vid.mp4" LoadedBehavior="Play" Margin="0,0,0,275"  UnloadedBehavior="Manual"/>
+            <MediaElement Name="Player1" Source="./resources/vid.mp4" LoadedBehavior="Manual" Margin="0,0,0,275" />
+            <Button Name="btn1" Click="vedio" Background="White" Margin="53,0,45,275" Height="Auto">
+                <Image Source="./resources/1.jpg"></Image>
+            </Button>
+
         </Grid>
         <Grid Margin="0,48,0,-47">
 
@@ -23,7 +28,7 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-           
+
 
             <TextBlock Text="Timed" VerticalAlignment="Center" FontSize="40" Grid.Column="0"/>
             <TextBlock Name="tital" Visibility="Hidden" Text="(Repetitions)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="13" Grid.Column="0" Margin="0,146,0,66"/>
