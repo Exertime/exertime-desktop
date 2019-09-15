@@ -23,7 +23,7 @@ namespace teset2
     {
         public int value;
         public int type;
-
+        public string text = "0";
 
         public submit()
         {
@@ -34,7 +34,7 @@ namespace teset2
          
         }
         public delegate void ExitDelegate();
-        public event ExitDelegate exitEvent,STAT;
+        public event ExitDelegate exitEvent,STAT,sub;
 
         public void limitnumber(object sender, TextCompositionEventArgs e)
 
@@ -57,12 +57,16 @@ namespace teset2
             //}
             //contents.Children.Add(statistics);
             STAT();
+            text = Rep.Text;
+            sub();
         }
 
         private void Exit(object sender, RoutedEventArgs e)
         {
-
+            text = Rep.Text;
+            sub();
             exitEvent();
+          
 
 
         }
@@ -77,7 +81,8 @@ namespace teset2
 
         private void Submit_Click(object sender,RoutedEventArgs e)
         {
-
+            text = Rep.Text;
+            sub();
         }
     }
 }

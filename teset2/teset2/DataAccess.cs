@@ -85,5 +85,16 @@ namespace teset2
             }
             return exe;
         }
+
+        public static void Submit(string name,int time,string rep, int type)
+        {
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            string sql1 = "INSERT INTO Submission (Name,Time,Repetitions,Type,DateTime)VALUES('"+name+"','"+time+"','"+rep+"','"+type+"',CURRENT_TIMESTAMP)";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            cmd.Connection.Open();
+            cmd.ExecuteNonQuery();
+        }
     }
 }

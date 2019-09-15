@@ -25,8 +25,11 @@ namespace teset2
     /// </summary>
     public partial class Window2 : Window
     {
-        private HookKeyBoard hkb = null;
+       // private HookKeyBoard hkb = null;
 
+       // private string exerciesName;
+
+        private UserAll UA;
 
         public Window2()
         {
@@ -95,6 +98,7 @@ namespace teset2
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
             all.exercise += new UserAll.Delegate(exercisePage1);
+            UA = all;
             contents.Children.Add(all);
 
             Level.Visibility = Visibility.Visible;
@@ -102,7 +106,7 @@ namespace teset2
 
         private string time;
         private Exercise Ex;
-
+       
         private void exercisePage1()
         {
             contents.Children.Clear();
@@ -124,6 +128,8 @@ namespace teset2
             Level.Visibility = Visibility.Hidden;
         }
 
+        private submit subtext;
+
         private void submitPage1()
         {
             contents.Children.Clear();
@@ -131,6 +137,8 @@ namespace teset2
             sub.Sub.Visibility = Visibility;
 
             sub.Tital.Text = Ex.time;
+            sub.sub += new submit.ExitDelegate(Sub);
+            subtext = sub;
             //sub.exitEvent += new submit.ExitDelegate(AppearButton);
             //if (value == 1)
             //{
@@ -151,10 +159,11 @@ namespace teset2
             contents.Children.Clear();
             teset2.submit sub = new submit();
             sub.Sub.Visibility = Visibility;
-
+            subtext = sub;
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
             sub.Rep.Visibility = Visibility.Visible;
+            sub.sub += new submit.ExitDelegate(Sub);
             //sub.exitEvent += new submit.ExitDelegate(AppearButton);
             //if (value == 1)
             //{
@@ -168,6 +177,11 @@ namespace teset2
             //    sub.Rep.Visibility = Visibility.Visible;
             //}
             contents.Children.Add(sub);
+        }
+
+        private void Sub()
+        {
+            DataAccess.Submit("UA.exerciseName", Ex.CD, subtext.text, Ex.type);
         }
 
 

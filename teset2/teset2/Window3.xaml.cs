@@ -29,7 +29,8 @@ namespace teset2
 
     public partial class Window3 : Window
     {
-        
+
+        private UserAll UA;
 
         private HookKeyBoard hkb = null;
         private Grid CON;
@@ -220,6 +221,8 @@ namespace teset2
             Level.Visibility = Visibility.Hidden;
         }
 
+        private submit subtext;
+
         private void submitPage1()
         {
             contents.Children.Clear();
@@ -230,6 +233,8 @@ namespace teset2
             sub.EX.Visibility = Visibility.Visible;
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
             sub.STAT += new submit.ExitDelegate(statisticsPage);
+            sub.sub += new submit.ExitDelegate(Sub);
+            subtext = sub;
             //if (value == 1)
             //{
             //    sub.EX.Visibility = Visibility.Visible;
@@ -248,12 +253,13 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.submit sub = new submit();
-
+            subtext = sub;
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
             sub.Rep.Visibility = Visibility.Visible;
             sub.EX.Visibility = Visibility.Visible;
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
+            sub.sub += new submit.ExitDelegate(Sub);
             //if (value == 1)
             //{
             //    sub.EX.Visibility = Visibility.Visible;
@@ -284,6 +290,11 @@ namespace teset2
             
             contents.Children.Add(statistics);
 
+        }
+
+        private void Sub()
+        {
+            DataAccess.Submit("UA.exerciseName", Ex.CD, subtext.text, Ex.type);
         }
 
     }
