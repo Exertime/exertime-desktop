@@ -99,8 +99,8 @@ namespace teset2
                 Button btn = new Button();        // Create button
                                                   /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
                                                    * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
-                btn.Name = "click_" + n.ToString();  //Put name on each button
-                btn.Uid = e.caption;
+                btn.Name = "btn_" + e.id.ToString();  //Put name on each button
+                //btn.Uid = e.caption;
                 n += 1;    // as many as the number of data in database
 
 

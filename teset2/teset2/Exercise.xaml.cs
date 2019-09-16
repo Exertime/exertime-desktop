@@ -47,21 +47,25 @@ namespace teset2
             InitializeComponent();
 
             
-            vedio1();
+            
           
             this.Loaded += new RoutedEventHandler(MainWin_Loaded);
         }
-        private void vedio1()
+        public void vedio1()
         {
             IMG = DataAccess.Load(Int32.Parse(id));
             // Play Videos
             foreach (exerciesList exList in IMG)
             {
-                // MessageBox.Show(exList.video);
+                
                 var filename1 = exList.video;
                 Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
                 Player1.Close();
-                Player1.Play();
+                BitmapImage src = new BitmapImage();
+                
+                src.UriSource = new Uri(@".\resources\" + filename1, UriKind.Relative);
+               
+                //Player1.Play();
             }
         }
         private void vedio(object sender, RoutedEventArgs e)

@@ -110,11 +110,13 @@ namespace teset2
        
         private void exercisePage1()
         {
+            
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage1);
             ex.id = temp.id;
             Ex = ex;
+            ex.vedio1();
             contents.Children.Add(ex);
             Level.Visibility = Visibility.Hidden;
         }
