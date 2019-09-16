@@ -22,11 +22,14 @@ namespace teset2
 
 
     {
+        private List<exerciesList> IMG;
 
         public delegate void Delegate();
         public event Delegate submit;
         public int value = 0;
         public int type = 0;
+
+        public string id;
 
         public int s = 60;
 
@@ -42,11 +45,25 @@ namespace teset2
         public Exercise()
         {
             InitializeComponent();
-            
 
+            
+            vedio1();
+          
             this.Loaded += new RoutedEventHandler(MainWin_Loaded);
         }
-
+        private void vedio1()
+        {
+            IMG = DataAccess.Load(Int32.Parse(id));
+            // Play Videos
+            foreach (exerciesList exList in IMG)
+            {
+                // MessageBox.Show(exList.video);
+                var filename1 = exList.video;
+                Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
+                Player1.Close();
+                Player1.Play();
+            }
+        }
         private void vedio(object sender, RoutedEventArgs e)
         {
             Player1.Play();

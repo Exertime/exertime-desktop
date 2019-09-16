@@ -21,9 +21,10 @@
         </Grid>
 
         <Grid x:Name="Level" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,70,-10,-45">
-            <Button Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="191,10,466,5"/>
-            <Button  Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="331,10,326,5" />
-            <Button  Content="Challenging" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="469,10,188,5"/>
+            <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="183,12,474,6" Click="Button_Click_4"/>
+            <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="284,12,373,6" Click="Button_Click_1"/>
+            <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="385,12,272,6" Click="Button_Click_2" />
+            <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="486,12,172,6" Click="Button_Click_3"/>
         </Grid>
 
         <Grid  x:Name="contents" Margin="0,120,0,-484" >

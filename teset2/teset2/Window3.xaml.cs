@@ -32,6 +32,11 @@ namespace teset2
 
         private UserAll UA;
 
+
+        private UserAll temp;
+
+       
+
         private HookKeyBoard hkb = null;
         private Grid CON;
         public Window3()
@@ -98,7 +103,7 @@ namespace teset2
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
             all.exercise += new UserAll.Delegate(exercisePage1);
-            //all.value = 1;
+            temp = all;
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
             Back.Visibility = Visibility.Visible;
@@ -109,7 +114,7 @@ namespace teset2
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
             all.exercise += new UserAll.Delegate(exercisePage1);
-            //all.value = 1;
+            temp = all;
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
             Back.Visibility = Visibility.Visible;
@@ -297,5 +302,29 @@ namespace teset2
             DataAccess.Submit("UA.exerciseName", Ex.CD, subtext.text, Ex.type);
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.easy();
+
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.moderate();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.challenge();
+        }
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.all();
+        }
     }
 }

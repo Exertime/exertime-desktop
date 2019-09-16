@@ -34,42 +34,50 @@ namespace teset2
         public event Delegate exercise;
 
         private List<exerciesList> IMG;
+      
 
         public UserAll()
         {
-        //    InitializeComponent();
+            //    InitializeComponent();
 
-        //        //Note: This approach is not thread-safe
-        //    string connectionString = String.Format("Database={0};Data Source={1};User Id={2};Password={3}", db, server, user, pass);
+            //        //Note: This approach is not thread-safe
+            //    string connectionString = String.Format("Database={0};Data Source={1};User Id={2};Password={3}", db, server, user, pass);
 
-        //    MySqlConnection conn = new MySqlConnection(connectionString);
+            //    MySqlConnection conn = new MySqlConnection(connectionString);
 
-        //    MySqlCommand cmd = new MySqlCommand("select * from class", conn);
-        //    conn.Open();
-        //    DataTable dt = new DataTable();
-        //    dt.Load(cmd.ExecuteReader());
-        //    conn.Close();
-        //    dtGrid.DataContext = dt;
-
-
+            //    MySqlCommand cmd = new MySqlCommand("select * from class", conn);
+            //    conn.Open();
+            //    DataTable dt = new DataTable();
+            //    dt.Load(cmd.ExecuteReader());
+            //    conn.Close();
+            //    dtGrid.DataContext = dt;
 
 
-        //}
-        //public delegate void ExitDelegate();
-        //public event ExitDelegate exitEvent;
 
-        //private void AppearButton()
-        //{
-        //    exitEvent();
-        //}
 
-        InitializeComponent();
+            //}
+            //public delegate void ExitDelegate();
+            //public event ExitDelegate exitEvent;
 
-        IMG = DataAccess.picture();
+            //private void AppearButton()
+            //{
+            //    exitEvent();
+            //}
+
+            InitializeComponent();
+
+            IMG = DataAccess.picture();
+
+            MediaCall();
+        }
+        public void MediaCall()
+        {
+
+
             int n = 0;
             foreach (exerciesList e in IMG)
             {
-              
+
 
                 Image newImage = new Image();
                 BitmapImage src = new BitmapImage();
@@ -95,7 +103,7 @@ namespace teset2
                 btn.Uid = e.caption;
                 n += 1;    // as many as the number of data in database
 
-               
+
 
 
                 btn.Content = stackPnl;   //Put image into button
@@ -110,29 +118,79 @@ namespace teset2
                 wp_img.Children.Add(btn);  //Put buttons into Wrap panel
 
             }
-
-            
-
         }
+
+
+
+
 
         public string exerciseName;
-
+        public string id;
         private void doCall(object sender, RoutedEventArgs e)
         {
+            //Button btn = (sender as Button);
+
+            //if (btn != null)
+            //{
+            //    this.exerciseName = btn.Name;
+            //    exercise();
+            //    //contents.Children.Clear();
+            //    //Exercise ex = new Exercise();
+            //    //ex.value = value;
+            //    //contents.Children.Add(ex);
+            //}
+
             Button btn = (sender as Button);
-            
-             if (btn != null)
-             {
-                this.exerciseName = btn.Name;
+            string strId = null;
+
+            if (btn != null)
+            {
+                strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
+                //  strId = btn.Name;
+                //IMG = DataAccess.Load(Int32.Parse(strId));
+                id = strId;
+                MessageBox.Show(id);
                 exercise();
-                //contents.Children.Clear();
-                //Exercise ex = new Exercise();
-                //ex.value = value;
-                //contents.Children.Add(ex);
-             }
-            
+                // Play Videos
+                //foreach (exerciesList exList in IMG)
+                //{
+                //    // MessageBox.Show(exList.video);
+                //    var filename1 = exList.video;
+                //    mediavid.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
+                //    mediavid.Close();
+                //    mediavid.Play();
+                //}
+
+            }
+
         }
 
+        public void easy()
+        {
+            IMG = DataAccess.FilterMode("Easy");
+            MediaCall();
+
+        }
+        public void moderate()
+        {
+            IMG = DataAccess.FilterMode("Moderate");
+            MediaCall();
+
+        }
+        public void challenge()
+        {
+            IMG = DataAccess.FilterMode("Challenge");
+            MediaCall();
+
+
+        }
+        public void all()
+        {
+            IMG = DataAccess.picture();
+            MediaCall();
+
+
+        }
     }
 }
 

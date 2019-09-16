@@ -177,10 +177,6 @@ P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
@@ -231,11 +227,8 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSta
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\vid.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\vid.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
@@ -295,3 +288,6 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\tes
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_Content.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache

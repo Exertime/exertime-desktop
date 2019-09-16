@@ -30,13 +30,14 @@ namespace teset2
        // private string exerciesName;
 
         private UserAll UA;
-
+        private UserAll temp;
         public Window2()
         {
             InitializeComponent();
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
             all.exercise += new UserAll.Delegate(exercisePage1);
+            temp = all;
             contents.Children.Add(all);
 
         }
@@ -98,7 +99,7 @@ namespace teset2
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
             all.exercise += new UserAll.Delegate(exercisePage1);
-            UA = all;
+            temp = all;
             contents.Children.Add(all);
 
             Level.Visibility = Visibility.Visible;
@@ -112,6 +113,7 @@ namespace teset2
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage1);
+            ex.id = temp.id;
             Ex = ex;
             contents.Children.Add(ex);
             Level.Visibility = Visibility.Hidden;
@@ -122,6 +124,7 @@ namespace teset2
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage2);
+            ex.id = temp.id;
             Ex = ex;           
             ex.tital.Visibility = Visibility.Visible;
             contents.Children.Add(ex);
@@ -182,6 +185,32 @@ namespace teset2
         private void Sub()
         {
             DataAccess.Submit("UA.exerciseName", Ex.CD, subtext.text, Ex.type);
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.easy();
+
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.moderate();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.challenge();
+        }
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.all();
         }
 
 
