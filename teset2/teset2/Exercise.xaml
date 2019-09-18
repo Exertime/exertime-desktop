@@ -11,8 +11,8 @@
 
         <Grid>
             <MediaElement Name="Player1" LoadedBehavior="Manual" Margin="0,0,0,275" />
-            <Button Name="btn1" Click="vedio" Background="White" Margin="53,0,45,275" Height="Auto">
-                
+            <Button Name="btn1" Click="vedio" Background="White" BorderBrush="White" Margin="92,34,106,317.2" Height="Auto">
+                <Image Name="img1"></Image>
             </Button>
 
         </Grid>

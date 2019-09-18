@@ -59,11 +59,11 @@ namespace teset2
             {
                 
                 var filename1 = exList.video;
+                var filename2 = exList.img;
                 Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
                 Player1.Close();
-                BitmapImage src = new BitmapImage();
                 
-                src.UriSource = new Uri(@".\resources\" + filename1, UriKind.Relative);
+                img1.Source = new BitmapImage( new Uri(@".\resources\" + filename2, UriKind.Relative));
                
                 //Player1.Play();
             }
