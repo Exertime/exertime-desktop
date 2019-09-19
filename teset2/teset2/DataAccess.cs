@@ -90,7 +90,7 @@ namespace teset2
         {
             List<exerciesList> ex = new List<exerciesList>();
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            string sql1 = "select Img, Video, Caption, Type from tt where Type = ?";
+            string sql1 = "select Img, Video, Caption, Type, Id from tt where Type = ?";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             cmd.Parameters.AddWithValue("Type", type);
@@ -107,8 +107,8 @@ namespace teset2
                         img = rdr.GetString(0),
                         video = rdr.GetString(1),
                         caption = rdr.GetString(2),
-                        type = rdr.GetString(3)
-
+                        type = rdr.GetString(3),
+                        id = rdr.GetInt32(4)
                     });
 
                 }

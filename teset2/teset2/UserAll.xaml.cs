@@ -164,33 +164,34 @@ namespace teset2
             }
 
         }
-
         public void easy()
         {
             IMG = DataAccess.FilterMode("Easy");
             MediaCall();
 
         }
+
         public void moderate()
         {
             IMG = DataAccess.FilterMode("Moderate");
             MediaCall();
 
         }
+
         public void challenge()
         {
             IMG = DataAccess.FilterMode("Challenge");
             MediaCall();
 
-
         }
+
         public void all()
         {
             IMG = DataAccess.picture();
             MediaCall();
 
-
         }
+
     }
 }
 
