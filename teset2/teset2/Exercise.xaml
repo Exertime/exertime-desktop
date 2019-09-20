@@ -9,7 +9,7 @@
 
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
 
-        <Grid>
+        <Grid Margin="-10,-68,10,68">
             <MediaElement Name="Player1" LoadedBehavior="Manual" Margin="0,0,0,275" />
             <Button Name="btn1" Click="vedio" Background="White" BorderBrush="White" Margin="53,0,45,275" Height="Auto">
                 <Image Name="img1"></Image>

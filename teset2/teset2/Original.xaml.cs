@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,18 +21,156 @@ namespace teset2
     /// </summary>
     public partial class Original : UserControl
     {
-       
+        public UserAll temp = new UserAll();
 
-        public int type;
-
+      
+        private List<recentList> IMGR;
         public Original()
         {
             InitializeComponent();
+            MediaCall();
         }
         public delegate void Delegate();
-        public event Delegate all;
+        public event Delegate all,back,exercise1,exercise2;
+
+        public void MediaCall()
+        {
+
+            IMGR = DataAccess.Recent();
+            int IDD = 0;
+
+            int n = 0;
 
 
+            foreach (recentList e in IMGR)
+            {
+                int i = 0;
+
+                List<exerciesList> ex = new List<exerciesList>();
+
+
+                System.Windows.Controls.Image newImage = new System.Windows.Controls.Image();
+                string datasource1 = "Data Source=.\\Test.db;Version=3;";
+                string sql1 = "select Img, Video, Caption, Calculation, Id from tt where Caption = '" + e.name + "'";
+                SQLiteConnection conn = new SQLiteConnection(datasource1);
+                SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+                SQLiteDataReader rdr;
+
+                conn.Open();
+                rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    ex.Add(new exerciesList
+                    {
+                        img = rdr.GetString(0),
+                        video = rdr.GetString(1),
+                        caption = rdr.GetString(2),
+                        calculation = rdr.GetString(3),
+                        id = rdr.GetInt32(4)
+                    });
+
+                }
+
+
+
+                foreach (exerciesList exc in ex)
+                {
+                    if (n == 5)
+                    {
+                        break;
+                    }
+                    BitmapImage src = new BitmapImage();
+                    src.BeginInit();
+                    var filename = exc.img;
+                    src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
+                    src.EndInit();
+                    newImage.Source = src;
+                    newImage.Height = 200;
+                    newImage.Width = 200;
+                    newImage.Stretch = Stretch.Uniform;
+
+                    newImage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                    newImage.VerticalAlignment = VerticalAlignment.Top;
+
+                    StackPanel stackPnl = new StackPanel();
+                    stackPnl.Orientation = System.Windows.Controls.Orientation.Horizontal;
+                    stackPnl.Children.Add(newImage);  //put newImage into stack panel
+                    System.Windows.Controls.Button btn = new System.Windows.Controls.Button();        // Create button
+                                                                                                      /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
+                                                                                                       * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
+                    btn.Name = "btn_" + exc.id.ToString();  //Put name on each button
+                                                            //btn.Uid = e.caption;
+                    n += 1;    // as many as the number of data in database
+
+
+
+
+                    btn.Content = stackPnl;   //Put image into button
+
+                    btn.Click += new RoutedEventHandler(doCall);  //for button event
+
+                    btn.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, 0, 80, 80));
+                    btn.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                    btn.VerticalAlignment = VerticalAlignment.Top;
+                    btn.Margin = new Thickness(10);
+                    btn.Height = 150;
+                    wp_img.Children.Add(btn);  //Put buttons into Wrap panel
+
+                    IDD = exc.id;
+
+                }
+
+            }
+
+
+
+
+
+
+        }
+
+        public string id;
+           public string type;
+        private void doCall(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Controls.Button btn = (sender as System.Windows.Controls.Button);
+            string strId = null;
+
+            if (btn != null)
+            {
+                strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
+                //  strId = btn.Name;
+                //IMG = DataAccess.Load(Int32.Parse(strId));
+                id = strId;
+
+
+                List<exerciesList> CAP;
+                temp.id = id;
+             
+                CAP = DataAccess.Load(Int32.Parse(id));
+                foreach (exerciesList exList in CAP)
+                {
+                    var exercise = exList.calculation;
+                    if (exercise == "Timed")
+                    {
+
+                        exercise1();
+
+                    }
+                    else
+                    {
+
+                        exercise2();
+                    }
+                    type = exercise;
+                }
+
+
+
+
+            }
+            back();
+        }
 
         private void All_Click(object sender, RoutedEventArgs e)
         {
@@ -45,15 +184,7 @@ namespace teset2
         }
      
 
-        //private void AppearButton1()
-        //{
-        //    back();
-        //}
-
-        //private void AppearButton()
-        //{
-        //    exitEvent();
-        //}
+  
 
     }
 }

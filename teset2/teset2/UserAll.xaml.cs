@@ -120,20 +120,20 @@ namespace teset2
                         var exercise = exList.calculation;
                     if(exercise == "Timed")
                     {
-                        MessageBox.Show("01");
+                      
                         exercise1();
 
                     }
                     else
                     {
-                        MessageBox.Show("02");
+                        
                         exercise2();
                     }
                     type = exercise;
                 }
 
               
-                MessageBox.Show(id);
+       
                 
 
             }

@@ -161,7 +161,7 @@ namespace teset2
         {
             List<recentList> rct = new List<recentList>();
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            string sql1 = "select Id, Name from Submission";
+            string sql1 = "select distinct Name from Submission order by DATETIME DESC";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             SQLiteDataReader rdr;
@@ -175,8 +175,8 @@ namespace teset2
                     rct.Add(new recentList
                     {
                         
-                        id = rdr.GetInt32(0),
-                        name = rdr.GetString(1)
+                 
+                        name = rdr.GetString(0)
 
                     });
 

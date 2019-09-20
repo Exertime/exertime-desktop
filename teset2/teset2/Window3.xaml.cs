@@ -33,9 +33,9 @@ namespace teset2
 
 
         private UserAll temp = new UserAll();
-
+        private Original temp1 = new Original();
         private List<recentList> IMGR;
-        private List<exerciesList> IMGE;
+
 
         private HookKeyBoard hkb = null;
         private Grid CON;
@@ -57,84 +57,98 @@ namespace teset2
             int IDD = 0;
 
             int n = 0;
+
+
             foreach (recentList e in IMGR)
             {
-                List<exerciesList> ex = new List<exerciesList>();
+                int i = 0;
+               
+                    List<exerciesList> ex = new List<exerciesList>();
 
-                System.Windows.Controls.Image newImage = new System.Windows.Controls.Image();
-                string datasource1 = "Data Source=.\\Test.db;Version=3;";
-                string sql1 = "select Img, Video, Caption, Calculation, Id from tt where Caption = '" + e.name + "'";
-                SQLiteConnection conn = new SQLiteConnection(datasource1);
-                SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
-                SQLiteDataReader rdr;
 
-                conn.Open();
-                rdr = cmd.ExecuteReader();
-                while (rdr.Read())
-                {
-                    ex.Add(new exerciesList
+                    System.Windows.Controls.Image newImage = new System.Windows.Controls.Image();
+                    string datasource1 = "Data Source=.\\Test.db;Version=3;";
+                    string sql1 = "select Img, Video, Caption, Calculation, Id from tt where Caption = '" + e.name + "'";
+                    SQLiteConnection conn = new SQLiteConnection(datasource1);
+                    SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+                    SQLiteDataReader rdr;
+
+                    conn.Open();
+                    rdr = cmd.ExecuteReader();
+                    while (rdr.Read())
                     {
-                        img = rdr.GetString(0),
-                        video = rdr.GetString(1),
-                        caption = rdr.GetString(2),
-                        calculation = rdr.GetString(3),
-                        id = rdr.GetInt32(4)
-                    });
+                        ex.Add(new exerciesList
+                        {
+                            img = rdr.GetString(0),
+                            video = rdr.GetString(1),
+                            caption = rdr.GetString(2),
+                            calculation = rdr.GetString(3),
+                            id = rdr.GetInt32(4)
+                        });
 
-                }
+                    }
 
-           
 
-                foreach (exerciesList exc in ex) {
+
+                    foreach (exerciesList exc in ex)
+                    {
+                    if (n == 5)
+                    {
+                        break;
+                    }
                     BitmapImage src = new BitmapImage();
-                    src.BeginInit();
-                    var filename = exc.img;
-                    src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
-                    src.EndInit();
-                    newImage.Source = src;
-                    newImage.Height = 200;
-                    newImage.Width = 200;
-                    newImage.Stretch = Stretch.Uniform;
+                        src.BeginInit();
+                        var filename = exc.img;
+                        src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
+                        src.EndInit();
+                        newImage.Source = src;
+                        newImage.Height = 200;
+                        newImage.Width = 200;
+                        newImage.Stretch = Stretch.Uniform;
 
-                    newImage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
-                    newImage.VerticalAlignment = VerticalAlignment.Top;
+                        newImage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                        newImage.VerticalAlignment = VerticalAlignment.Top;
 
-                    StackPanel stackPnl = new StackPanel();
-                    stackPnl.Orientation = System.Windows.Controls.Orientation.Horizontal;
-                    stackPnl.Children.Add(newImage);  //put newImage into stack panel
-                    System.Windows.Controls.Button btn = new System.Windows.Controls.Button();        // Create button
-                                                                                                      /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
-                                                                                                       * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
-                    btn.Name = "btn_" + e.id.ToString();  //Put name on each button
-                                                          //btn.Uid = e.caption;
-                    n += 1;    // as many as the number of data in database
-
-
+                        StackPanel stackPnl = new StackPanel();
+                        stackPnl.Orientation = System.Windows.Controls.Orientation.Horizontal;
+                        stackPnl.Children.Add(newImage);  //put newImage into stack panel
+                        System.Windows.Controls.Button btn = new System.Windows.Controls.Button();        // Create button
+                                                                                                          /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
+                                                                                                           * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
+                        btn.Name = "btn_" + exc.id.ToString();  //Put name on each button
+                                                                //btn.Uid = e.caption;
+                        n += 1;    // as many as the number of data in database
 
 
-                    btn.Content = stackPnl;   //Put image into button
 
-                    btn.Click += new RoutedEventHandler(doCall);  //for button event
 
-                    btn.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, 0, 80, 80));
-                    btn.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
-                    btn.VerticalAlignment = VerticalAlignment.Top;
-                    btn.Margin = new Thickness(10);
-                    btn.Height = 150;
-                    wp_img.Children.Add(btn);  //Put buttons into Wrap panel
+                        btn.Content = stackPnl;   //Put image into button
 
-                    IDD = exc.id;
-                    
+                        btn.Click += new RoutedEventHandler(doCall);  //for button event
+
+                        btn.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, 0, 80, 80));
+                        btn.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                        btn.VerticalAlignment = VerticalAlignment.Top;
+                        btn.Margin = new Thickness(10);
+                        btn.Height = 150;
+                        wp_img.Children.Add(btn);  //Put buttons into Wrap panel
+
+                        IDD = exc.id;
+                 
+                    }
+                  
                 }
-                temp.id = IDD.ToString();
-            }
+                
+            
+            
 
             
-            System.Windows.MessageBox.Show(IDD.ToString());
+          
         }
 
         public string id;
         public string type;
+
         private void doCall(object sender, RoutedEventArgs e)
         {
 
@@ -147,23 +161,23 @@ namespace teset2
                 //  strId = btn.Name;
                 //IMG = DataAccess.Load(Int32.Parse(strId));
                 id = strId;
-
+               
 
                 List<exerciesList> CAP;
-
+                temp.id = id;
                 CAP = DataAccess.Load(Int32.Parse(id));
                 foreach (exerciesList exList in CAP)
                 {
                     var exercise = exList.calculation;
                     if (exercise == "Timed")
                     {
-                        
+                       
                         exercisePage1();
 
                     }
                     else
                     {
-                        
+                       
                         exercisePage2();
                     }
                     type = exercise;
@@ -258,21 +272,19 @@ namespace teset2
             contents.Children.Clear();
             teset2.Original original = new Original();
             original.all += new Original.Delegate(OAll);
-           
+            original.back += new Original.Delegate(AppearButton2);
+            original.exercise1 += new Original.Delegate(exercisePage11);
+            original.exercise2 += new Original.Delegate(exercisePage22);
             contents.Children.Add(original);
+            temp1 = original;
+    
+
+            
             Level.Visibility = Visibility.Hidden;
             exit.Visibility = Visibility.Hidden;
             Back.Visibility = Visibility.Hidden;
         }
 
-        //private void AppearButton()
-        //{
-        //    Level.Visibility = Visibility.Visible;
-        //}
-        //private void levelHid()
-        //{
-        //    Level.Visibility = Visibility.Hidden;
-        //}
         public delegate void Delegate();
         public event Delegate window;
 
@@ -282,12 +294,39 @@ namespace teset2
             this.Close();
         }
 
-        //private void AppearButton2()
-        //{
-        //    Back.Visibility = Visibility.Visible;
-        //}
+        private void AppearButton2()
+        {
+            Back.Visibility = Visibility.Visible;
+        }
         private string time;
         private Exercise Ex;
+
+        private void exercisePage11()
+        {
+
+            contents.Children.Clear();
+            Exercise ex = new Exercise();
+            ex.submit += new Exercise.Delegate(submitPage1);
+
+            ex.id = temp1.id;
+            Ex = ex;
+            ex.vedio1();
+            contents.Children.Add(ex);
+            Level.Visibility = Visibility.Hidden;
+        }
+
+        private void exercisePage22()
+        {
+            contents.Children.Clear();
+            Exercise ex = new Exercise();
+            ex.submit += new Exercise.Delegate(submitPage2);
+            ex.id = temp1.id;
+            Ex = ex;
+            ex.vedio1();
+            ex.tital.Visibility = Visibility.Visible;
+            contents.Children.Add(ex);
+            Level.Visibility = Visibility.Hidden;
+        }
 
         private void exercisePage1()
         {
@@ -295,6 +334,7 @@ namespace teset2
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage1);
+            
             ex.id = temp.id;
             Ex = ex;
             ex.vedio1();

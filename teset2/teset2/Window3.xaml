@@ -11,22 +11,24 @@
             <Image Height="50" Margin="0,0,544,0"  HorizontalAlignment="Left" Source="logo.png" />
         </StackPanel>
 
-       
 
 
 
-            <Grid x:Name="Level" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Margin="0,65,0,419.667" Visibility="Hidden">
+        
+        <Grid x:Name="Level" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Margin="0,65,0,419.667" Visibility="Hidden">
+           
             <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="183,12,474,6" Click="Button_Click_4"/>
             <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="284,12,373,6" Click="Button_Click_1"/>
                 <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="385,12,272,6" Click="Button_Click_2" />
                 <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="486,12,172,6" Click="Button_Click_3"/>
             </Grid>
             <Grid x:Name="contents" Margin="10,120,10,-0.333" >
-                <Button Name="All" Click="All_Click" Content="All Videos" HorizontalAlignment="Right" Margin="0,0,-15,0.333" VerticalAlignment="Bottom" FontSize="20" Width="500" Height="70" Background="White" Foreground="Black"/>
-             
-                <TextBlock Text="Recently Completed Activities" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,-38,0,0"   Width="400" Height="60"  />
+            <TextBlock Name="title" Text="Recently Completed Activities" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,-38,0,0"   Width="400" Height="60"  />
+
+            <Button Name="All" Click="All_Click" Content="All Videos" HorizontalAlignment="Right" Margin="0,0,-15,0.333" VerticalAlignment="Bottom" FontSize="20" Width="500" Height="70" Background="White" Foreground="Black"/>
             <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" Height="900" VerticalAlignment="Top" Width="1800" Margin="0,0,-1052,-484.667"/>
         </Grid>
+        
 
 
             <Button Visibility="Hidden" Content="Back" Name="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Back_Click"/>
