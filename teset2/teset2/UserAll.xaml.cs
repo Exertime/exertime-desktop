@@ -31,7 +31,7 @@ namespace teset2
         public int value = 0;
 
         public delegate void Delegate();
-        public event Delegate exercise;
+        public event Delegate exercise1,exercise2;
 
         private List<exerciesList> IMG;
       
@@ -124,21 +124,11 @@ namespace teset2
 
 
 
-        public string exerciseName;
+  
         public string id;
+        public string type;
         private void doCall(object sender, RoutedEventArgs e)
         {
-            //Button btn = (sender as Button);
-
-            //if (btn != null)
-            //{
-            //    this.exerciseName = btn.Name;
-            //    exercise();
-            //    //contents.Children.Clear();
-            //    //Exercise ex = new Exercise();
-            //    //ex.value = value;
-            //    //contents.Children.Add(ex);
-            //}
 
             Button btn = (sender as Button);
             string strId = null;
@@ -149,17 +139,31 @@ namespace teset2
                 //  strId = btn.Name;
                 //IMG = DataAccess.Load(Int32.Parse(strId));
                 id = strId;
+
+
+                List<exerciesList> CAP;
+            
+                    CAP = DataAccess.Load(Int32.Parse(id));
+                    foreach (exerciesList exList in CAP)
+                    {
+                        var exercise = exList.calculation;
+                    if(exercise == "Timed")
+                    {
+                        MessageBox.Show("01");
+                        exercise1();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("02");
+                        exercise2();
+                    }
+                    type = exercise;
+                }
+
+              
                 MessageBox.Show(id);
-                exercise();
-                // Play Videos
-                //foreach (exerciesList exList in IMG)
-                //{
-                //    // MessageBox.Show(exList.video);
-                //    var filename1 = exList.video;
-                //    mediavid.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
-                //    mediavid.Close();
-                //    mediavid.Play();
-                //}
+                
 
             }
 

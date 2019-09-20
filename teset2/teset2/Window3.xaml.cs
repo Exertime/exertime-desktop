@@ -102,7 +102,8 @@ namespace teset2
 
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
-            all.exercise += new UserAll.Delegate(exercisePage1);
+            all.exercise1 += new UserAll.Delegate(exercisePage1);
+            all.exercise2 += new UserAll.Delegate(exercisePage2);
             temp = all;
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
@@ -113,7 +114,8 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
-            all.exercise += new UserAll.Delegate(exercisePage1);
+            all.exercise1 += new UserAll.Delegate(exercisePage1);
+            all.exercise2 += new UserAll.Delegate(exercisePage2);
             temp = all;
             contents.Children.Add(all);
             Level.Visibility = Visibility.Visible;
@@ -207,10 +209,13 @@ namespace teset2
 
         private void exercisePage1()
         {
+
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage1);
+            ex.id = temp.id;
             Ex = ex;
+            ex.vedio1();
             contents.Children.Add(ex);
             Level.Visibility = Visibility.Hidden;
         }
@@ -220,11 +225,14 @@ namespace teset2
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage2);
+            ex.id = temp.id;
             Ex = ex;
+            ex.vedio1();
             ex.tital.Visibility = Visibility.Visible;
             contents.Children.Add(ex);
             Level.Visibility = Visibility.Hidden;
         }
+
 
         private submit subtext;
 
@@ -297,10 +305,19 @@ namespace teset2
 
         }
 
+        List<exerciesList> CAP;
         private void Sub()
         {
-            DataAccess.Submit("UA.exerciseName", Ex.CD, subtext.text, Ex.type);
+            CAP = DataAccess.Load(Int32.Parse(temp.id));
+            foreach (exerciesList exList in CAP)
+            {
+                var exercise = exList.caption;
+                DataAccess.Submit(exercise, Ex.CD, subtext.text,temp.type);
+                this.Close();
+            }
+
         }
+
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {

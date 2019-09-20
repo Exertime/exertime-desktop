@@ -126,7 +126,7 @@ namespace teset2
         {
             List<exerciesList> ex = new List<exerciesList>();
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            string sql1 = "select Img, Video, Caption from tt where Id = ?";
+            string sql1 = "select Img, Video, Caption, Calculation from tt where Id = ?";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             cmd.Parameters.AddWithValue("Id", id);
@@ -142,7 +142,8 @@ namespace teset2
                     {
                         img = rdr.GetString(0),
                         video = rdr.GetString(1),
-                        caption = rdr.GetString(2)
+                        caption = rdr.GetString(2),
+                        calculation = rdr.GetString(3)
                     });
 
                 }
@@ -156,7 +157,7 @@ namespace teset2
             return ex;
         }
 
-        public static void Submit(string name,int time,string rep, int type)
+        public static void Submit(string name,int time,string rep, string type)
         {
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
             string sql1 = "INSERT INTO Submission (Name,Time,Repetitions,Type,DateTime)VALUES('"+name+"','"+time+"','"+rep+"','"+type+"',CURRENT_TIMESTAMP)";
