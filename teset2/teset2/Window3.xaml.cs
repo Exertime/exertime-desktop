@@ -18,8 +18,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Threading;
-
-
+using System.Data.SQLite;
 
 namespace teset2
 {
@@ -33,19 +32,148 @@ namespace teset2
         private UserAll UA;
 
 
-        private UserAll temp;
+        private UserAll temp = new UserAll();
 
-       
+        private List<recentList> IMGR;
+        private List<exerciesList> IMGE;
 
         private HookKeyBoard hkb = null;
         private Grid CON;
         public Window3()
         {
             InitializeComponent();
+            IMGR = DataAccess.Recent();
+
+            MediaCall();
+
             Loaded += new RoutedEventHandler(Window3_Loaded);
             CON = this.contents;
 
             
+        }
+
+        public void MediaCall()
+        {
+            int IDD = 0;
+
+            int n = 0;
+            foreach (recentList e in IMGR)
+            {
+                List<exerciesList> ex = new List<exerciesList>();
+
+                System.Windows.Controls.Image newImage = new System.Windows.Controls.Image();
+                string datasource1 = "Data Source=.\\Test.db;Version=3;";
+                string sql1 = "select Img, Video, Caption, Calculation, Id from tt where Caption = '" + e.name + "'";
+                SQLiteConnection conn = new SQLiteConnection(datasource1);
+                SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+                SQLiteDataReader rdr;
+
+                conn.Open();
+                rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    ex.Add(new exerciesList
+                    {
+                        img = rdr.GetString(0),
+                        video = rdr.GetString(1),
+                        caption = rdr.GetString(2),
+                        calculation = rdr.GetString(3),
+                        id = rdr.GetInt32(4)
+                    });
+
+                }
+
+           
+
+                foreach (exerciesList exc in ex) {
+                    BitmapImage src = new BitmapImage();
+                    src.BeginInit();
+                    var filename = exc.img;
+                    src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
+                    src.EndInit();
+                    newImage.Source = src;
+                    newImage.Height = 200;
+                    newImage.Width = 200;
+                    newImage.Stretch = Stretch.Uniform;
+
+                    newImage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                    newImage.VerticalAlignment = VerticalAlignment.Top;
+
+                    StackPanel stackPnl = new StackPanel();
+                    stackPnl.Orientation = System.Windows.Controls.Orientation.Horizontal;
+                    stackPnl.Children.Add(newImage);  //put newImage into stack panel
+                    System.Windows.Controls.Button btn = new System.Windows.Controls.Button();        // Create button
+                                                                                                      /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
+                                                                                                       * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
+                    btn.Name = "btn_" + e.id.ToString();  //Put name on each button
+                                                          //btn.Uid = e.caption;
+                    n += 1;    // as many as the number of data in database
+
+
+
+
+                    btn.Content = stackPnl;   //Put image into button
+
+                    btn.Click += new RoutedEventHandler(doCall);  //for button event
+
+                    btn.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, 0, 80, 80));
+                    btn.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                    btn.VerticalAlignment = VerticalAlignment.Top;
+                    btn.Margin = new Thickness(10);
+                    btn.Height = 150;
+                    wp_img.Children.Add(btn);  //Put buttons into Wrap panel
+
+                    IDD = exc.id;
+                    
+                }
+                temp.id = IDD.ToString();
+            }
+
+            
+            System.Windows.MessageBox.Show(IDD.ToString());
+        }
+
+        public string id;
+        public string type;
+        private void doCall(object sender, RoutedEventArgs e)
+        {
+
+            System.Windows.Controls.Button btn = (sender as System.Windows.Controls.Button);
+            string strId = null;
+
+            if (btn != null)
+            {
+                strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
+                //  strId = btn.Name;
+                //IMG = DataAccess.Load(Int32.Parse(strId));
+                id = strId;
+
+
+                List<exerciesList> CAP;
+
+                CAP = DataAccess.Load(Int32.Parse(id));
+                foreach (exerciesList exList in CAP)
+                {
+                    var exercise = exList.calculation;
+                    if (exercise == "Timed")
+                    {
+                        
+                        exercisePage1();
+
+                    }
+                    else
+                    {
+                        
+                        exercisePage2();
+                    }
+                    type = exercise;
+                }
+
+
+            
+
+            }
+            Back.Visibility = Visibility.Visible;
         }
         private void Window3_Loaded(object sender, RoutedEventArgs e)
         {
@@ -122,51 +250,6 @@ namespace teset2
             Back.Visibility = Visibility.Visible;
         }
 
-        private void Favourite_Click(object sender, RoutedEventArgs e)
-        {
-            contents.Children.Clear();
-            teset2.UserFavorite favorite = new UserFavorite();
-            favorite.exercise1 += new UserFavorite.Delegate(exercisePage1);
-            favorite.exercise2 += new UserFavorite.Delegate(exercisePage2);
-           //favorite.value = 1;
-            contents.Children.Add(favorite);
-            Level.Visibility = Visibility.Visible;
-            Back.Visibility = Visibility.Visible;
-        }
-
-        private void OFAV()
-        {
-            contents.Children.Clear();
-            teset2.UserFavorite favorite = new UserFavorite();
-            favorite.exercise1 += new UserFavorite.Delegate(exercisePage1);
-            favorite.exercise2 += new UserFavorite.Delegate(exercisePage2);
-            //favorite.value = 1;
-            contents.Children.Add(favorite);
-            Level.Visibility = Visibility.Visible;
-            Back.Visibility = Visibility.Visible;
-        }
-    
-        private void Random_Click(object sender, RoutedEventArgs e)
-        {
-            contents.Children.Clear();
-            teset2.UserRandom Ran = new UserRandom();
-            Ran.exercise1 += new UserRandom.Delegate(exercisePage1);
-            Ran.exercise2 += new UserRandom.Delegate(exercisePage2);
-            //Ran.value = 1;
-            contents.Children.Add(Ran);
-            Back.Visibility = Visibility.Visible;
-        }
-
-        private void ORAN()
-        {
-            contents.Children.Clear();
-            teset2.UserRandom Ran = new UserRandom();
-            Ran.exercise1 += new UserRandom.Delegate(exercisePage1);
-            Ran.exercise2 += new UserRandom.Delegate(exercisePage2);
-            //Ran.value = 1;
-            contents.Children.Add(Ran);
-            Back.Visibility = Visibility.Visible;
-        }
 
 
 
@@ -175,8 +258,7 @@ namespace teset2
             contents.Children.Clear();
             teset2.Original original = new Original();
             original.all += new Original.Delegate(OAll);
-            original.fav += new Original.Delegate(OFAV);
-            original.ran += new Original.Delegate(ORAN);
+           
             contents.Children.Add(original);
             Level.Visibility = Visibility.Hidden;
             exit.Visibility = Visibility.Hidden;

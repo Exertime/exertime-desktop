@@ -29,7 +29,7 @@ namespace teset2
             InitializeComponent();
         }
         public delegate void Delegate();
-        public event Delegate all,fav,ran;
+        public event Delegate all;
 
 
 
@@ -43,34 +43,7 @@ namespace teset2
 
 
         }
-        private void Favourite_Click(object sender, RoutedEventArgs e)
-        {
-            // contents.Children.Clear();
-            // teset2.UserFavorite favorite = new UserFavorite();
-            //// favorite.exitEvent += new UserFavorite.ExitDelegate(AppearButton);
-            // if (type == 1)
-            // {
-            //     favorite.value = 1;
-            // }
-            // contents.Children.Add(favorite);
-            // AppearButton1();
-            fav();
-
-
-        }
-        private void Random_Click(object sender, RoutedEventArgs e)
-        {
-            // contents.Children.Clear();
-            // teset2.UserRandom Ran = new UserRandom();
-            //// Ran.exitEvent += new UserRandom.ExitDelegate(AppearButton);
-            // if (type == 1)
-            // {
-            //    // Ran.value = 1;
-            // }
-            // contents.Children.Add(Ran);
-            // AppearButton1();
-            ran();
-        }
+     
 
         //private void AppearButton1()
         //{

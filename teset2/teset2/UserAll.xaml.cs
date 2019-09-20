@@ -24,11 +24,8 @@ namespace teset2
     /// </summary>
     public partial class UserAll : UserControl
     {
-        //private const string db = "kit206";
-        //private const string user = "kit206";
-        //private const string pass = "kit206";
-        //private const string server = "alacritas.cis.utas.edu.au";
-        public int value = 0;
+
+
 
         public delegate void Delegate();
         public event Delegate exercise1,exercise2;
@@ -38,32 +35,6 @@ namespace teset2
 
         public UserAll()
         {
-            //    InitializeComponent();
-
-            //        //Note: This approach is not thread-safe
-            //    string connectionString = String.Format("Database={0};Data Source={1};User Id={2};Password={3}", db, server, user, pass);
-
-            //    MySqlConnection conn = new MySqlConnection(connectionString);
-
-            //    MySqlCommand cmd = new MySqlCommand("select * from class", conn);
-            //    conn.Open();
-            //    DataTable dt = new DataTable();
-            //    dt.Load(cmd.ExecuteReader());
-            //    conn.Close();
-            //    dtGrid.DataContext = dt;
-
-
-
-
-            //}
-            //public delegate void ExitDelegate();
-            //public event ExitDelegate exitEvent;
-
-            //private void AppearButton()
-            //{
-            //    exitEvent();
-            //}
-
             InitializeComponent();
 
             IMG = DataAccess.picture();

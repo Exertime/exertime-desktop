@@ -86,6 +86,7 @@
       <DependentUpon>Original.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProcessCount.cs" />
+    <Compile Include="recentList.cs" />
     <Compile Include="submit.xaml.cs">
       <DependentUpon>submit.xaml</DependentUpon>
     </Compile>

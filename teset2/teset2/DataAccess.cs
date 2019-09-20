@@ -157,6 +157,39 @@ namespace teset2
             return ex;
         }
 
+        public static List<recentList> Recent()
+        {
+            List<recentList> rct = new List<recentList>();
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            string sql1 = "select Id, Name from Submission";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            SQLiteDataReader rdr;
+
+            try
+            {
+                conn.Open();
+                rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    rct.Add(new recentList
+                    {
+                        
+                        id = rdr.GetInt32(0),
+                        name = rdr.GetString(1)
+
+                    });
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            return rct;
+
+        }
         public static void Submit(string name,int time,string rep, string type)
         {
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
