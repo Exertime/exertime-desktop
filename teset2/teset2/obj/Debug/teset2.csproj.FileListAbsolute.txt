@@ -431,3 +431,5 @@ C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2
 C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
 C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml

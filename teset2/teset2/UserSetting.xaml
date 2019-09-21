@@ -17,34 +17,36 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
             
         
         <RowDefinition/></Grid.RowDefinitions>
-        <TextBlock Text="User Name" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0"/>
-        <TextBox Name="username" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1"/>
-        <TextBlock Text="Given Name" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0"/>
-        <TextBox Name="givenname" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"/>
-        <TextBlock Text="Surname" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0"/>
-        <TextBox Name="surname" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1"/>
-        <TextBlock Text="Preferred Name" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="3" Grid.Column="0"/>
-        <TextBox Name="preferredname" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1"/>
-        <TextBlock Text="Email" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="4" Grid.Column="0"/>
-        <TextBox Name="email" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Grid.Column="1"/>
-        <TextBlock Text="DOB" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="5" Grid.Column="0"/>
-        <TextBox Name="dob" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="5" Grid.Column="1"/>
-        <TextBlock Text="Gender" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="6" Grid.Column="0"/>
-        <TextBox Name="gender" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="6" Grid.Column="1"/>
-        <TextBlock Text="Job Title" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="7" Grid.Column="0"/>
-        <TextBox Name="jobtitle" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="7" Grid.Column="1"/>
-        <TextBlock Text="Calorie Goal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="8" Grid.Column="0"/>
-        <TextBox Name="caloriegoal" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="8" Grid.Column="1"/>
+        <TextBlock Text="User Name: " HorizontalAlignment="Right" FontSize="23" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Name="username" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock Text="Given Name: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Name="givenname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock Text="Surname: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0"/>
+        <TextBox Name="surname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock Text="Preferred Name: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="3" Grid.Column="0"/>
+        <TextBox Name="preferredname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock Text="Email: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="4" Grid.Column="0"/>
+        <TextBox Name="email" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Grid.Column="1"/>
+        <TextBlock Text="DOB: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="5" Grid.Column="0"/>
+        <TextBox Name="dob" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="5" Grid.Column="1"/>
+        <TextBlock Text="Gender: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="6" Grid.Column="0"/>
+        <TextBox Name="gender" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="6" Grid.Column="1"/>
+        <TextBlock Text="Job Title: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="7" Grid.Column="0"/>
+        <TextBox Name="jobtitle" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="7" Grid.Column="1"/>
+        <TextBlock Text="Calorie Goal: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="8" Grid.Column="0"/>
+        <TextBox Name="caloriegoal" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="8" Grid.Column="1"/>
+        <Button Name="save" Content="Save" Width="150" Grid.Row="9" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Click="save_click"/>
     </Grid>
 </UserControl>

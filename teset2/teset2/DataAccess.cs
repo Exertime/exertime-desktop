@@ -190,10 +190,68 @@ namespace teset2
             return rct;
 
         }
+
+
+        public static List<userPreferenceList> setting()
+        {
+            List<userPreferenceList> upl = new List<userPreferenceList>();
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            string sql1 = "select Username, GivenName, Surname, PreferredName, Email, DOB, Gender, JobTitle, CalorieGoal from Setting where ID = 1";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            SQLiteDataReader rdr;
+          
+
+            try
+            {
+                conn.Open();
+                rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    upl.Add(new userPreferenceList
+                    {
+                        username = rdr.GetString(0),
+                        givenname = rdr.GetString(1),
+                        surname = rdr.GetString(2),
+                        preferredname = rdr.GetString(3),
+                        email = rdr.GetString(4),
+                        DOB = rdr.GetString(5),
+                        gender = rdr.GetString(6),
+                        jobtitle = rdr.GetString(7),
+                        caloriegoal = rdr.GetInt32(8)
+
+
+                        
+
+                    });
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            return upl;
+        }
+
+
+
         public static void Submit(string name,int time,string rep, string type)
         {
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
             string sql1 = "INSERT INTO Submission (Name,Time,Repetitions,Type,DateTime)VALUES('"+name+"','"+time+"','"+rep+"','"+type+"',CURRENT_TIMESTAMP)";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            cmd.Connection.Open();
+            cmd.ExecuteNonQuery();
+        }
+
+        public static void upDate(string username, string givenname, string surname, string preferredname,string email, string dob, string gender, string jobtitle, int caloriegoal)
+        {
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            string sql1 = "UPDATE Setting SET Username = '"+username+"', GivenName = '"+givenname+"', Surname = '"+surname+"', PreferredName = '"+preferredname+"', Email = '"+email+"', DOB = '"+dob+"', Gender = '"+gender+"', JobTitle = '"+jobtitle+"', CalorieGoal = '"+caloriegoal+"' where ID = 1";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
 
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);

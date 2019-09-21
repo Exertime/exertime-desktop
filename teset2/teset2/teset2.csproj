@@ -108,6 +108,7 @@
     <Compile Include="UserModerate.xaml.cs">
       <DependentUpon>UserModerate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userPreferenceList.cs" />
     <Compile Include="UserRandom.xaml.cs">
       <DependentUpon>UserRandom.xaml</DependentUpon>
     </Compile>
