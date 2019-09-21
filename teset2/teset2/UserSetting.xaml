@@ -7,11 +7,44 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <StackPanel>
+        <!--<StackPanel>
             <TextBlock Text="Settings" FontFamily="Cooper Black">
 
             </TextBlock>
-        </StackPanel>
-
+        </StackPanel>-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            
+        
+        <RowDefinition/></Grid.RowDefinitions>
+        <TextBlock Text="User Name" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Name="username" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock Text="Given Name" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Name="givenname" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock Text="Surname" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0"/>
+        <TextBox Name="surname" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock Text="Preferred Name" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="3" Grid.Column="0"/>
+        <TextBox Name="preferredname" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock Text="Email" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="4" Grid.Column="0"/>
+        <TextBox Name="email" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Grid.Column="1"/>
+        <TextBlock Text="DOB" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="5" Grid.Column="0"/>
+        <TextBox Name="dob" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="5" Grid.Column="1"/>
+        <TextBlock Text="Gender" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="6" Grid.Column="0"/>
+        <TextBox Name="gender" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="6" Grid.Column="1"/>
+        <TextBlock Text="Job Title" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="7" Grid.Column="0"/>
+        <TextBox Name="jobtitle" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="7" Grid.Column="1"/>
+        <TextBlock Text="Calorie Goal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="8" Grid.Column="0"/>
+        <TextBox Name="caloriegoal" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="8" Grid.Column="1"/>
     </Grid>
 </UserControl>
