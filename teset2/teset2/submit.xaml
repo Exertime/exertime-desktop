@@ -12,5 +12,6 @@
         <Button Name="Sub" Content="Submit" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Submit_Click" />
         <Button Name="EX" Visibility="Hidden" Content="Submit-Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Exit" Margin="337,256,343,162" Width="120" />
         <TextBox Visibility="Hidden" InputMethod.IsInputMethodEnabled="False" PreviewTextInput="limitnumber" Name="Rep" Opacity="1" VerticalAlignment="Center" BorderThickness="1,1,1,1"  FontSize="23" HorizontalAlignment="Center" Height="40" Margin="386,95,201,315" TextWrapping="Wrap"  Width="213"/>
+     
     </Grid>
 </UserControl>

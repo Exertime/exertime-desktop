@@ -232,6 +232,7 @@ namespace teset2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            window();
             this.Close();
         }
         private void button1_Click1(object sender, RoutedEventArgs e)
@@ -366,6 +367,9 @@ namespace teset2
 
             sub.Tital.Text = Ex.time;
             sub.EX.Visibility = Visibility.Visible;
+            this.Dispatcher.Invoke(new Action(() => {
+                sub.Rep.Visibility = Visibility.Hidden;
+            }));
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
             sub.STAT += new submit.ExitDelegate(statisticsPage);
             sub.sub += new submit.ExitDelegate(Sub);
@@ -391,6 +395,9 @@ namespace teset2
             subtext = sub;
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
+            this.Dispatcher.Invoke(new Action(() => {
+                sub.Rep.Visibility = Visibility.Visible;
+            }));
             sub.Rep.Visibility = Visibility.Visible;
             sub.EX.Visibility = Visibility.Visible;
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);

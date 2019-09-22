@@ -140,6 +140,7 @@ namespace teset2
         public void Finish(object sender, EventArgs e)
         {
 
+
             processCount1 = new ProcessCount(CD);
             this.time = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
             submit();

@@ -19,12 +19,12 @@ namespace teset2
         public string jobtitle { get; set; }
         public int caloriegoal { get; set; }
 
-        public override string ToString()
-        {
-            //As part of step 2.3.2 and 2.3.4 in Week 9 tutorial, have modified this to display the work times and if the employee is currently busy
+        //public override string ToString()
+        //{
+        //    //As part of step 2.3.2 and 2.3.4 in Week 9 tutorial, have modified this to display the work times and if the employee is currently busy
 
-            return username;
-        }
+        //    return username;
+        //}
     }
 }
 

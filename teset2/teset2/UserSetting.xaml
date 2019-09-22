@@ -30,7 +30,7 @@
         
         <RowDefinition/></Grid.RowDefinitions>
         <TextBlock Text="User Name: " HorizontalAlignment="Right" FontSize="23" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0"/>
-        <TextBox Name="username" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1"/>
+        <TextBox Name="username" Text="12" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1"/>
         <TextBlock Text="Given Name: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0"/>
         <TextBox Name="givenname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"/>
         <TextBlock Text="Surname: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0"/>

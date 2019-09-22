@@ -199,6 +199,7 @@ namespace teset2
             string sql1 = "select Username, GivenName, Surname, PreferredName, Email, DOB, Gender, JobTitle, CalorieGoal from Setting where ID = 1";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+     
             SQLiteDataReader rdr;
           
 
