@@ -62,7 +62,7 @@ namespace teset2
                 var filename2 = exList.img;
                 Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
                 Player1.Close();
-                
+                MessageBox.Show(filename1);
                 img1.Source = new BitmapImage( new Uri(@".\resources\" + filename2, UriKind.Relative));
                
                 //Player1.Play();

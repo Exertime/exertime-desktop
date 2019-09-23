@@ -161,7 +161,8 @@ namespace teset2
         {
             List<recentList> rct = new List<recentList>();
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            string sql1 = "select distinct Name from Submission order by DATETIME DESC";
+            string sql1 = "select Name from Submission order by DATETIME DESC";
+           
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             SQLiteDataReader rdr;

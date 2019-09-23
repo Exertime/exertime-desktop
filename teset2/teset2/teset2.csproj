@@ -234,6 +234,18 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="resources\Exercise1.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="resources\Exercise2.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="resources\Exercise3.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="resources\Exercise4.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="resources\vid.mp4" />
     <None Include="Test.db" />
   </ItemGroup>
@@ -246,24 +258,6 @@
     <Resource Include="resources\2.jpg" />
     <Resource Include="resources\3.jpg" />
     <Resource Include="resources\4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="resources\001.jpg" />
-    <Resource Include="resources\002.jpg" />
-    <Resource Include="resources\003.jpg" />
-    <Resource Include="resources\004.jpg" />
-    <None Include="resources\Exercise1.mp4">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="resources\Exercise2.mp4">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="resources\Exercise3.mp4">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="resources\Exercise4.mp4">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
