@@ -432,3 +432,4 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resourc
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
