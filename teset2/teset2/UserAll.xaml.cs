@@ -57,9 +57,9 @@ namespace teset2
                 src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
                 src.EndInit();
                 newImage.Source = src;
-                newImage.Height = 200;
-                newImage.Width = 200;
-                newImage.Stretch = Stretch.Uniform;
+                newImage.Height = 150;
+                newImage.Width = 250;
+                newImage.Stretch = Stretch.Fill;
 
                 newImage.HorizontalAlignment = HorizontalAlignment.Left;
                 newImage.VerticalAlignment = VerticalAlignment.Top;
@@ -81,11 +81,16 @@ namespace teset2
 
                 btn.Click += new RoutedEventHandler(doCall);  //for button event
 
-                btn.Background = new SolidColorBrush(Color.FromArgb(255, 0, 80, 80));
+                //btn.Background = new SolidColorBrush(Color.FromArgb(255, 0, 80, 80)); //original
+                //btn.Background = new SolidColorBrush(Color.FromRgb(0, 154, 228)); //blue
+                btn.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255)); //white
+
+
                 btn.HorizontalAlignment = HorizontalAlignment.Left;
                 btn.VerticalAlignment = VerticalAlignment.Top;
                 btn.Margin = new Thickness(10);
                 btn.Height = 150;
+                btn.Width = 250;
                 wp_img.Children.Add(btn);  //Put buttons into Wrap panel
 
             }
