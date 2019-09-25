@@ -9,8 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using MySql.Data.Types;
-
 using MySql.Data.MySqlClient;
 
 namespace teset2
@@ -23,36 +21,48 @@ namespace teset2
 
         private const string pass = "kit301!CMS";
 
-        private const string server = "kit301-exertime.cis.utas.edu.au/phpmyadmin";
+        private const string server = "kit301-exertime.cis.utas.edu.au";
 
-       // private const string con = "Server=kit301-exertime.cis.utas.edu.au/phpmyadmin;Database=Exertime;Uid=root;Pwd=kit301!CMS;";
+       // private const string con = "Server=" + server + ";Database=" + db + ";User Id=" + user + ";Password=" + pass + "";
+       private const string con = "Server=kit301-exertime.cis.utas.edu.au;Database=Exertime;User Id='root';Password='kit301!CMS'";
 
+       // private const string con = "Server=alacritas.cis.utas.edu.au;Database=kit206;User Id=kit206;Password=kit206";
 
-        
 
         public static void login(string username,string password)
         {
 
-            //string con = String.Format("Database={0};Data Source={1};User Id={2};Password={3}", db, server, user, pass);
+         // string con = String.Format("Database={0};Data Source={1};User Id={2};Password={3};", db, server, user, pass);
 
-            //MySqlConnection mycon = new MySqlConnection(con);                     
+            MySqlConnection conn = new MySqlConnection(con);
 
-            //mycon.Open();
-            //try                                                                         
-            //{
-            //    string sql1 = "Select * from USERS where username = '" + username + "' ";
-            //    MySqlCommand sqlman = new MySqlCommand(sql1, mycon);
-            //    if (sqlman.ExecuteNonQuery() != 0)
-            //    {
-            //        MessageBox.Show("插入数据成功！");
-            //    }
-            //}
-            //catch (Exception)
-            //{
-            //    MessageBox.Show("插入数据错误！");
-            //}
 
-            
+            try
+            {
+                //string sql1 = "SELECT * FROM USERS WHERE id = 2 ";
+                //MessageBox.Show(sql1);
+
+
+                conn.Open();
+                MessageBox.Show("connect success！");
+                //        MySqlCommand sqlman = new MySqlCommand(sql1, conn);
+                //    if (sqlman.ExecuteNonQuery() != 0)
+                //    {
+                //        MessageBox.Show("插入数据成功！");
+                //    }
+                //}
+            }
+            catch (MySqlException)
+            {
+                MessageBox.Show("connect fail！");
+            }
+
+            finally
+            {
+                conn.Close();
+            }
+
+           // conn.Close();
 
         }
 

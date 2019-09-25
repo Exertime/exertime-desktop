@@ -174,7 +174,6 @@ P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
 C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
 C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
 C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
@@ -435,18 +434,26 @@ P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.Gene
 P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
 P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
@@ -496,4 +503,3 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\tes
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojAssemblyReference.cache
