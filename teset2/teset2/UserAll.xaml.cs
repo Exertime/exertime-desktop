@@ -50,23 +50,27 @@ namespace teset2
             {
 
 
-                Image newImage = new Image();
+                // Image newImage = new Image();
+                ImageBrush ib = new ImageBrush();
                 BitmapImage src = new BitmapImage();
                 src.BeginInit();
                 var filename = e;
                 src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
                 src.EndInit();
-                newImage.Source = src;
-                newImage.Height = 150;
-                newImage.Width = 250;
-                newImage.Stretch = Stretch.Fill;
 
-                newImage.HorizontalAlignment = HorizontalAlignment.Left;
-                newImage.VerticalAlignment = VerticalAlignment.Top;
+                ib.ImageSource = src;
+                ib.Stretch = Stretch.Fill;
+                //newImage.Source = src;
+                //newImage.Height = 150;
+                //newImage.Width = 250;
+                //newImage.Stretch = Stretch.Fill;
 
-                StackPanel stackPnl = new StackPanel();
-                stackPnl.Orientation = Orientation.Horizontal;
-                stackPnl.Children.Add(newImage);  //put newImage into stack panel
+                //newImage.HorizontalAlignment = HorizontalAlignment.Left;
+                //newImage.VerticalAlignment = VerticalAlignment.Top;
+
+                //StackPanel stackPnl = new StackPanel();
+                //stackPnl.Orientation = Orientation.Horizontal;
+                //stackPnl.Children.Add(newImage);  //put newImage into stack panel
                 Button btn = new Button();        // Create button
                                                   /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
                                                    * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
@@ -77,15 +81,15 @@ namespace teset2
 
 
 
-                btn.Content = stackPnl;   //Put image into button
+              // btn.Content = stackPnl;   //Put image into button
 
                 btn.Click += new RoutedEventHandler(doCall);  //for button event
 
                 //btn.Background = new SolidColorBrush(Color.FromArgb(255, 0, 80, 80)); //original
                 //btn.Background = new SolidColorBrush(Color.FromRgb(0, 154, 228)); //blue
-                btn.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255)); //white
+                // btn.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255)); //white
 
-
+                btn.Background = ib;
                 btn.HorizontalAlignment = HorizontalAlignment.Left;
                 btn.VerticalAlignment = VerticalAlignment.Top;
                 btn.Margin = new Thickness(10);

@@ -63,7 +63,14 @@ namespace teset2
                 Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
                 Player1.Close();
                 MessageBox.Show(filename1);
-                img1.Source = new BitmapImage( new Uri(@".\resources\" + filename2, UriKind.Relative));
+                BitmapImage src = new BitmapImage();
+                src.BeginInit();
+                src.UriSource = new Uri(@".\resources\" + filename2, UriKind.Relative);
+                src.EndInit();
+                ImageBrush ib = new ImageBrush();
+                ib.ImageSource = src;
+
+                btn1.Background = ib;
                
                 //Player1.Play();
             }
