@@ -239,11 +239,30 @@ namespace teset2
             }
         }
 
+        Thread t = new Thread(new ThreadStart(() =>
+        {
 
+            Thread.Sleep(5000);
+            Window1 w1 = new Window1();
+            // w1.window += new Window1.Delegate(win3);
+            w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+            w1.Show();
+            System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+        }));
+       
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            window();
+            // window();
+            this.Dispatcher.Invoke(System.Windows.Threading.DispatcherPriority.Normal, (ThreadStart)delegate ()
+            {
+
+                t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+                t.IsBackground = true;
+                t.Start();
+            });
             this.Close();
         }
         private void button1_Click1(object sender, RoutedEventArgs e)
@@ -298,11 +317,26 @@ namespace teset2
         }
 
         public delegate void Delegate();
-        public event Delegate window;
+       // public event Delegate window;
 
         private void AppearButton1()
         {
-            window();
+            //window();
+            Thread t = new Thread(new ThreadStart(() =>
+               {
+
+                   Thread.Sleep(5000);
+                   Window1 w1 = new Window1();
+                   //w1.window += new Window1.Delegate(win3);
+                   w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+                   w1.Show();
+                   System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+               }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
             this.Close();
         }
 

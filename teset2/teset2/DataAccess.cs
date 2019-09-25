@@ -9,48 +9,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using MySql.Data.Types;
+
+using MySql.Data.MySqlClient;
 
 namespace teset2
 {
     class DataAccess
     {
-        //public static List<exerciesList> fill_listbox()
-        //{
-        //    List<exerciesList> exe = new List<exerciesList>();
-        //    string datasource1 = "Data Source=.\\Test.db;Version=3;";
-        //    string sql1 = "select Id, Type, Caption, Status, Kj, Calculation, Img, Video from tt";
-        //    SQLiteConnection conn = new SQLiteConnection(datasource1);
+        private const string db = "Exertime";
 
-        //    SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
-        //    SQLiteDataReader rdr;
+        private const string user = "root";
 
-        //    try
-        //    {
-        //        conn.Open();
-        //        rdr = cmd.ExecuteReader();
-        //        while (rdr.Read())
-        //        {
-        //            exe.Add(new exerciesList
-        //            {
-        //                id = rdr.GetInt32(0),
-        //                type = rdr.GetString(1),
-        //                caption = rdr.GetString(2),
-        //                status = rdr.GetInt32(3),
-        //                kj = rdr.GetFloat(4),
-        //                calculation = rdr.GetString(5),
-        //                img = rdr.GetString(6),
-        //                video = rdr.GetString(7)
-        //            });
+        private const string pass = "kit301!CMS";
 
-        //        }
+        private const string server = "kit301-exertime.cis.utas.edu.au/phpmyadmin";
 
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.Message);
-        //    }
-        //    return exe;
-        //}
+       // private const string con = "Server=kit301-exertime.cis.utas.edu.au/phpmyadmin;Database=Exertime;Uid=root;Pwd=kit301!CMS;";
+
+
+        
+
+        public static void login(string username,string password)
+        {
+
+            //string con = String.Format("Database={0};Data Source={1};User Id={2};Password={3}", db, server, user, pass);
+
+            //MySqlConnection mycon = new MySqlConnection(con);                     
+
+            //mycon.Open();
+            //try                                                                         
+            //{
+            //    string sql1 = "Select * from USERS where username = '" + username + "' ";
+            //    MySqlCommand sqlman = new MySqlCommand(sql1, mycon);
+            //    if (sqlman.ExecuteNonQuery() != 0)
+            //    {
+            //        MessageBox.Show("插入数据成功！");
+            //    }
+            //}
+            //catch (Exception)
+            //{
+            //    MessageBox.Show("插入数据错误！");
+            //}
+
+            
+
+        }
 
         public static List<exerciesList> picture()
         {

@@ -104,15 +104,15 @@ namespace teset2
         }
 
         public delegate void Delegate();
-        public event Delegate window;
+     //   public event Delegate window;
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
            this.Close();
-            //Window3 w3 = new Window3();
-            //w3.Show();
-            window();
+            Window3 w3 = new Window3();
+            w3.Show();
+            //window();
         }
     }
 }

@@ -59,6 +59,27 @@ namespace teset2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+            //Window1 w1 = new Window1();
+            //w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+            //w1.Show();
+
+            //Thread t = new Thread(new ThreadStart(() =>
+            //{
+
+            //    Thread.Sleep(5000);
+            Window1 w1 = new Window1();
+            // w1.window += new Window1.Delegate(win3);
+            //  w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+            w1.Show();
+            //    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            //}));
+            //t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            //t.IsBackground = true;
+            //t.Start();
         }
         private void button1_Click1(object sender, RoutedEventArgs e)
         {
@@ -197,7 +218,29 @@ namespace teset2
                   DataAccess.Submit(exercise, Ex.CD, subtext.text, temp.type);
             this.Close();
             }
-          
+
+            //Window1 w1 = new Window1();
+            //w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+            //w1.Show();
+
+            //Thread t = new Thread(new ThreadStart(() =>
+            //{
+
+            //    Thread.Sleep(5000);
+            Window1 w1 = new Window1();
+           // w1.window += new Window1.Delegate(win3);
+            //  w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+            w1.Show();
+            //    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            //}));
+            //t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            //t.IsBackground = true;
+            //t.Start();
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

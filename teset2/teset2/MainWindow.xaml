@@ -5,11 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:teset2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="None">
+                 WindowStyle="None" AllowsTransparency="True" Background="{x:Null}"
+        Title="MainWindow" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid  Width="{Binding Width, ElementName=w}" Height="{Binding Height, ElementName=w}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+        <Border Grid.RowSpan="4" BorderBrush="Gray" BorderThickness="3" CornerRadius="20" Margin="10"  Opacity="1"  Background="White"></Border>
+        <Button  Content="X" BorderThickness="0" Foreground="Black" Background="Snow" Name="btnClose"  Grid.Row="0"  Click="Button_Click" Margin="238,22,20,96" ></Button>
+        <Image Grid.Row="0"  VerticalAlignment="Center" Width="120"  Height="120" Source="logo.png" />
+        <TextBox x:Name="UserTextBox"  Grid.Row="1"  Width="200" VerticalAlignment="Center" BorderThickness="0,0,0,1" Height="23"></TextBox>
+        <TextBlock Foreground="DarkGray"  Grid.Row="1"  IsHitTestVisible="False" HorizontalAlignment="Center" Height="23" Text="Enter User Name" VerticalAlignment="Center" Width="90" FontFamily="Microsoft YaHei">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=UserTextBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBox  x:Name="PwdTextBox"   Grid.Row="2"  Width="200" VerticalAlignment="Center" BorderThickness="0,0,0,1" Height="23"></TextBox>
+        <TextBlock Foreground="DarkGray" Grid.Row="2"  IsHitTestVisible="False" HorizontalAlignment="Center" Height="23" Text="Enter Password" VerticalAlignment="Center" Width="90" FontFamily="Microsoft YaHei">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=PwdTextBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <Button Name="btnlogin" Background="Snow" Foreground="Black" Content="Login" Click="btnlogin_Click" Grid.Row="3" Margin="97,0,0,18" HorizontalAlignment="Left" Width="98"  >
+            <!--<Button.Background>
+                <ImageBrush ImageSource="/Resources/LoginBtn.jpg" Stretch="Fill"/>
+            </Button.Background>-->
+        </Button>
+    </Grid>
+</Window>
+
+<!--Title="MainWindow" Height="450" Width="800" WindowStyle="None">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="278,67,0,0" VerticalAlignment="Top" Width="269" Click="Button_Click" Height="157"/>
         <Label Name="time_lbl" Content="Time&#xD;&#xA;" HorizontalAlignment="Left" Margin="278,240,0,0" VerticalAlignment="Top" Width="202"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="-207,398,0,0" VerticalAlignment="Top"/>
 
     </Grid>
-</Window>
+</Window>-->
+
+
