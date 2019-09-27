@@ -21,6 +21,8 @@ namespace teset2
     /// </summary>
     public partial class Window1 : Window
     {
+
+        public int id;
         int Choice;
         private DispatcherTimer timer;
         public Window1()
@@ -111,6 +113,9 @@ namespace teset2
 
            this.Close();
             Window3 w3 = new Window3();
+           // MessageBox.Show(id.ToString());
+            w3.id = id;
+            w3.MediaCall(id);
             w3.Show();
             //window();
         }

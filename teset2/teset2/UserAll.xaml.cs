@@ -119,7 +119,7 @@ namespace teset2
                 //  strId = btn.Name;
                 //IMG = DataAccess.Load(Int32.Parse(strId));
                 id = strId;
-                MessageBox.Show(id);
+               // MessageBox.Show(id);
 
                 List<exerciesList> CAP;
             

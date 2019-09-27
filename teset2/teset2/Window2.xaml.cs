@@ -25,10 +25,10 @@ namespace teset2
     /// </summary>
     public partial class Window2 : Window
     {
-       // private HookKeyBoard hkb = null;
+        // private HookKeyBoard hkb = null;
 
-       // private string exerciesName;
-
+        // private string exerciesName;
+        public int id;
         private UserAll UA;
         private UserAll temp;
         public Window2()
@@ -72,7 +72,7 @@ namespace teset2
             Window1 w1 = new Window1();
             // w1.window += new Window1.Delegate(win3);
             //  w1.WindowStartupLocation = WindowStartupLocation.Manual;
-
+            w1.id = id;
 
             w1.Show();
             //    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
@@ -113,7 +113,11 @@ namespace teset2
            
             contents.Children.Clear();
             Level.Visibility = Visibility.Hidden;
-            contents.Children.Add(new UserSetting());
+            UserSetting st = new UserSetting();
+            st.id = id;
+           // System.Windows.MessageBox.Show(id.ToString());
+            st.boxShow(id);
+            contents.Children.Add(st);
         }
 
         private void CAll_Click(object sender, RoutedEventArgs e)
@@ -215,7 +219,7 @@ namespace teset2
             foreach (exerciesList exList in CAP)
             {
                 var exercise = exList.caption;
-                  DataAccess.Submit(exercise, Ex.CD, subtext.text, temp.type);
+                  DataAccess.Submit(id, exercise, Ex.CD, subtext.text, temp.type);
             this.Close();
             }
 
@@ -230,6 +234,8 @@ namespace teset2
 
             //    Thread.Sleep(5000);
             Window1 w1 = new Window1();
+            //System.Windows.MessageBox.Show(id.ToString());
+            w1.id = id;
            // w1.window += new Window1.Delegate(win3);
             //  w1.WindowStartupLocation = WindowStartupLocation.Manual;
 

@@ -28,7 +28,7 @@ namespace teset2
 
     public partial class Window3 : Window
     {
-
+        public int id;
         private UserAll UA;
 
 
@@ -42,9 +42,9 @@ namespace teset2
         public Window3()
         {
             InitializeComponent();
-            IMGR = DataAccess.Recent();
+           
 
-            MediaCall();
+            //MediaCall();
 
             Loaded += new RoutedEventHandler(Window3_Loaded);
             CON = this.contents;
@@ -52,8 +52,10 @@ namespace teset2
             
         }
 
-        public void MediaCall()
+        public void MediaCall(int id)
         {
+
+            IMGR = DataAccess.Recent(id);
             int IDD = 0;
 
             int n = 0;
@@ -157,7 +159,8 @@ namespace teset2
           
         }
 
-        public string id;
+   
+        public string sid;
         public string type;
 
         private void doCall(object sender, RoutedEventArgs e)
@@ -171,12 +174,12 @@ namespace teset2
                 strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
                 //  strId = btn.Name;
                 //IMG = DataAccess.Load(Int32.Parse(strId));
-                id = strId;
+                sid = strId;
                
 
                 List<exerciesList> CAP;
-                temp.id = id;
-                CAP = DataAccess.Load(Int32.Parse(id));
+                temp.id = sid;
+                CAP = DataAccess.Load(Int32.Parse(sid));
                 foreach (exerciesList exList in CAP)
                 {
                     var exercise = exList.calculation;
@@ -308,6 +311,8 @@ namespace teset2
             original.exercise2 += new Original.Delegate(exercisePage22);
             contents.Children.Add(original);
             temp1 = original;
+            original.id = id;
+            original.MediaCall(id);
     
 
             
@@ -354,7 +359,7 @@ namespace teset2
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage1);
 
-            ex.id = temp1.id;
+            ex.id = temp1.sid;
             Ex = ex;
             ex.vedio1();
             contents.Children.Add(ex);
@@ -366,7 +371,7 @@ namespace teset2
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage2);
-            ex.id = temp1.id;
+            ex.id = temp1.sid;
             Ex = ex;
             ex.vedio1();
             ex.tital.Visibility = Visibility.Visible;
@@ -486,7 +491,7 @@ namespace teset2
             foreach (exerciesList exList in CAP)
             {
                 var exercise = exList.caption;
-                DataAccess.Submit(exercise, Ex.CD, subtext.text,temp.type);
+                DataAccess.Submit(id,exercise, Ex.CD, subtext.text,temp.type);
                 this.Close();
             }
 

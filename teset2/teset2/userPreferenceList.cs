@@ -16,7 +16,8 @@ namespace teset2
         public string email { get; set; }
         public string DOB { get; set; }
         public string gender { get; set; }
-        public string jobtitle { get; set; }
+        public string height { get; set; }
+        public string weight { get; set; }
         public int caloriegoal { get; set; }
 
         //public override string ToString()

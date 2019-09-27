@@ -58,10 +58,13 @@ namespace teset2
         private void btnlogin_Click(object sender,RoutedEventArgs e)
         {
 
-            DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
-            Window2 w2 = new Window2();
-
-            w2.Show();
+            if (DataAccess.login(UserTextBox.Text, PwdTextBox.Text) != 0)
+            {
+                Window2 w2 = new Window2();
+               // MessageBox.Show(DataAccess.login(UserTextBox.Text, PwdTextBox.Text).ToString());
+                w2.id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
+                w2.Show();
+            }
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)

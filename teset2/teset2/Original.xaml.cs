@@ -23,20 +23,20 @@ namespace teset2
     {
         public UserAll temp = new UserAll();
 
-      
+        public int id;
         private List<recentList> IMGR;
         public Original()
         {
             InitializeComponent();
-            MediaCall();
+           // MediaCall();
         }
         public delegate void Delegate();
         public event Delegate all,back,exercise1,exercise2;
 
-        public void MediaCall()
+        public void MediaCall(int id)
         {
 
-            IMGR = DataAccess.Recent();
+            IMGR = DataAccess.Recent(id);
             int IDD = 0;
 
             int n = 0;
@@ -135,7 +135,8 @@ namespace teset2
 
         }
 
-        public string id;
+
+        public string sid;
            public string type;
         private void doCall(object sender, RoutedEventArgs e)
         {
@@ -147,13 +148,13 @@ namespace teset2
                 strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
                 //  strId = btn.Name;
                 //IMG = DataAccess.Load(Int32.Parse(strId));
-                id = strId;
+                sid = strId;
 
 
                 List<exerciesList> CAP;
-                temp.id = id;
+                temp.id = sid;
              
-                CAP = DataAccess.Load(Int32.Parse(id));
+                CAP = DataAccess.Load(Int32.Parse(sid));
                 foreach (exerciesList exList in CAP)
                 {
                     var exercise = exList.calculation;
