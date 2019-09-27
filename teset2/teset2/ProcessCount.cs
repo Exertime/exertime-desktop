@@ -16,19 +16,19 @@ namespace teset2
         }
 
         
-        public ProcessCount(Int32 totalSecond)
+        public ProcessCount()
         {
-            this._TotalSecond = totalSecond;
+            this._TotalSecond = 0;
         }
 
       
         public bool ProcessCountDown()
         {
-            if (_TotalSecond == 0)
+            if (_TotalSecond == 3600)
                 return false;
             else
             {
-                _TotalSecond--;
+                _TotalSecond++;
                 return true;
             }
         }

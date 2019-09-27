@@ -92,7 +92,7 @@ namespace teset2
             this.Player1.LoadedBehavior = MediaState.Manual;
 
 
-            processCount = new ProcessCount(s);
+            processCount = new ProcessCount();
             CountDown += new CountDownHandler(processCount.ProcessCountDown);
 
 
@@ -148,8 +148,8 @@ namespace teset2
         {
 
 
-            processCount1 = new ProcessCount(CD);
-            this.time = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
+           // processCount1 = new ProcessCount();
+            this.time = "Total Exercise Time " + processCount.GetMinute() + ":" + processCount.GetSecond();
             submit();
             //contents.Children.Clear();
             //teset2.submit sub = new submit();
