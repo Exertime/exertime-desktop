@@ -93,9 +93,9 @@ namespace teset2
             Thread t = new Thread(new ThreadStart(() =>
         {
             Thread.Sleep(Choice);
-            Window1 w1 = new Window1();
-      
-            w1.Show();
+            //Window1 w1 = new Window1();
+            Window3 w3 = new Window3();
+            w3.Show();
             System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
         }));
          
