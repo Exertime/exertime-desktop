@@ -95,6 +95,8 @@ namespace teset2
             Thread.Sleep(Choice);
             //Window1 w1 = new Window1();
             Window3 w3 = new Window3();
+            w3.id = id;
+            w3.MediaCall(id);
             w3.Show();
             System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
         }));
