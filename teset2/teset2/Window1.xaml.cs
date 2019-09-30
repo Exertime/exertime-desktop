@@ -31,7 +31,13 @@ namespace teset2
         public Window1()
         {
             InitializeComponent();
-            
+            int t = DataAccess.hint();
+
+            string mt = DataAccess.mainhint();
+
+            this.hint.Text = t.ToString() + "minutes";
+            this.mainHint.Text = mt;
+
             Topmost = true;
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(1000);
@@ -92,17 +98,9 @@ namespace teset2
                 w4.max = 15;
                 w4.progressBar1.Maximum = 15;
                 w4.Show();
-                time = 30;
+                time = 15;
             }
-            else if (cmb.SelectedIndex == 3)
-            {
-                Choice = 20000;
-                Window4 w4 = new Window4();
-                w4.max = 20;
-                w4.progressBar1.Maximum = 20;
-                w4.Show();
-                time = 45;
-            }
+         
 
             if (DataAccess.record(time) >= 45)
             {
