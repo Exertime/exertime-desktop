@@ -26,8 +26,8 @@
             <ComboBoxItem IsSelected="True">10 mins</ComboBoxItem>
             <ComboBoxItem>15 mins</ComboBoxItem>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="6,166,0,0" TextWrapping="Wrap" Text="You must exercise within the next" VerticalAlignment="Top" Width="178"/>
-        <TextBlock x:Name="hint" HorizontalAlignment="Left" Margin="186,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,220,0,0" TextWrapping="Wrap" Text="You must exercise within the next" VerticalAlignment="Top" Width="178"/>
+        <TextBlock x:Name="hint" HorizontalAlignment="Left" Margin="191,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
 
 
 
