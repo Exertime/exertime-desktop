@@ -25,6 +25,9 @@ namespace teset2
         public int id;
         int Choice;
         private DispatcherTimer timer;
+
+        public delegate void Delegate();
+        //public event Delegate record;
         public Window1()
         {
             InitializeComponent();
@@ -57,6 +60,8 @@ namespace teset2
             
             this.Close();
 
+            int time = 0;
+
             if (cmb.SelectedIndex == 0)
             {
                 Choice = 5000;
@@ -65,6 +70,10 @@ namespace teset2
                 w4.progressBar1.Maximum = 5;
            
                 w4.Show();
+
+                time = 5;
+
+                
             }
             else if (cmb.SelectedIndex == 1)
             {
@@ -73,6 +82,8 @@ namespace teset2
                 w4.max = 10;
                 w4.progressBar1.Maximum = 10;
                 w4.Show();
+
+                time = 10;
             }
             else if (cmb.SelectedIndex == 2)
             {
@@ -81,6 +92,7 @@ namespace teset2
                 w4.max = 15;
                 w4.progressBar1.Maximum = 15;
                 w4.Show();
+                time = 30;
             }
             else if (cmb.SelectedIndex == 3)
             {
@@ -89,31 +101,54 @@ namespace teset2
                 w4.max = 20;
                 w4.progressBar1.Maximum = 20;
                 w4.Show();
+                time = 45;
             }
-            Thread t = new Thread(new ThreadStart(() =>
-        {
-            Thread.Sleep(Choice);
+
+            if (DataAccess.record(time) >= 45)
+            {
+                Thread t = new Thread(new ThreadStart(() =>
+                {
+                    Thread.Sleep(Choice);
+                    //Window1 w1 = new Window1();
+                    Window3 w3 = new Window3();
+                    w3.id = id;
+                    w3.MediaCall(id);
+                    w3.Show();
+                    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+                }));
+
+                t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+                t.IsBackground = true;
+                t.Start();
+            }
+            else
+            {
+                Thread t = new Thread(new ThreadStart(() =>
+            {
+                Thread.Sleep(Choice);
             //Window1 w1 = new Window1();
-            Window3 w3 = new Window3();
-            w3.id = id;
-            w3.MediaCall(id);
-            w3.Show();
-            System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            Window1 w1 = new Window1();
+                w1.id = id;
+               // w1.MediaCall(id);
+                w1.Show();
+                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
         }));
-         
-            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
-            t.IsBackground = true;
-            t.Start();
+
+                t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+                t.IsBackground = true;
+                t.Start();
+            }
 
         }
 
-        public delegate void Delegate();
-     //   public event Delegate window;
+   
+        //   public event Delegate window;
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
            this.Close();
+            DataAccess.reset();
             Window3 w3 = new Window3();
            // MessageBox.Show(id.ToString());
             w3.id = id;

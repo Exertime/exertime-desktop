@@ -62,6 +62,11 @@ namespace teset2
             sub();
         }
 
+        private void Rep_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
         private void Exit(object sender, RoutedEventArgs e)
         {
             text = Rep.Text;

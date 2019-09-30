@@ -313,5 +313,90 @@ namespace teset2
             cmd.Connection.Open();
             cmd.ExecuteNonQuery();
         }
+
+        public static void reset()
+        {
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+            //string sql = "select time from time where id = 0";
+
+            string sql1 = "UPDATE time SET time = 0 where id = 0";
+        
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+            SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
+            cmd.Connection.Open();
+            cmd.ExecuteNonQuery();
+
+        }
+        
+        public static int record(int time)
+        {
+            int t=0;
+
+            string datasource1 = "Data Source=.\\Test.db;Version=3;";
+
+
+
+
+            string sql = "select time from time where id = 0";
+            SQLiteConnection conn = new SQLiteConnection(datasource1);
+            SQLiteCommand cmd = new SQLiteCommand(sql, conn);
+            cmd.Connection.Open();
+            SQLiteDataReader rdr;
+            rdr = cmd.ExecuteReader();
+
+
+            //try
+            //{
+
+                while (rdr.Read())
+                {
+                    t = rdr.GetInt32(0);
+                    MessageBox.Show(rdr.GetInt32(0).ToString());
+                    
+
+
+
+                }
+                   
+
+                
+
+
+                t += time;
+                MessageBox.Show(t.ToString());
+
+
+                if (t >= 45)
+                {
+                    string sql1 = "UPDATE time SET time = 0 where id = 0";
+               // MessageBox.Show("1");
+                    SQLiteCommand cmd1 = new SQLiteCommand(sql1, conn);
+                
+                cmd1.ExecuteNonQuery();
+
+
+            }
+                else
+                {
+
+
+
+                    string sql1 = "UPDATE time SET time = "+t+" where id = 0" ;
+
+               // MessageBox.Show("2");
+                SQLiteCommand cmd1 = new SQLiteCommand(sql1, conn);
+               
+                cmd1.ExecuteNonQuery();
+            }
+                return t;
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
+
+           // return t;
+
+        }
     }
 }

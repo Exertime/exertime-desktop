@@ -29,12 +29,35 @@ namespace teset2
 
         }
 
-   //private void win3()
-   //     {
-   //         Window3 w3 = new Window3();
-   //         w3.window += new Window3.Delegate(restart);
-   //         w3.Show();
-   //     }
+        private const int p = 45;
+
+        public int count = 0;
+
+        public int id;
+
+
+        //public delegate void Delegate();
+        //public event Delegate pumpup;
+        public void hostage(int time)
+        {
+            count = count + time;
+            if (count >= p)
+            {
+                Window3 w3 = new Window3();
+                w3.id = id;
+                w3.Show();
+                //pumpup();
+
+                count = 0;
+            }
+        }
+
+        //private void win3()
+        //     {
+        //         Window3 w3 = new Window3();
+        //         w3.window += new Window3.Delegate(restart);
+        //         w3.Show();
+        //     }
 
         //private void restart()
         //{
@@ -64,6 +87,7 @@ namespace teset2
                // MessageBox.Show(DataAccess.login(UserTextBox.Text, PwdTextBox.Text).ToString());
                 w2.id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
                 w2.Show();
+                this.Visibility = Visibility.Hidden;
             }
 
         }

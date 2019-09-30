@@ -223,6 +223,8 @@ namespace teset2
             this.Close();
             }
 
+            DataAccess.reset();
+
             //Window1 w1 = new Window1();
             //w1.WindowStartupLocation = WindowStartupLocation.Manual;
 

@@ -23,7 +23,7 @@
             <ComboBoxItem>5 mins</ComboBoxItem>
             <ComboBoxItem IsSelected="True">10 mins</ComboBoxItem>
             <ComboBoxItem>30 mins</ComboBoxItem>
-            <ComboBoxItem>60 mins</ComboBoxItem>
+            <ComboBoxItem>45mins</ComboBoxItem>
         </ComboBox>
 
 
