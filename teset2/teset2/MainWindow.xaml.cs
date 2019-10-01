@@ -26,6 +26,9 @@ namespace teset2
         public MainWindow()
         {
             InitializeComponent();
+            System.Windows.Forms.NotifyIcon notifyIcon = new System.Windows.Forms.NotifyIcon();
+            notifyIcon.Icon = new System.Drawing.Icon("logo1.ico");
+            notifyIcon.Visible = true;
 
         }
 
