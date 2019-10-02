@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Timers;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace teset2
 {
@@ -26,17 +27,67 @@ namespace teset2
         public MainWindow()
         {
             InitializeComponent();
-            System.Windows.Forms.NotifyIcon notifyIcon = new System.Windows.Forms.NotifyIcon();
+           
+            icon();
+
+        }
+        NotifyIcon notifyIcon = null;
+
+        public void icon()
+        {
+             this.notifyIcon = new System.Windows.Forms.NotifyIcon();
             notifyIcon.Icon = new System.Drawing.Icon("logo1.ico");
             notifyIcon.Visible = true;
 
+            notifyIcon.MouseDoubleClick += OnNotifyIconDoubleClick;
+            
+
+
+            System.Windows.Forms.MenuItem m1 = new System.Windows.Forms.MenuItem("Run");
+            m1.Click += m1_Click;
+            System.Windows.Forms.MenuItem m2 = new System.Windows.Forms.MenuItem("Exit");
+            m2.Click += m2_Click;
+            System.Windows.Forms.MenuItem[] m = new System.Windows.Forms.MenuItem[] { m1, m2 };
+            this.notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu(m);
         }
+
+        private void m1_Click(object sender, EventArgs e)
+        {
+            if (DataAccess.login(UserTextBox.Text, PwdTextBox.Text) != 0)
+            {
+                Window2 w2 = new Window2();
+                // MessageBox.Show(DataAccess.login(UserTextBox.Text, PwdTextBox.Text).ToString());
+                w2.id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
+                w2.Show();
+                this.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void m2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void OnNotifyIconDoubleClick(object sender, EventArgs e)
+        {
+            if (DataAccess.login(UserTextBox.Text, PwdTextBox.Text) != 0)
+            {
+                Window2 w2 = new Window2();
+                // MessageBox.Show(DataAccess.login(UserTextBox.Text, PwdTextBox.Text).ToString());
+                w2.id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
+                w2.Show();
+                this.Visibility = Visibility.Hidden;
+            }
+
+        }
+
+
 
         private const int p = 45;
 
         public int count = 0;
 
-        public int id;
+        public int id = 0;
 
 
         //public delegate void Delegate();
@@ -97,7 +148,7 @@ namespace teset2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            this.Close();
+            this.Visibility = Visibility.Hidden;
 
         }
 
