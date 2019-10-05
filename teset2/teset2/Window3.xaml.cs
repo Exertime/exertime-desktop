@@ -432,7 +432,9 @@ namespace teset2
             sub.Tital.Text = Ex.time;
             sub.EX.Visibility = Visibility.Visible;
             this.Dispatcher.Invoke(new Action(() => {
-                sub.Rep.Visibility = Visibility.Hidden;
+               sub.Rep.Visibility = Visibility.Hidden;
+                sub.add.Visibility = Visibility.Visible;
+                sub.minus.Visibility = Visibility.Visible;
             }));
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
             sub.STAT += new submit.ExitDelegate(statisticsPage);
@@ -456,16 +458,19 @@ namespace teset2
         {
             contents.Children.Clear();
             teset2.submit sub = new submit();
-            subtext = sub;
+       
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
             this.Dispatcher.Invoke(new Action(() => {
                 sub.Rep.Visibility = Visibility.Visible;
+                sub.add.Visibility = Visibility.Visible;
+                sub.minus.Visibility = Visibility.Visible;
             }));
-            sub.Rep.Visibility = Visibility.Visible;
+          //  sub.Rep.Visibility = Visibility.Visible;
             sub.EX.Visibility = Visibility.Visible;
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
             sub.sub += new submit.ExitDelegate(Sub);
+            subtext = sub;
             //if (value == 1)
             //{
             //    sub.EX.Visibility = Visibility.Visible;

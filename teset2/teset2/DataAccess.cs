@@ -218,7 +218,7 @@ namespace teset2
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql2, conn);
             SQLiteDataReader rdr;
-            MessageBox.Show(sql2);
+            //MessageBox.Show(sql2);
             try
             {
                 conn.Open();
@@ -424,7 +424,7 @@ namespace teset2
             while (rdr.Read())
             {
                 t = rdr.GetInt32(0);
-                MessageBox.Show(rdr.GetInt32(0).ToString());
+              //  MessageBox.Show(rdr.GetInt32(0).ToString());
 
 
 

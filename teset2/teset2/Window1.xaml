@@ -14,20 +14,20 @@
             <Image Height="65" Margin="39,0,531.6,0" Source="logo.png" Stretch="Fill"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="47" Margin="-1,206,0,0" VerticalAlignment="Top" Width="565" Background="#FFC8C3C3"/>
-        <Button Content="Exertime Now" HorizontalAlignment="Left" Margin="267,213,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click_1"/>
+        <Button Content="Exertime Now" HorizontalAlignment="Left" Margin="283,214,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click_1"/>
         <Button Content="Postpone" HorizontalAlignment="Left" Margin="419,213,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click"/>
         <TextBlock Name="mainHint" HorizontalAlignment="Left" Margin="20,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="491" Height="55" FontSize="14"><LineBreak/><Run/><LineBreak/><InlineUIContainer>
                
             </InlineUIContainer></TextBlock>
         <StackPanel HorizontalAlignment="Left" Height="91" Margin="0,74,0,0" VerticalAlignment="Top" Width="575"/>
-        <Label Content="Remind me to exercise in:" HorizontalAlignment="Left" Margin="271,171,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Remind me to exercise in:" HorizontalAlignment="Left" Margin="256,174,0,0" VerticalAlignment="Top" Width="158"/>
         <ComboBox HorizontalAlignment="Left" Margin="425,173,0,0" VerticalAlignment="Top" Width="120" Name="cmb">
             <ComboBoxItem>5 mins</ComboBoxItem>
             <ComboBoxItem IsSelected="True">10 mins</ComboBoxItem>
             <ComboBoxItem>15 mins</ComboBoxItem>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="11,220,0,0" TextWrapping="Wrap" Text="You must exercise within the next" VerticalAlignment="Top" Width="178"/>
-        <TextBlock x:Name="hint" HorizontalAlignment="Left" Margin="191,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,220,0,0" TextWrapping="Wrap" Text="You must exercise within the next" VerticalAlignment="Top" Width="195"/>
+        <TextBlock x:Name="hint" HorizontalAlignment="Left" Margin="206,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.022,0.696"/>
 
 
 

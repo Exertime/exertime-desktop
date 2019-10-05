@@ -192,11 +192,14 @@ namespace teset2
             contents.Children.Clear();
             teset2.submit sub = new submit();
             sub.Sub.Visibility = Visibility;
-            subtext = sub;
+       
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
-            sub.Rep.Visibility = Visibility.Visible;
+       sub.Rep.Visibility = Visibility.Visible;
+            sub.add.Visibility = Visibility.Visible;
+            sub.minus.Visibility = Visibility.Visible;
             sub.sub += new submit.ExitDelegate(Sub);
+            subtext = sub;
             //sub.exitEvent += new submit.ExitDelegate(AppearButton);
             //if (value == 1)
             //{

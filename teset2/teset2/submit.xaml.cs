@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Text.RegularExpressions;
-
+using System.Windows.Threading;
 
 namespace teset2
 {
@@ -28,9 +28,8 @@ namespace teset2
 
         public submit()
         {
-           
 
-            InitializeComponent();
+           InitializeComponent();
            
          
         }
@@ -58,7 +57,7 @@ namespace teset2
             //}
             //contents.Children.Add(statistics);
             STAT();
-            text = Rep.Text;
+      //      text = Rep.Text;
             sub();
         }
 
@@ -84,10 +83,23 @@ namespace teset2
 
 
         //}
+        private void add_click(object sender, RoutedEventArgs e)
+        {
+            int num = Int32.Parse(Rep.Text);
+            num++;
+            Rep.Text = num.ToString();
+        }
+
+        private void minus_click(object sender, RoutedEventArgs e)
+        {
+            int num = Int32.Parse(Rep.Text);
+            num--;
+            Rep.Text = num.ToString();
+        }
 
         private void Submit_Click(object sender,RoutedEventArgs e)
         {
-            text = Rep.Text;
+          text = Rep.Text;
             sub();
         }
     }
