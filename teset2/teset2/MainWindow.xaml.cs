@@ -40,15 +40,30 @@ namespace teset2
             notifyIcon.Visible = true;
 
             notifyIcon.MouseDoubleClick += OnNotifyIconDoubleClick;
-            
 
 
-            System.Windows.Forms.MenuItem m1 = new System.Windows.Forms.MenuItem("Run");
-            m1.Click += m1_Click;
-            System.Windows.Forms.MenuItem m2 = new System.Windows.Forms.MenuItem("Exit");
-            m2.Click += m2_Click;
-            System.Windows.Forms.MenuItem[] m = new System.Windows.Forms.MenuItem[] { m1, m2 };
-            this.notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu(m);
+            if (id != 0)
+            {
+                System.Windows.Forms.MenuItem m1 = new System.Windows.Forms.MenuItem("Run");
+                m1.Click += m1_Click;
+                System.Windows.Forms.MenuItem m2 = new System.Windows.Forms.MenuItem("Exit");
+                m2.Click += m2_Click;
+                System.Windows.Forms.MenuItem m3 = new System.Windows.Forms.MenuItem("Logout");
+                m3.Click += m3_Click;
+                System.Windows.Forms.MenuItem[] m = new System.Windows.Forms.MenuItem[] { m1, m3,m2 };
+                this.notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu(m);
+            }
+            else
+            {
+               
+                System.Windows.Forms.MenuItem m2 = new System.Windows.Forms.MenuItem("Exit");
+                m2.Click += m2_Click;
+                System.Windows.Forms.MenuItem m4 = new System.Windows.Forms.MenuItem("Login");
+                m4.Click += m3_Click;
+                System.Windows.Forms.MenuItem[] m = new System.Windows.Forms.MenuItem[] { m4,m2 };
+                this.notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu(m);
+
+            }
         }
 
         private void m1_Click(object sender, EventArgs e)
@@ -61,8 +76,17 @@ namespace teset2
                 w2.Show();
                 this.Visibility = Visibility.Hidden;
             }
+            else
+            {
+                this.Visibility = Visibility.Visible;
+            }
         }
 
+        private void m3_Click(object sender, EventArgs e)
+        {
+            this.id = 0;
+            this.Visibility = Visibility.Visible;
+        }
         private void m2_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -140,7 +164,10 @@ namespace teset2
                 Window2 w2 = new Window2();
                // MessageBox.Show(DataAccess.login(UserTextBox.Text, PwdTextBox.Text).ToString());
                 w2.id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
+                id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
                 w2.Show();
+                this.notifyIcon.Visible = false;
+                icon();
                 this.Visibility = Visibility.Hidden;
             }
 

@@ -14,7 +14,7 @@
         </StackPanel>
         <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,-33,0">
             
-            <Button x:Name="CFavorite" Content="Favourites" Margin="197,19,513,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FF009AE4" Click="CFavorite_Click" />
+            <!--<Button x:Name="CFavorite" Content="Favourites" Margin="197,19,513,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FF009AE4" Click="CFavorite_Click" />-->
             <Button x:Name="CAll" Content="All Videos" Margin="317,19,393,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111"  Background="#FF009AE4" Click="CAll_Click" />
             <Button x:Name="CStatics" Content="Statistics" Margin="438,19,272,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111"  Background="#FF009AE4" Click="CStatics_Click" />
             <Button x:Name="CSettings" Content="Settings" Margin="560,19,150,19" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FF009AE4" Click="CSettings_Click" />
