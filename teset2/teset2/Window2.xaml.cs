@@ -17,6 +17,7 @@ using teset2;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace teset2
 {
@@ -59,27 +60,26 @@ namespace teset2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
-            //Window1 w1 = new Window1();
-            //w1.WindowStartupLocation = WindowStartupLocation.Manual;
+          
+
+            Thread t = new Thread(new ThreadStart(() =>
+            {
+
+                Thread.Sleep(5000);
 
 
-            //w1.Show();
 
-            //Thread t = new Thread(new ThreadStart(() =>
-            //{
 
-            //    Thread.Sleep(5000);
-            Window1 w1 = new Window1();
-            // w1.window += new Window1.Delegate(win3);
-            //  w1.WindowStartupLocation = WindowStartupLocation.Manual;
-            w1.id = id;
+                Window1 w1 = new Window1();
+                w1.WindowStartupLocation = WindowStartupLocation.Manual;
 
-            w1.Show();
-            //    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
-            //}));
-            //t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
-            //t.IsBackground = true;
-            //t.Start();
+
+                w1.Show();
+                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
         }
         private void button1_Click1(object sender, RoutedEventArgs e)
         {
@@ -191,30 +191,25 @@ namespace teset2
             }
 
             DataAccess.reset();
+                 Thread t = new Thread(new ThreadStart(() =>
+                 {
 
-            //Window1 w1 = new Window1();
-            //w1.WindowStartupLocation = WindowStartupLocation.Manual;
-
-
-            //w1.Show();
-
-            //Thread t = new Thread(new ThreadStart(() =>
-            //{
-
-            //    Thread.Sleep(5000);
-            Window1 w1 = new Window1();
-            //System.Windows.MessageBox.Show(id.ToString());
-            w1.id = id;
-           // w1.window += new Window1.Delegate(win3);
-            //  w1.WindowStartupLocation = WindowStartupLocation.Manual;
+                     Thread.Sleep(5000);
 
 
-            w1.Show();
-            //    System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
-            //}));
-            //t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
-            //t.IsBackground = true;
-            //t.Start();
+
+
+                     Window1 w1 = new Window1();
+                     w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+                     w1.Show();
+                     System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+                 }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
+
 
         }
 

@@ -295,7 +295,7 @@ namespace teset2
 
             
             Level.Visibility = Visibility.Hidden;
-            exit.Visibility = Visibility.Hidden;
+            //exit.Visibility = Visibility.Hidden;
             Back.Visibility = Visibility.Hidden;
         }
 
@@ -430,7 +430,7 @@ namespace teset2
 
         private void AppearButton()
         {
-            exit.Visibility = Visibility.Visible;
+         //   exit.Visibility = Visibility.Visible;
         }
 
         private void statisticsPage()
