@@ -107,7 +107,6 @@ namespace teset2
                 Thread t = new Thread(new ThreadStart(() =>
                 {
                     Thread.Sleep(Choice);
-                    //Window1 w1 = new Window1();
                     Window3 w3 = new Window3();
                     w3.id = id;
                     w3.MediaCall(id);
@@ -124,10 +123,8 @@ namespace teset2
                 Thread t = new Thread(new ThreadStart(() =>
             {
                 Thread.Sleep(Choice);
-            //Window1 w1 = new Window1();
             Window1 w1 = new Window1();
                 w1.id = id;
-               // w1.MediaCall(id);
                 w1.Show();
                 System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
         }));
@@ -148,11 +145,9 @@ namespace teset2
            this.Close();
             DataAccess.reset();
             Window3 w3 = new Window3();
-           // MessageBox.Show(id.ToString());
             w3.id = id;
             w3.MediaCall(id);
             w3.Show();
-            //window();
         }
     }
 }

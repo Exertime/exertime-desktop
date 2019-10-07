@@ -87,18 +87,7 @@ namespace teset2
         }
 
       
-        private void CFavorite_Click(object sender, RoutedEventArgs e)
-        {
-           
-            contents.Children.Clear();
-            teset2.UserFavorite favorite = new UserFavorite();
-            favorite.exercise1 += new UserFavorite.Delegate(exercisePage1);
-            favorite.exercise2 += new UserFavorite.Delegate(exercisePage2);
-
-            contents.Children.Add(favorite);
-            Level.Visibility = Visibility.Visible;
-        
-    }
+      
 
         private void CStatics_Click(object sender, RoutedEventArgs e)
         {
@@ -115,7 +104,6 @@ namespace teset2
             Level.Visibility = Visibility.Hidden;
             UserSetting st = new UserSetting();
             st.id = id;
-           // System.Windows.MessageBox.Show(id.ToString());
             st.boxShow(id);
             contents.Children.Add(st);
         }
@@ -172,18 +160,6 @@ namespace teset2
             sub.Tital.Text = Ex.time;
             sub.sub += new submit.ExitDelegate(Sub);
             subtext = sub;
-            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            //if (value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if (type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
             contents.Children.Add(sub);
         }
 
@@ -200,18 +176,6 @@ namespace teset2
             sub.minus.Visibility = Visibility.Visible;
             sub.sub += new submit.ExitDelegate(Sub);
             subtext = sub;
-            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            //if (value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if (type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
             contents.Children.Add(sub);
         }
 

@@ -10,7 +10,7 @@
 
     <Grid Margin="0,0,10,527">
         <StackPanel HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="100000000" Background="#FF009AE4" Margin="0,0,-33,0">
-            <Image Height="50" Margin="0,0,544,0"  HorizontalAlignment="Left" Source="logo.png" />
+            <Image Height="50" Margin="0,0,544,0"  HorizontalAlignment="Left" Source="resources/logo.png" />
         </StackPanel>
         <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,-33,0">
             

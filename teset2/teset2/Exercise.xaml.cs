@@ -62,7 +62,6 @@ namespace teset2
                 var filename2 = exList.img;
                 Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
                 Player1.Close();
-                //MessageBox.Show(filename1);
                 BitmapImage src = new BitmapImage();
                 src.BeginInit();
                 src.UriSource = new Uri(@".\resources\" + filename2, UriKind.Relative);
@@ -72,7 +71,6 @@ namespace teset2
 
                 btn1.Background = ib;
                
-                //Player1.Play();
             }
         }
         private void vedio(object sender, RoutedEventArgs e)
@@ -147,35 +145,11 @@ namespace teset2
         public void Finish(object sender, EventArgs e)
         {
 
-
-           // processCount1 = new ProcessCount();
             this.time = "Total Exercise Time " + processCount.GetMinute() + ":" + processCount.GetSecond();
             submit();
-            //contents.Children.Clear();
-            //teset2.submit sub = new submit();
-            //processCount1 = new ProcessCount(CD);
-            //sub.Tital.Text = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
-            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            //if(value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if(type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
-            //contents.Children.Add(sub);
+
         }
 
-        
-
-     //private void AppearButton()
-     //   {
-     //   exitEvent();
-     //    }
 
 
 

@@ -8,14 +8,7 @@ namespace teset2
 {
     class exerciesList
     {
-        //public int caption { get; set; }
-        //public int img { get; set; }
-        //public int video { get; set; }
 
-        //public override string ToString()
-        //{
-        //    return caption + " " + img + " " + video;
-        //}
         public int id { get; set; }
         public string type { get; set; }
         public string caption { get; set; }
@@ -28,7 +21,6 @@ namespace teset2
 
         public override string ToString()
         {
-            //As part of step 2.3.2 and 2.3.4 in Week 9 tutorial, have modified this to display the work times and if the employee is currently busy
 
             return img;
         }

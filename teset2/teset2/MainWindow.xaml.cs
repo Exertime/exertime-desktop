@@ -162,7 +162,6 @@ namespace teset2
             if (DataAccess.login(UserTextBox.Text, PwdTextBox.Text) != 0)
             {
                 Window2 w2 = new Window2();
-               // MessageBox.Show(DataAccess.login(UserTextBox.Text, PwdTextBox.Text).ToString());
                 w2.id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
                 id = DataAccess.login(UserTextBox.Text, PwdTextBox.Text);
                 w2.Show();

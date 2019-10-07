@@ -65,10 +65,7 @@ namespace teset2
             {
                 int i = 0;
                
-                    List<exerciesList> ex = new List<exerciesList>();
-
-
-                   // System.Windows.Controls.Image newImage = new System.Windows.Controls.Image();
+                List<exerciesList> ex = new List<exerciesList>();
                 ImageBrush ib = new ImageBrush();
                 string datasource1 = "Data Source=.\\Test.db;Version=3;";
                     string sql1 = "select Img, Video, Caption, Calculation, Id from tt where Caption = '" + e.name + "'";
@@ -104,57 +101,27 @@ namespace teset2
                         var filename = exc.img;
                         src.UriSource = new Uri(@"..\resources\" + filename, UriKind.Relative);
                         src.EndInit();
-                    //newImage.Source = src;
-                    //newImage.Height = 150;
-                    //newImage.Width = 250;
-                    //newImage.Stretch = Stretch.Fill;
 
-                    //newImage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
-                    //newImage.VerticalAlignment = VerticalAlignment.Top;
-
-                    //StackPanel stackPnl = new StackPanel();
-                    //stackPnl.Orientation = System.Windows.Controls.Orientation.Horizontal;
-                    //stackPnl.Children.Add(newImage);  //put newImage into stack panel
-
-                    ib.ImageSource = src;
-                    ib.Stretch = Stretch.Fill;
-                    System.Windows.Controls.Button btn = new System.Windows.Controls.Button();        // Create button
-                                                                                                          /*여기부분은 int n을 이용해서 이름을 바꾸는곳인데, db에서 id를 뽈아 온다음에 밑에 있는 버튼 이벤트에서 db구문 select from tt where id 를 이용해서 동영상을 뽑아온다
-                                                                                                           * 그리고 그다음엔 Videopage()를 불러와서 다음 interface로 넘어간후 그 동영상이 재생이 된다.*/
+                        ib.ImageSource = src;
+                        ib.Stretch = Stretch.Fill;
+                        System.Windows.Controls.Button btn = new System.Windows.Controls.Button();        // Create button
                         btn.Name = "btn_" + exc.id.ToString();  //Put name on each button
                                                                 //btn.Uid = e.caption;
                         n += 1;    // as many as the number of data in database
-
-
-
-
-                        //btn.Content = stackPnl;   //Put image into button
-
                         btn.Click += new RoutedEventHandler(doCall);  //for button event
 
-                    // btn.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(255, 0, 80, 80));
-                    //btn.Background = new SolidColorBrush(Color.FromRgb(0, 154, 228)); //blue
-
-               
-
-                    btn.Background = ib;
-                    //btn.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 255)); //white
-                    btn.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                        btn.Background = ib;
+                        btn.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
                         btn.VerticalAlignment = VerticalAlignment.Top;
                         btn.Margin = new Thickness(10);
                         btn.Height = 150;
-                    btn.Width = 250;
+                        btn.Width = 250;
                         wp_img.Children.Add(btn);  //Put buttons into Wrap panel
-
                         IDD = exc.id;
                  
                     }
                   
                 }
-                
-            
-            
-
             
           
         }
@@ -172,11 +139,8 @@ namespace teset2
             if (btn != null)
             {
                 strId = btn.Name.Substring((btn.Name.IndexOf('_') + 1), btn.Name.Length - (btn.Name.IndexOf('_') + 1));
-                //  strId = btn.Name;
-                //IMG = DataAccess.Load(Int32.Parse(strId));
                 sid = strId;
                
-
                 List<exerciesList> CAP;
                 temp.id = sid;
                 CAP = DataAccess.Load(Int32.Parse(sid));
@@ -206,7 +170,7 @@ namespace teset2
         private void Window3_Loaded(object sender, RoutedEventArgs e)
         {
             this.Topmost = true;
-           // DisabledMouseKey();
+            DisabledMouseKey();
         }
 
 
@@ -440,17 +404,6 @@ namespace teset2
             sub.STAT += new submit.ExitDelegate(statisticsPage);
             sub.sub += new submit.ExitDelegate(Sub);
             subtext = sub;
-            //if (value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if (type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
             contents.Children.Add(sub);
         }
 
@@ -466,22 +419,11 @@ namespace teset2
                 sub.add.Visibility = Visibility.Visible;
                 sub.minus.Visibility = Visibility.Visible;
             }));
-          //  sub.Rep.Visibility = Visibility.Visible;
             sub.EX.Visibility = Visibility.Visible;
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
             sub.sub += new submit.ExitDelegate(Sub);
             subtext = sub;
-            //if (value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if (type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
+            
             contents.Children.Add(sub);
         }
 

@@ -124,28 +124,10 @@
     <Compile Include="submit.xaml.cs">
       <DependentUpon>submit.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TimerSet.xaml.cs">
-      <DependentUpon>TimerSet.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UserAll.xaml.cs">
       <DependentUpon>UserAll.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UserChallenge.xaml.cs">
-      <DependentUpon>UserChallenge.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserEasy.xaml.cs">
-      <DependentUpon>UserEasy.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserFavorite.xaml.cs">
-      <DependentUpon>UserFavorite.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserModerate.xaml.cs">
-      <DependentUpon>UserModerate.xaml</DependentUpon>
-    </Compile>
     <Compile Include="userPreferenceList.cs" />
-    <Compile Include="UserRandom.xaml.cs">
-      <DependentUpon>UserRandom.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UserSetting.xaml.cs">
       <DependentUpon>UserSetting.xaml</DependentUpon>
     </Compile>
@@ -192,31 +174,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TimerSet.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UserAll.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserChallenge.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserEasy.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserFavorite.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserModerate.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserRandom.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

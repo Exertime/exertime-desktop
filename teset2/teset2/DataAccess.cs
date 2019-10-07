@@ -35,37 +35,6 @@ namespace teset2
         public static int login(string username, string password)
         {
 
-            //string con = String.Format("Database={0};Data Source={1};User Id={2};Password={3};Port={4}", db, server, user, pass,port);
-
-            //   MySqlConnection conn = new MySqlConnection(con);
-
-
-            //   try
-            //   {
-            //       //string sql1 = "SELECT * FROM USERS WHERE id = 2 ";
-            //       //MessageBox.Show(sql1);
-
-
-            //       conn.Open();
-            //       MessageBox.Show("connect success！");
-            //       //        MySqlCommand sqlman = new MySqlCommand(sql1, conn);
-            //       //    if (sqlman.ExecuteNonQuery() != 0)
-            //       //    {
-            //       //        MessageBox.Show("插入数据成功！");
-            //       //    }
-            //       //}
-            //   }
-            //   catch (MySqlException)
-            //   {
-            //       MessageBox.Show("connect fail！");
-            //   }
-
-            //   finally
-            //   {
-            //       conn.Close();
-            //   }
-
-            //  // conn.Close();
             int id = 0;
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
             string sql1 = "select ID from USERS where Username = '" + username + "' and password = '" + password + "';";
@@ -227,8 +196,6 @@ namespace teset2
                 {
                     rct.Add(new recentList
                     {
-
-
                         name = rdr.GetString(0)
 
                     });
@@ -252,7 +219,6 @@ namespace teset2
             string sql1 = "select Username, GivenName, Surname, PreferredName, Email, DOB, Gender, height, CalorieGoal,weight from USERS where ID = " + id + "";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
-
             SQLiteDataReader rdr;
 
 
@@ -275,9 +241,6 @@ namespace teset2
                         caloriegoal = rdr.GetInt32(8),
                         weight = rdr.GetString(9)
 
-
-
-
                     });
 
                 }
@@ -297,7 +260,6 @@ namespace teset2
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
             string sql1 = "INSERT INTO Submission (Id,Name,Time,Repetitions,Type,DateTime)VALUES(" + id + ",'" + name + "','" + time + "','" + rep + "','" + type + "',CURRENT_TIMESTAMP)";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
-
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             cmd.Connection.Open();
             cmd.ExecuteNonQuery();
@@ -308,7 +270,6 @@ namespace teset2
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
             string sql1 = "UPDATE USERS SET Username = '" + username + "', GivenName = '" + givenname + "', Surname = '" + surname + "', PreferredName = '" + preferredname + "', Email = '" + email + "', DOB = '" + dob + "', Gender = '" + gender + "', height='" + height + "',weight='" + weight + "', CalorieGoal = '" + caloriegoal + "' where ID = " + id + "";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
-
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             cmd.Connection.Open();
             cmd.ExecuteNonQuery();
@@ -317,15 +278,11 @@ namespace teset2
         public static void reset()
         {
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-            //string sql = "select time from time where id = 0";
-
             string sql1 = "UPDATE time SET time = 0 where id = 0";
-
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql1, conn);
             cmd.Connection.Open();
             cmd.ExecuteNonQuery();
-
         }
 
         public static int record(int time)
@@ -333,10 +290,6 @@ namespace teset2
             int t = 0;
 
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
-
-
-
-
             string sql = "select time from time where id = 0";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql, conn);
@@ -344,46 +297,28 @@ namespace teset2
             SQLiteDataReader rdr;
             rdr = cmd.ExecuteReader();
 
-
-            //try
-            //{
-
             while (rdr.Read())
             {
                 t = rdr.GetInt32(0);
-                MessageBox.Show(rdr.GetInt32(0).ToString());
-
-
-
 
             }
 
-
-
-
-
             t += time;
-            MessageBox.Show(t.ToString());
-
+       
 
             if (t >= 45)
             {
                 string sql1 = "UPDATE time SET time = 0 where id = 0";
-                // MessageBox.Show("1");
+                
                 SQLiteCommand cmd1 = new SQLiteCommand(sql1, conn);
 
                 cmd1.ExecuteNonQuery();
-
-
             }
             else
             {
-
-
-
                 string sql1 = "UPDATE time SET time = " + t + " where id = 0";
 
-                // MessageBox.Show("2");
+                
                 SQLiteCommand cmd1 = new SQLiteCommand(sql1, conn);
 
                 cmd1.ExecuteNonQuery();
@@ -407,9 +342,6 @@ namespace teset2
 
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
 
-
-
-
             string sql = "select time from time where id = 0";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql, conn);
@@ -418,27 +350,15 @@ namespace teset2
             rdr = cmd.ExecuteReader();
 
 
-            //try
-            //{
-
             while (rdr.Read())
             {
                 t = rdr.GetInt32(0);
-              //  MessageBox.Show(rdr.GetInt32(0).ToString());
-
-
-
-
+             
             }
 
 
-
-
-
             t = 45 - t;
-
             return t;
-
 
         }
 
@@ -448,9 +368,6 @@ namespace teset2
 
             string datasource1 = "Data Source=.\\Test.db;Version=3;";
 
-
-
-
             string sql = "SELECT hint FROM Hint WHERE id IN (SELECT id FROM Hint ORDER BY RANDOM() LIMIT 1)";
             SQLiteConnection conn = new SQLiteConnection(datasource1);
             SQLiteCommand cmd = new SQLiteCommand(sql, conn);
@@ -458,25 +375,11 @@ namespace teset2
             SQLiteDataReader rdr;
             rdr = cmd.ExecuteReader();
 
-
-            //try
-            //{
-
             while (rdr.Read())
             {
                 t = rdr.GetString(0);
-               // MessageBox.Show(rdr.GetInt32(0));
-
-
-
 
             }
-
-
-
-
-
-            
 
             return t;
 

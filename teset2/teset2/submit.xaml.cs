@@ -48,16 +48,8 @@ namespace teset2
 
         public void statistics(object sender, RoutedEventArgs e)
         {
-            //contents.Children.Clear();
-            //teset2.UserStatistics statistics = new UserStatistics();
-            //statistics.exitEvent += new UserStatistics.ExitDelegate(exit);
-            //if(value == 1)
-            //{
-            //    statistics.EX.Visibility = Visibility.Visible;
-            //}
-            //contents.Children.Add(statistics);
+       
             STAT();
-      //      text = Rep.Text;
             sub();
         }
 
@@ -76,13 +68,6 @@ namespace teset2
 
         }
 
-        //private void exit()
-        //{
-
-        //    exitEvent();
-
-
-        //}
         private void add_click(object sender, RoutedEventArgs e)
         {
             int num = Int32.Parse(Rep.Text);
