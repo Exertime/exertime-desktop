@@ -10,13 +10,7 @@
         <StackPanel HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="10000000000"  Background="#FF009AE4">
             <Image Height="50" Margin="0,0,544,0"  HorizontalAlignment="Left" Source="resources/logo.png" />
         </StackPanel>
-
-
-
-
-
         <Grid x:Name="Level" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Margin="0,65,0,419.667" Visibility="Hidden">
-
             <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="183,12,474,6" Click="Button_Click_4"/>
             <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="284,12,373,6" Click="Button_Click_1"/>
             <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="385,12,272,6" Click="Button_Click_2" />
@@ -29,8 +23,6 @@
             <Button Name="All" Click="All_Click" Content="All Videos" HorizontalAlignment="Center" Margin="95,189,153,0" FontSize="20" Width="500" Height="70" Background="White" Foreground="Black" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
             <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" Height="900" VerticalAlignment="Center" Width="1800" Margin="0,277,-1052,-761.667" Grid.ColumnSpan="2"/>
         </Grid>
-
-
 
         <Button Visibility="Hidden" Content="Back" Name="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Back_Click"/>
         <!--<Button Name="exit" Content="Exit" HorizontalAlignment="Right" Margin="42,557,0,0" Visibility="Visible" VerticalAlignment="Bottom" Width="131" Click="Button_Click"/>-->

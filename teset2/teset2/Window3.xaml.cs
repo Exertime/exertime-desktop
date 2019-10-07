@@ -170,7 +170,7 @@ namespace teset2
         private void Window3_Loaded(object sender, RoutedEventArgs e)
         {
             this.Topmost = true;
-            DisabledMouseKey();
+            //DisabledMouseKey();
         }
 
 

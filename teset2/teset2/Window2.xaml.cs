@@ -71,6 +71,7 @@ namespace teset2
 
 
                 Window1 w1 = new Window1();
+                w1.id = id;
                 w1.WindowStartupLocation = WindowStartupLocation.Manual;
 
 
@@ -168,10 +169,9 @@ namespace teset2
             contents.Children.Clear();
             teset2.submit sub = new submit();
             sub.Sub.Visibility = Visibility;
-       
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
-       sub.Rep.Visibility = Visibility.Visible;
+            sub.Rep.Visibility = Visibility.Visible;
             sub.add.Visibility = Visibility.Visible;
             sub.minus.Visibility = Visibility.Visible;
             sub.sub += new submit.ExitDelegate(Sub);
@@ -195,17 +195,13 @@ namespace teset2
                  {
 
                      Thread.Sleep(5000);
-
-
-
-
                      Window1 w1 = new Window1();
+                     w1.id = id;
                      w1.WindowStartupLocation = WindowStartupLocation.Manual;
-
-
                      w1.Show();
                      System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
                  }));
+
             t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
             t.IsBackground = true;
             t.Start();
