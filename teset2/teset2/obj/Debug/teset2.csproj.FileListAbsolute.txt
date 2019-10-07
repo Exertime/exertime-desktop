@@ -174,17 +174,152 @@ P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
 P:\Project B\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojAssemblyReference.cache
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window1.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window2.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window4.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\App.g.cs
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\App.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\All.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Exercise.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Original.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window1.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window2.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window3.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\Window4.baml
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.g.resources
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.cache
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
+C:\Users\jmkin\Desktop\New folder (2)\18092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojAssemblyReference.cache
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window1.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window2.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window4.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\App.g.cs
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\App.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window1.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window2.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window4.baml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.g.resources
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.cache
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
@@ -192,6 +327,8 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserEas
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window1.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window2.g.cs
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
@@ -204,6 +341,7 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.bam
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
@@ -211,6 +349,8 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserEas
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window1.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window2.baml
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.baml
@@ -221,26 +361,672 @@ C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\vid.mp4
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.dll
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MySql.Data.xml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Original.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window1.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window2.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window4.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\App.g.cs
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\App.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\All.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Exercise.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Original.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\TimerSet.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserChallenge.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserEasy.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserFavorite.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserModerate.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserRandom.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window1.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window2.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window3.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\Window4.baml
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.g.resources
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.Cache
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
+P:\23092019\24092019\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\teset2.exe.config
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\teset2.exe
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\netstandard.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.AppContext.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.Specialized.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Console.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.Common.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Globalization.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.Compression.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.Pipes.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.Expressions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.Parallel.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.Queryable.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Http.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.NameResolution.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Ping.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Requests.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Security.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Sockets.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.WebSockets.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ObjectModel.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Reflection.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Resources.Reader.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Resources.Writer.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Handles.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Claims.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Principal.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.SecureString.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Text.Encoding.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Thread.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Timer.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ValueTuple.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XDocument.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XPath.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\Google.Protobuf.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MySql.Web.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MySqlConnector.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\Renci.SshNet.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Buffers.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Memory.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\Google.Protobuf.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\Renci.SshNet.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Buffers.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Memory.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.exe.config
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\All.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Exercise.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\MainWindow.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\submit.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\TimerSet.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserAll.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserChallenge.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserEasy.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserFavorite.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserModerate.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserRandom.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserStatistics.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window1.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window2.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window3.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window4.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\App.g.cs
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\App.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\All.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Exercise.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\MainWindow.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Original.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\submit.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\TimerSet.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserAll.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserChallenge.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserEasy.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserFavorite.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserModerate.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserRandom.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window1.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window2.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window3.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\Window4.baml
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.g.resources
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.Cache
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.exe
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\cheonj\Downloads\exertime-desktop-exit\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\teset2.exe.config
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\teset2.exe
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\netstandard.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.AppContext.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Collections.Specialized.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Console.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.Common.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Globalization.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.Compression.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.Pipes.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.Expressions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.Parallel.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Linq.Queryable.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Http.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.NameResolution.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Ping.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Requests.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Security.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.Sockets.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Net.WebSockets.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ObjectModel.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Reflection.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Resources.Reader.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Resources.Writer.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Handles.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Claims.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.Principal.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Security.SecureString.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Text.Encoding.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Thread.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Timer.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.ValueTuple.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XDocument.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XPath.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\Google.Protobuf.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MySql.Web.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MySqlConnector.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\Renci.SshNet.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Buffers.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Memory.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\Google.Protobuf.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\Renci.SshNet.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Buffers.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Memory.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.exe.config
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\All.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Exercise.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\MainWindow.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\submit.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\TimerSet.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserAll.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserChallenge.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserEasy.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserFavorite.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserModerate.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserRandom.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserStatistics.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window1.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window2.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window3.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window4.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\App.g.cs
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\App.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\All.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Exercise.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\MainWindow.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Original.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\submit.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\TimerSet.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserAll.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserChallenge.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserEasy.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserFavorite.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserModerate.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserRandom.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window1.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window2.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window3.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\Window4.baml
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.g.resources
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.Cache
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.exe
+C:\Users\cheonj\Desktop\exertime-desktop-exit (5)\exertime-desktop-exit\teset2\teset2\obj\Debug\teset2.pdb
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\netstandard.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.AppContext.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.Specialized.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Console.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.Common.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Compression.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Pipes.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Expressions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Parallel.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Queryable.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Http.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.NameResolution.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Ping.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Requests.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Security.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Sockets.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebSockets.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ObjectModel.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.Reader.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.Writer.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Handles.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Claims.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Principal.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.SecureString.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.Encoding.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Thread.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Timer.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ValueTuple.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XDocument.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XPath.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySqlConnector.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Buffers.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Memory.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Buffers.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Memory.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\zhi gu\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe.config
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\netstandard.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.AppContext.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.Specialized.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Console.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.Common.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Compression.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Pipes.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Expressions.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Parallel.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Queryable.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Http.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.NameResolution.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Ping.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Requests.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Security.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Sockets.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebSockets.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ObjectModel.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.Reader.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.Writer.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Handles.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Claims.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Principal.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.SecureString.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.Encoding.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Thread.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Timer.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ValueTuple.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XDocument.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XPath.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySqlConnector.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Buffers.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Memory.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Buffers.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Memory.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
@@ -288,6 +1074,167 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\tes
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_Content.g.cs
-C:\Users\zhoup\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojResolveAssemblyReference.cache
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\netstandard.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.AppContext.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Collections.Specialized.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Console.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.Common.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Compression.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.Pipes.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Expressions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Parallel.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Linq.Queryable.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Http.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.NameResolution.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Ping.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Requests.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Security.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.Sockets.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Net.WebSockets.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ObjectModel.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.Reader.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Resources.Writer.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Handles.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Claims.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.Principal.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Security.SecureString.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.Encoding.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Thread.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Timer.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.ValueTuple.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XDocument.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XPath.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySqlConnector.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Buffers.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Memory.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Google.Protobuf.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\MySql.Web.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Renci.SshNet.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Buffers.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Memory.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe.config
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window1.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window2.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window4.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\App.g.cs
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\App.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\MainWindow.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Original.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\submit.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserAll.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserSetting.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\UserStatistics.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window1.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window2.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window4.baml
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.g.resources
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.Properties.Resources.resources
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.GenerateResource.Cache
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
+C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb

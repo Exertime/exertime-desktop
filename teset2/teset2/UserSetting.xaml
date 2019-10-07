@@ -7,11 +7,50 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <StackPanel>
+        <!--<StackPanel>
             <TextBlock Text="Settings" FontFamily="Cooper Black">
 
             </TextBlock>
-        </StackPanel>
+        </StackPanel>-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
 
+
+
+            <RowDefinition/></Grid.RowDefinitions>
+        <TextBlock Text="User Name: " HorizontalAlignment="Right" FontSize="23" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0"/>
+        <TextBox IsReadOnly="True" Background="LightGray" Name="username" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock Text="Given Name: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0"/>
+        <TextBox IsReadOnly="True"  Background="LightGray" Name="givenname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock Text="Surname: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0"/>
+        <TextBox IsReadOnly="True" Background="LightGray" Name="surname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock Text="Preferred Name: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="0" Grid.Column="2"/>
+        <TextBox Name="preferredname" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Grid.Column="3"/>
+        <TextBlock Text="Email: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="3" Grid.Column="0"/>
+        <TextBox IsReadOnly="True"  Background="LightGray" Name="email" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock Text="DOB: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" Grid.Column="2"/>
+        <TextBox Name="dob" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="3"/>
+        <TextBlock Text="Gender: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2" Grid.Column="2"/>
+        <TextBox Name="gender" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="3"/>
+      
+        <TextBlock Text="Calorie Goal: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="3" Grid.Column="2"/>
+        <TextBox Name="caloriegoal" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Grid.Column="3"/>
+        <TextBlock Text="Height: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="4" Grid.Column="2"/>
+        <TextBox Name="height" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Grid.Column="3"/>
+        <TextBlock Text="Weight: " FontSize="23" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="5" Grid.Column="2"/>
+        <TextBox Name="weight" BorderThickness="1,1,1,1"  FontSize="23" Height="40" TextWrapping="Wrap"  Width="213" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="5" Grid.Column="3"/>
+        <Button Name="save" Content="Save" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="3" Grid.Row="6" Click="save_click"/>
     </Grid>
 </UserControl>

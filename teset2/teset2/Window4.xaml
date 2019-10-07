@@ -8,7 +8,7 @@
         Title="Window4" Height="50" Width="600" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
         <StackPanel HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="794" Background="#FF009AE4" Margin="-1,1,0,0">
-            <Image Height="65" Margin="39,0,531.6,0" Source="logo.png" Stretch="Fill"/>
+            <Image Height="65" Margin="39,0,531.6,0" Source="resources/logo.png" Stretch="Fill"/>
         </StackPanel>
         <ProgressBar Name="progressBar1" HorizontalAlignment="Center" Height="27" Margin="10,13,-10,0" VerticalAlignment="Top" Width="560"></ProgressBar>
         <TextBlock  HorizontalAlignment="Left" Foreground="White"  Height="27" Margin="313,18,0,0" TextWrapping="Wrap" Text="Time Left" VerticalAlignment="Top" Width="85"/>

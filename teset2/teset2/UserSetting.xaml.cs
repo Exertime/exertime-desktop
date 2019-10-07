@@ -20,9 +20,38 @@ namespace teset2
     /// </summary>
     public partial class UserSetting : UserControl
     {
+        List<userPreferenceList> box = new List<userPreferenceList>();
+        public int id;
         public UserSetting()
         {
             InitializeComponent();
+            
+            //boxShow(id);
+        }
+
+        public void boxShow(int id)
+        {
+            box = DataAccess.setting(id);
+            foreach (userPreferenceList u in box)
+            {
+                username.Text = u.username;
+                givenname.Text = u.givenname;
+                surname.Text = u.surname;
+                preferredname.Text = u.preferredname;
+                email.Text = u.email;
+                dob.Text = u.DOB;
+                gender.Text = u.gender;
+                height.Text = u.height;
+                weight.Text = u.weight;
+                caloriegoal.Text = u.caloriegoal.ToString();
+
+            }
+        }
+
+        private void save_click(object sender, RoutedEventArgs e)
+        {
+            DataAccess.upDate(id,username.Text, givenname.Text, surname.Text, preferredname.Text, email.Text, dob.Text, gender.Text, height.Text,weight.Text, Int32.Parse(caloriegoal.Text));
+            boxShow(id);
         }
     }
 }

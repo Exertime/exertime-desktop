@@ -17,6 +17,7 @@ using teset2;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace teset2
 {
@@ -25,10 +26,10 @@ namespace teset2
     /// </summary>
     public partial class Window2 : Window
     {
-       // private HookKeyBoard hkb = null;
+        // private HookKeyBoard hkb = null;
 
-       // private string exerciesName;
-
+        // private string exerciesName;
+        public int id;
         private UserAll UA;
         private UserAll temp;
         public Window2()
@@ -36,7 +37,8 @@ namespace teset2
             InitializeComponent();
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
-            all.exercise += new UserAll.Delegate(exercisePage1);
+            all.exercise1 += new UserAll.Delegate(exercisePage1);
+            all.exercise2 += new UserAll.Delegate(exercisePage2);
             temp = all;
             contents.Children.Add(all);
 
@@ -58,6 +60,27 @@ namespace teset2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+          
+
+            Thread t = new Thread(new ThreadStart(() =>
+            {
+
+                Thread.Sleep(5000);
+
+
+
+
+                Window1 w1 = new Window1();
+                w1.id = id;
+                w1.WindowStartupLocation = WindowStartupLocation.Manual;
+
+
+                w1.Show();
+                System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+            }));
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
         }
         private void button1_Click1(object sender, RoutedEventArgs e)
         {
@@ -65,18 +88,7 @@ namespace teset2
         }
 
       
-        private void CFavorite_Click(object sender, RoutedEventArgs e)
-        {
-           
-            contents.Children.Clear();
-            teset2.UserFavorite favorite = new UserFavorite();
-            favorite.exercise1 += new UserFavorite.Delegate(exercisePage1);
-            favorite.exercise2 += new UserFavorite.Delegate(exercisePage2);
-
-            contents.Children.Add(favorite);
-            Level.Visibility = Visibility.Visible;
-        
-    }
+      
 
         private void CStatics_Click(object sender, RoutedEventArgs e)
         {
@@ -91,14 +103,18 @@ namespace teset2
            
             contents.Children.Clear();
             Level.Visibility = Visibility.Hidden;
-            contents.Children.Add(new UserSetting());
+            UserSetting st = new UserSetting();
+            st.id = id;
+            st.boxShow(id);
+            contents.Children.Add(st);
         }
 
         private void CAll_Click(object sender, RoutedEventArgs e)
         {
             contents.Children.Clear();
             teset2.UserAll all = new UserAll();
-            all.exercise += new UserAll.Delegate(exercisePage1);
+            all.exercise1 += new UserAll.Delegate(exercisePage1);
+            all.exercise2 += new UserAll.Delegate(exercisePage2);
             temp = all;
             contents.Children.Add(all);
 
@@ -110,11 +126,13 @@ namespace teset2
        
         private void exercisePage1()
         {
+            
             contents.Children.Clear();
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage1);
             ex.id = temp.id;
             Ex = ex;
+            ex.vedio1();
             contents.Children.Add(ex);
             Level.Visibility = Visibility.Hidden;
         }
@@ -125,7 +143,8 @@ namespace teset2
             Exercise ex = new Exercise();
             ex.submit += new Exercise.Delegate(submitPage2);
             ex.id = temp.id;
-            Ex = ex;           
+            Ex = ex;
+            ex.vedio1();
             ex.tital.Visibility = Visibility.Visible;
             contents.Children.Add(ex);
             Level.Visibility = Visibility.Hidden;
@@ -142,18 +161,6 @@ namespace teset2
             sub.Tital.Text = Ex.time;
             sub.sub += new submit.ExitDelegate(Sub);
             subtext = sub;
-            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            //if (value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if (type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
             contents.Children.Add(sub);
         }
 
@@ -162,30 +169,44 @@ namespace teset2
             contents.Children.Clear();
             teset2.submit sub = new submit();
             sub.Sub.Visibility = Visibility;
-            subtext = sub;
             sub.Tital.Text = Ex.time;
             sub.repetition.Visibility = Visibility.Visible;
             sub.Rep.Visibility = Visibility.Visible;
+            sub.add.Visibility = Visibility.Visible;
+            sub.minus.Visibility = Visibility.Visible;
             sub.sub += new submit.ExitDelegate(Sub);
-            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            //if (value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if (type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
+            subtext = sub;
             contents.Children.Add(sub);
         }
 
+        List<exerciesList> CAP;
         private void Sub()
         {
-            DataAccess.Submit("UA.exerciseName", Ex.CD, subtext.text, Ex.type);
+            CAP = DataAccess.Load(Int32.Parse(temp.id));
+            foreach (exerciesList exList in CAP)
+            {
+                var exercise = exList.caption;
+                  DataAccess.Submit(id, exercise, Ex.CD, subtext.text, temp.type);
             this.Close();
+            }
+
+            DataAccess.reset();
+                 Thread t = new Thread(new ThreadStart(() =>
+                 {
+
+                     Thread.Sleep(5000);
+                     Window1 w1 = new Window1();
+                     w1.id = id;
+                     w1.WindowStartupLocation = WindowStartupLocation.Manual;
+                     w1.Show();
+                     System.Windows.Threading.Dispatcher.Run(); // for solving STA problem..
+                 }));
+
+            t.SetApartmentState(ApartmentState.STA);  // for solving STA problem..
+            t.IsBackground = true;
+            t.Start();
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

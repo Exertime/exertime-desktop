@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Text.RegularExpressions;
+using System.Windows.Threading;
 
 namespace teset2
 {
@@ -27,9 +28,8 @@ namespace teset2
 
         public submit()
         {
-           
 
-            InitializeComponent();
+           InitializeComponent();
            
          
         }
@@ -48,17 +48,14 @@ namespace teset2
 
         public void statistics(object sender, RoutedEventArgs e)
         {
-            //contents.Children.Clear();
-            //teset2.UserStatistics statistics = new UserStatistics();
-            //statistics.exitEvent += new UserStatistics.ExitDelegate(exit);
-            //if(value == 1)
-            //{
-            //    statistics.EX.Visibility = Visibility.Visible;
-            //}
-            //contents.Children.Add(statistics);
+       
             STAT();
-            text = Rep.Text;
             sub();
+        }
+
+        private void Rep_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
 
         private void Exit(object sender, RoutedEventArgs e)
@@ -71,17 +68,23 @@ namespace teset2
 
         }
 
-        //private void exit()
-        //{
+        private void add_click(object sender, RoutedEventArgs e)
+        {
+            int num = Int32.Parse(Rep.Text);
+            num++;
+            Rep.Text = num.ToString();
+        }
 
-        //    exitEvent();
-
-
-        //}
+        private void minus_click(object sender, RoutedEventArgs e)
+        {
+            int num = Int32.Parse(Rep.Text);
+            num--;
+            Rep.Text = num.ToString();
+        }
 
         private void Submit_Click(object sender,RoutedEventArgs e)
         {
-            text = Rep.Text;
+          text = Rep.Text;
             sub();
         }
     }

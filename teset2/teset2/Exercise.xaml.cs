@@ -47,21 +47,30 @@ namespace teset2
             InitializeComponent();
 
             
-            vedio1();
+            
           
             this.Loaded += new RoutedEventHandler(MainWin_Loaded);
         }
-        private void vedio1()
+        public void vedio1()
         {
             IMG = DataAccess.Load(Int32.Parse(id));
             // Play Videos
             foreach (exerciesList exList in IMG)
             {
-                // MessageBox.Show(exList.video);
+                
                 var filename1 = exList.video;
+                var filename2 = exList.img;
                 Player1.Source = new Uri(@".\resources\" + filename1, UriKind.Relative);
                 Player1.Close();
-                Player1.Play();
+                BitmapImage src = new BitmapImage();
+                src.BeginInit();
+                src.UriSource = new Uri(@".\resources\" + filename2, UriKind.Relative);
+                src.EndInit();
+                ImageBrush ib = new ImageBrush();
+                ib.ImageSource = src;
+
+                btn1.Background = ib;
+               
             }
         }
         private void vedio(object sender, RoutedEventArgs e)
@@ -81,7 +90,7 @@ namespace teset2
             this.Player1.LoadedBehavior = MediaState.Manual;
 
 
-            processCount = new ProcessCount(s);
+            processCount = new ProcessCount();
             CountDown += new CountDownHandler(processCount.ProcessCountDown);
 
 
@@ -136,34 +145,11 @@ namespace teset2
         public void Finish(object sender, EventArgs e)
         {
 
-            processCount1 = new ProcessCount(CD);
-            this.time = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
+            this.time = "Total Exercise Time " + processCount.GetMinute() + ":" + processCount.GetSecond();
             submit();
-            //contents.Children.Clear();
-            //teset2.submit sub = new submit();
-            //processCount1 = new ProcessCount(CD);
-            //sub.Tital.Text = "Total Exercise Time " + processCount1.GetMinute() + ":" + processCount1.GetSecond();
-            //sub.exitEvent += new submit.ExitDelegate(AppearButton);
-            //if(value == 1)
-            //{
-            //    sub.EX.Visibility = Visibility.Visible;
-            //    sub.value = 1;
-            //}
-            //sub.type = this.type;
-            //if(type == 1)
-            //{
-            //    sub.repetition.Visibility = Visibility.Visible;
-            //    sub.Rep.Visibility = Visibility.Visible;
-            //}
-            //contents.Children.Add(sub);
+
         }
 
-        
-
-     //private void AppearButton()
-     //   {
-     //   exitEvent();
-     //    }
 
 
 
