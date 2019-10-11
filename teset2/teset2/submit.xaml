@@ -6,14 +6,14 @@
              xmlns:local="clr-namespace:teset2"
              mc:Ignorable="d" Height="959.065" Width="1043.825">
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBlock Visibility="Hidden" Name="repetition" HorizontalAlignment="Center"  Height="32" Margin="269,103,414,0" TextWrapping="Wrap" Text="Repetitions" VerticalAlignment="Top" FontSize="20" Width="117"/>
-        <TextBlock Name="Tital" HorizontalAlignment="Center"  Height="41" Margin="269,135,241,0" TextWrapping="Wrap" Text="Total Exercise Time 00:00" VerticalAlignment="Top" FontSize="20" Width="290"/>
-        <Button Name="Statistics" Content="Submit-Statistics" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Click="statistics" />
-        <Button Name="Sub" Content="Submit" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Submit_Click" />
-        <Button Name="EX" Visibility="Hidden" Content="Submit-Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Exit" Margin="337,256,343,162" Width="120" />
+        <TextBlock Visibility="Hidden" Name="repetition" HorizontalAlignment="Center"  Height="47" Margin="216,88,420.333,0" TextWrapping="Wrap" Text="Repetitions:" VerticalAlignment="Top" FontSize="30" Width="177"/>
+        <TextBlock Name="Tital" HorizontalAlignment="Center"  Height="69" Margin="216,135,209.333,0" TextWrapping="Wrap" Text="Total Exercise Time 00:00" VerticalAlignment="Top" FontSize="30" Width="388"/>
+        <Button Name="Statistics" Content="Submit-Statistics" FontSize="30" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Click="statistics" Margin="324,248,322.333,159" Height="47" Width="297" />
+        <Button Name="Sub" Content="Submit" Visibility="Hidden" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Submit_Click" Margin="320,248,322,159" Width="172" Height="47" />
+        <Button Name="EX" Visibility="Hidden" Content="Submit-Exit" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Click="Exit" Margin="284,322,293,85" Width="237" Height="47" />
         <!--<TextBox Visibility="Visible" InputMethod.IsInputMethodEnabled="False" PreviewTextInput="limitnumber" Name="Rep" Opacity="1" VerticalAlignment="Center" BorderThickness="1,1,1,1"  FontSize="23" HorizontalAlignment="Center" Height="40" Margin="386,95,201,315" TextWrapping="Wrap"  Width="213" TextChanged="Rep_TextChanged"/>-->
-        <TextBlock Name="Rep" Visibility="Hidden" VerticalAlignment="Center" Text="0" HorizontalAlignment="Right" Background="LightGray" FontSize="20" Margin="0,103,380,319" Height="28" Width="29"></TextBlock>
-        <Button Name="add" Visibility="Hidden" Content="+" Margin="437,103,334,319" Height="Auto" Click="add_click"/>
-        <Button Name="minus" Visibility="Hidden" Content="-" Margin="484,102,286.333,319" Height="Auto" Click="minus_click"/>
+        <TextBlock Name="Rep" Visibility="Hidden" VerticalAlignment="Center" Text="0" HorizontalAlignment="Right" Background="LightGray" FontSize="30" Margin="0,92,429.333,320" Height="42" Width="35"></TextBlock>
+        <Button Name="add" Visibility="Hidden" Content="+" Margin="528,88,357.333,320" Height="Auto" FontSize="30" Click="add_click"/>
+        <Button Name="minus" Visibility="Hidden" Content="-" Margin="591,88,293.333,320" Height="Auto" FontSize="30" Click="minus_click" RenderTransformOrigin="1.342,0.613"/>
     </Grid>
 </UserControl>

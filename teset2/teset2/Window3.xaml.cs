@@ -335,7 +335,7 @@ namespace teset2
 
             contents.Children.Clear();
             Exercise ex = new Exercise();
-            ex.submit += new Exercise.Delegate(submitPage1);
+            ex.submit += new Exercise.Delegate(submitPage11);
 
             ex.id = temp1.sid;
             Ex = ex;
@@ -348,7 +348,7 @@ namespace teset2
         {
             contents.Children.Clear();
             Exercise ex = new Exercise();
-            ex.submit += new Exercise.Delegate(submitPage2);
+            ex.submit += new Exercise.Delegate(submitPage22);
             ex.id = temp1.sid;
             Ex = ex;
             ex.vedio1();
@@ -387,6 +387,46 @@ namespace teset2
 
         private submit subtext;
 
+        private void submitPage11()
+        {
+            contents.Children.Clear();
+            teset2.submit sub = new submit();
+            sub.Statistics.Visibility = Visibility.Visible;
+
+            sub.Tital.Text = Ex.time;
+            sub.EX.Visibility = Visibility.Visible;
+            this.Dispatcher.Invoke(new Action(() => {
+                sub.Rep.Visibility = Visibility.Hidden;
+                sub.add.Visibility = Visibility.Hidden;
+                sub.minus.Visibility = Visibility.Hidden;
+            }));
+            sub.exitEvent += new submit.ExitDelegate(AppearButton1);
+            sub.STAT += new submit.ExitDelegate(statisticsPage);
+            sub.sub += new submit.ExitDelegate(Sub1);
+            subtext = sub;
+            contents.Children.Add(sub);
+        }
+
+        private void submitPage22()
+        {
+            contents.Children.Clear();
+            teset2.submit sub = new submit();
+
+            sub.Tital.Text = Ex.time;
+            sub.repetition.Visibility = Visibility.Visible;
+            this.Dispatcher.Invoke(new Action(() => {
+                sub.Rep.Visibility = Visibility.Visible;
+                sub.add.Visibility = Visibility.Visible;
+                sub.minus.Visibility = Visibility.Visible;
+            }));
+            sub.EX.Visibility = Visibility.Visible;
+            sub.exitEvent += new submit.ExitDelegate(AppearButton1);
+            sub.sub += new submit.ExitDelegate(Sub1);
+            subtext = sub;
+
+            contents.Children.Add(sub);
+        }
+
         private void submitPage1()
         {
             contents.Children.Clear();
@@ -397,8 +437,8 @@ namespace teset2
             sub.EX.Visibility = Visibility.Visible;
             this.Dispatcher.Invoke(new Action(() => {
                sub.Rep.Visibility = Visibility.Hidden;
-                sub.add.Visibility = Visibility.Visible;
-                sub.minus.Visibility = Visibility.Visible;
+                sub.add.Visibility = Visibility.Hidden;
+                sub.minus.Visibility = Visibility.Hidden;
             }));
             sub.exitEvent += new submit.ExitDelegate(AppearButton1);
             sub.STAT += new submit.ExitDelegate(statisticsPage);
@@ -453,6 +493,17 @@ namespace teset2
             {
                 var exercise = exList.caption;
                 DataAccess.Submit(id,exercise, Ex.CD, subtext.text,temp.type);
+                this.Close();
+            }
+
+        }
+        private void Sub1()
+        {
+            CAP = DataAccess.Load(Int32.Parse(temp1.temp.id));
+            foreach (exerciesList exList in CAP)
+            {
+                var exercise = exList.caption;
+                DataAccess.Submit(id, exercise, Ex.CD, subtext.text, temp1.temp.type);
                 this.Close();
             }
 
