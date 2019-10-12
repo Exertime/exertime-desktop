@@ -20,11 +20,12 @@
             <Button x:Name="CSettings" Content="Settings"  FontSize="20" Margin="550,10,150,-12.667" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FF009AE4" Click="CSettings_Click" Height="Auto" />
         </Grid>
 
-        <Grid x:Name="Level" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,70,-10,-45">
-            <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="183,12,474,6" Click="Button_Click_4"/>
-            <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="284,12,373,6" Click="Button_Click_1"/>
-            <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="385,12,272,6" Click="Button_Click_2" />
-            <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="486,12,172,6" Click="Button_Click_3"/>
+        <Grid x:Name="Level"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,70,-10,-45">
+            <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="83,3,574.333,10.333" Click="Button_Click_4"/>
+            <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="230,3,427.333,10.333" Click="Button_Click_1"/>
+            <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="380,3,277.333,10.333" Click="Button_Click_2" />
+            <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="530,3,128.333,10.333" Click="Button_Click_3"/>
+            <Button  Content="Mental Health" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="680,3,-21.667,10.333" Click="Button_Click_5"/>
         </Grid>
 
         <Grid  x:Name="contents" Margin="0,120,0,-484" >

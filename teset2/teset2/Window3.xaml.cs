@@ -534,5 +534,10 @@ namespace teset2
             temp.wp_img.Children.Clear();
             temp.all();
         }
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            temp.wp_img.Children.Clear();
+            temp.mh();
+        }
     }
 }

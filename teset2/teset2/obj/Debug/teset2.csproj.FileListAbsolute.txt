@@ -1063,10 +1063,6 @@ C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2
 C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CoreCompileInputs.cache
 C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\cheonj\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\teset2.pdb
@@ -1190,6 +1186,7 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\Sys
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojAssemblyReference.cache
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe.config
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\All.g.cs
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Exercise.g.cs
@@ -1204,6 +1201,7 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Win
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window3.g.cs
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\Window4.g.cs
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\App.g.cs
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_Content.g.cs
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.cache
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2_MarkupCompile.lref
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\App.baml
@@ -1226,4 +1224,7 @@ C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\tes
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csproj.CopyComplete
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.exe
 C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.pdb
-C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\obj\Debug\teset2.csprojAssemblyReference.cache
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise1.mp4
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise2.mp4
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise3.mp4
+C:\Users\如月渡\Documents\GitHub\exertime-desktop\teset2\teset2\bin\Debug\resources\Exercise4.mp4

@@ -11,10 +11,11 @@
             <Image Height="50" Margin="0,0,544,0"  HorizontalAlignment="Left" Source="resources/logo.png" />
         </StackPanel>
         <Grid x:Name="Level" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Margin="0,65,0,419.667" Visibility="Hidden">
-            <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="183,12,474,6" Click="Button_Click_4"/>
-            <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="284,12,373,6" Click="Button_Click_1"/>
-            <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="385,12,272,6" Click="Button_Click_2" />
-            <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="486,12,172,6" Click="Button_Click_3"/>
+            <Button  Content="All" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="142,12,515,6" Click="Button_Click_4"/>
+            <Button  Content="Easy" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="290,12,367,6" Click="Button_Click_1"/>
+            <Button Content="Moderate" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9" Margin="432,12,225,6" Click="Button_Click_2" />
+            <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="578,12,80,6" Click="Button_Click_3"/>
+            <Button  Content="Mental Health" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="723,12,-65,6" Click="Button_Click_5"/>
         </Grid>
         <Grid x:Name="contents" Margin="10,120,10,-0.333">
 

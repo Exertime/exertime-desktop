@@ -8,20 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/materialdesigncolors.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/materialdesigncolors.pdb")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/materialdesignthemes.wpf.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/materialdesignthemes.wpf.pdb")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/mysql.data.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/mysql.web.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/system.data.sqlite.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/teset2.exe")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/teset2.pdb")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/x64/sqlite.interop.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/x86/sqlite.interop.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/exercise1.mp4")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/exercise2.mp4")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/exercise3.mp4")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/exercise4.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/1.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/2.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/3.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/4.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/vid.mp4")]
 
 

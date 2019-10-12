@@ -137,6 +137,13 @@ namespace teset2
 
         }
 
+        public void mh()
+        {
+            IMG = DataAccess.FilterMode("Mental Health");
+            MediaCall();
+
+        }
+
         public void all()
         {
             IMG = DataAccess.picture();
