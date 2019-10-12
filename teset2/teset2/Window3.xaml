@@ -17,14 +17,14 @@
             <Button  Content="Challenge" Foreground="#FF0C0B0B" BorderBrush="#FF111111" Background="#FFF1F7F9"  Margin="486,12,172,6" Click="Button_Click_3"/>
         </Grid>
         <Grid x:Name="contents" Margin="10,120,10,-0.333">
-         
+
             <TextBlock Name="title" Text="Recently Completed Activities" VerticalAlignment= "Center" FontSize="20" HorizontalAlignment="Left"  Margin="0,233,0,122.333"   Width="400" Height="60" Grid.ColumnSpan="2"  />
 
             <Button Name="All" Click="All_Click" Content="All Videos" HorizontalAlignment="Center" Margin="95,189,153,0" FontSize="20" Width="500" Height="70" Background="White" Foreground="Black" Grid.ColumnSpan="2" VerticalAlignment="Top"/>
             <WrapPanel x:Name="wp_img" HorizontalAlignment="Left" Height="900" VerticalAlignment="Center" Width="1800" Margin="0,277,-1052,-761.667" Grid.ColumnSpan="2"/>
         </Grid>
 
-        <Button Visibility="Hidden" Content="Back" Name="Back" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Back_Click"/>
+        <Button Visibility="Hidden" Content="Back" Name="Back" HorizontalAlignment="Left" FontSize="30" VerticalAlignment="Bottom" Click="Back_Click" Height="52" Margin="10,0,0,9.667" Width="109"/>
         <!--<Button Name="exit" Content="Exit" HorizontalAlignment="Right" Margin="42,557,0,0" Visibility="Visible" VerticalAlignment="Bottom" Width="131" Click="Button_Click"/>-->
 
     </Grid>

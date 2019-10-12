@@ -10,8 +10,8 @@
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
 
         <Grid Margin="-10,-68,10,68">
-            <MediaElement Name="Player1" LoadedBehavior="Manual" Margin="-133,-154,-124,241.667" />
-            <Button Name="btn1" Click="vedio" Margin="-133,-154,-124,241.667" Width="Auto" Height="Auto"/>
+            <MediaElement Name="Player1" LoadedBehavior="Manual" Margin="-104,-169,-95,256.667" />
+            <Button Name="btn1" Click="vedio" Margin="-104,-169,-95,256.667" Width="Auto" Height="Auto"/>
 
         </Grid>
         <Grid Margin="-10,72,10,-71">

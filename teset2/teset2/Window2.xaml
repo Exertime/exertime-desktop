@@ -31,7 +31,7 @@
 
         </Grid>
         <Grid Margin="0,554,0,-527">
-            <Button Content="Exit" FontSize="30" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="179" Click="Button_Click" Margin="0,-28,0,-0.333" Height="72"/>
+            <Button Content="Exit" FontSize="30" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="141" Click="Button_Click" Margin="10,-19,0,9.667" Height="53"/>
         </Grid>
     </Grid>
 
