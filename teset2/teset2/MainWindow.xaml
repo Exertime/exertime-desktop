@@ -18,7 +18,7 @@
         <Button  Content="X" BorderThickness="0" Foreground="Black" Background="Snow" Name="btnClose"  Grid.Row="0"  Click="Button_Click" Margin="238,22,20,96" ></Button>
         <Image Grid.Row="0"  VerticalAlignment="Center" Width="120"  Height="120" Source="resources/logo.png" />
         <TextBox x:Name="UserTextBox"  Grid.Row="1"  Width="200" VerticalAlignment="Center" BorderThickness="0,0,0,1" Height="23"></TextBox>
-        <TextBlock Foreground="DarkGray"  Grid.Row="1"  IsHitTestVisible="False" HorizontalAlignment="Center" Height="23" Text="Enter User Name" VerticalAlignment="Center" Width="90" FontFamily="Microsoft YaHei">
+        <TextBlock Foreground="DarkGray"  Grid.Row="1"  IsHitTestVisible="False" HorizontalAlignment="Center" Height="22" VerticalAlignment="Center" Width="95" FontFamily="Microsoft YaHei" Margin="105,14,100,14">
             <TextBlock.Style>
                 <Style TargetType="{x:Type TextBlock}">
                     <Setter Property="Visibility" Value="Collapsed"/>
@@ -28,8 +28,7 @@
                         </DataTrigger>
                     </Style.Triggers>
                 </Style>
-            </TextBlock.Style>
-        </TextBlock>
+            </TextBlock.Style><Run Text="Enter "/><Run Text="Username"/></TextBlock>
         <TextBox  x:Name="PwdTextBox"   Grid.Row="2"  Width="200" VerticalAlignment="Center" BorderThickness="0,0,0,1" Height="23"></TextBox>
         <TextBlock Foreground="DarkGray" Grid.Row="2"  IsHitTestVisible="False" HorizontalAlignment="Center" Height="23" Text="Enter Password" VerticalAlignment="Center" Width="90" FontFamily="Microsoft YaHei">
             <TextBlock.Style>
