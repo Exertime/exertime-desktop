@@ -10,11 +10,11 @@
     <Grid Name="contents" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,167,6,202" Height="531">
 
         <Grid Margin="-10,-68,10,68">
-            <MediaElement Name="Player1" LoadedBehavior="Manual" Margin="-149,-154,-141,173.667" />
-            <Button Name="btn1" Click="vedio" Margin="-149,-154,-141,173.667" Width="Auto" Height="Auto"/>
+            <MediaElement Name="Player1" LoadedBehavior="Manual" Margin="-133,-154,-124,241.667" />
+            <Button Name="btn1" Click="vedio" Margin="-133,-154,-124,241.667" Width="Auto" Height="Auto"/>
 
         </Grid>
-        <Grid Margin="-10,210,10,-209">
+        <Grid Margin="-10,72,10,-71">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
@@ -33,8 +33,8 @@
             <TextBlock Text="00" Name="MinuteArea" VerticalAlignment="Center" FontSize="200"  Grid.Column="2" />
             <TextBlock Text=":" Name="MinuteSplitSecond" VerticalAlignment="Center" FontSize="200"  Grid.Column="3"/>
             <TextBlock   Text="00" Name="SecondArea" VerticalAlignment="Center" FontSize="200"  Grid.Column="4"/>
-            <Button Name="stop" Content="Stop" Background="Red" VerticalAlignment="Center" FontSize="30" Click="Stop" Grid.Column="6" Margin="0,275,0.333,198.667" Height="56"/>
-            <Button Name="start" Content="Start" Background="Green" VerticalAlignment="Center" Click="Start" FontSize="30" Grid.Column="6" Margin="0,212,0.333,259.667" Height="58"/>
+            <Button Name="stop" Content="Stop" Background="Red" VerticalAlignment="Center" FontSize="30" Click="Stop" Grid.Column="6" Margin="0,275,-44.667,193.667" Height="61"/>
+            <Button Name="start" Content="Start" Background="Green" VerticalAlignment="Center" Click="Start" FontSize="30" Grid.Column="6" Margin="0,212,-44.667,259.667" Height="58"/>
             <Button Name="cont" Content="Continue" Background="LawnGreen" Visibility="Hidden" VerticalAlignment="Center" FontSize="30" Click="Continue" Grid.Column="6" Height="54" Margin="0,249,-44.667,226.667"/>
             <Button Name="finish" Content="Go to finish page" Background="CadetBlue" Visibility="Hidden"  FontSize="30" VerticalAlignment="Center" Click="Finish" Grid.ColumnSpan="2" Grid.Column="5" Margin="13,389,-103.667,83.667" Height="57" />
         </Grid>
